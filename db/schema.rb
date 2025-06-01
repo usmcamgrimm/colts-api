@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_01_171642) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_01_181600) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -19,10 +19,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_01_171642) do
     t.string "position"
     t.string "college"
     t.text "photo"
-    t.bigint "season_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["season_id"], name: "index_players_on_season_id"
   end
 
   create_table "season_stats", force: :cascade do |t|
@@ -53,7 +51,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_01_171642) do
     t.string "fg_1to19"
     t.string "fg_20to29"
     t.string "fg_30to39"
-    t.string "fg_40to9"
+    t.string "fg_40to49"
     t.string "fg_50to59"
     t.string "fg_60Plus"
     t.integer "punt"
@@ -77,6 +75,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_01_171642) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "year"
+    t.integer "def_td"
     t.index ["player_id"], name: "index_season_stats_on_player_id"
   end
 
@@ -97,6 +96,5 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_01_171642) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "players", "seasons"
   add_foreign_key "season_stats", "players"
 end
