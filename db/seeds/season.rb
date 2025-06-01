@@ -1,4 +1,4 @@
-Season.create!([Add commentMore actions
+Season.create!([
   {
     year: 2023,
     week: '1',
