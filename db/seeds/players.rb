@@ -133,6 +133,25 @@ Player.create!([
         "rush_yds": 136,
         "rush_ypc": 5.4,
         "rush_td": 4
+      },
+      {
+        "year": 2024,
+        number: '5',
+        exp: 1,
+        status: 'Active',
+        pass_att: 264, 
+        comp: 126,
+        comp_percent: 47.7,
+        pass_yards: 1814, 
+        pass_td: 8,
+        int: 12,
+        qb_rtng: 61.6,
+        rush_att: 866, 
+        rush_yds: 499, 
+        rush_ypc: 5.8,
+        rush_td: 6,
+        rec: 1, 
+        rec_yards: -1
       }
     ]
   },
@@ -165,6 +184,30 @@ Player.create!([
     ]
   },
   {
+    name: 'Anthony Gould',
+    position: 'WR',
+    college: 'Oregon State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2024,
+        number: '6',
+        exp: 0,
+        status: 'Active',
+        rec: 1, 
+        rec_yards: 23,
+        pr_ret: 10,
+        pr_fc: 8,
+        pr_yds_ret: 9.5,
+        pr_lng: 36,
+        kr_ret: 7,
+        kr_fc: 0,
+        kr_yds_ret: 29.4,
+        kr_lng: 40
+      }
+    ]
+  },
+  {
     "name": 'Matt Gay',
     "position": 'K',
     "college": 'Utah',
@@ -181,6 +224,31 @@ Player.create!([
         "fg_40to49": '7-9',
         "fg_50to59": '8-12',
         "fg_60Plus": '0-1'
+      },
+      {
+        "year": 2024.
+        "number": '7',
+        "exp": 6,
+        fg_1to19: '0 - 0',
+        fg_20to29: '9 - 9',
+        fg_30to39: '12 - 12',
+        fg_40to49: '7 - 7',
+        fg_50to59: '3 - 9',
+        fg_60Plus: '0 - 0'
+      }
+    ]
+  },
+  {
+    name: 'Laquon Treadwell',
+    position: 'WR',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2024,
+        number: '7',
+        exp: 6,
+        status: 'PS'
       }
     ]
   },
@@ -200,6 +268,30 @@ Player.create!([
         "punt_in20": 21,
         "punt_avg": 48.2,
         "punt_lng": 69
+      },
+      {
+        "year": 2024,
+        "number": '8',
+        "exp": 8,
+        punt: 68,
+        punt_yards: 3382,
+        punt_in20: 27,
+        punt_avg: 49.7,
+        punt_lng: 65
+      }
+    ]
+  },
+  {
+    name: 'Jason Bean',
+    position: 'QB/WR',
+    college: 'Kansas',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2024,
+        number: '8',
+        exp: 0,
+        status: 'PS'
       }
     ]
   },
@@ -213,6 +305,12 @@ Player.create!([
         "year": 2023,
         "number": '9',
         "exp": 3,
+        "status": 'IR'
+      },
+      {
+        "year": 2024,
+        "number": '9',
+        "exp": 4,
         "status": 'Active'
       }
     ]
@@ -243,6 +341,28 @@ Player.create!([
     ]
   },
   {
+    name: 'Adonai Mitchell',
+    position: 'WR',
+    college: 'Texas',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4597500.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2024,
+        number: '10',
+        exp: 0,
+        status: 'Active',
+        pass_att: 1, 
+        comp: 1,
+        pass_yards: 24,
+        rec: 21,
+        rec_yards: 290,
+        rush_att: 4,
+        rush_yds: 6,
+        rush_ypc: 1.5
+      }
+    ]
+  },
+  {
     "name": 'Michael Pittman Jr.',
     "position": 'WR',
     "college": 'USC',
@@ -258,6 +378,14 @@ Player.create!([
         "rec_ypc": 10.6,
         "rec_td": 4,
         "kr_lng": 5
+      },
+      {
+        "year": 2024,
+        "numer": '11',
+        "exp": 5,
+        rec: 69, 
+        rec_yards: 808, 
+        rec_td: 3
       }
     ]
   },
@@ -304,6 +432,35 @@ Player.create!([
         "rec_yds": 514,
         "rec_ypc": 16.1,
         "rec_td": 2
+      },
+      {
+        "year": 2024,
+        "number": '14',
+        "exp": 3,
+        rec: 37, 
+        rec_yards: 824, 
+        rec_td: 7
+      }
+    ]
+  },
+  {
+    name: 'Joe Flacco',
+    position: 'QB',
+    college: 'Delaware',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/11252.png&w=350&h=254',
+    "season_stats_attriutes": [
+      {
+        "year": 2024,
+        "number": 15,
+        "exp": 18,
+        pass_att: 248, 
+        comp: 162,
+        pass_yards: 1761, 
+        pass_td: 12,
+        qb_rtng: 90.5,
+        rush_att: 9, 
+        rush_yds: 26, 
+        rush_ypc: 2.9
       }
     ]
   },
@@ -332,6 +489,21 @@ Player.create!([
         "number": '16',
         "exp": 5,
         "status": 'IR'
+      },
+      {
+        "year": 2024,
+        "number": 16,
+        "exp": 6,
+        rec: 2, 
+        rec_yards: 67,
+        rec_td: 1,
+        rush_att: 5,
+        rush_yds: 45,
+        rush_ypc: 9,
+        kr_ret: 4,
+        kr_fc: 0,
+        kr_yds_ret: 37.0,
+        kr_lng: 55
       }
     ]
   },
@@ -364,6 +536,17 @@ Player.create!([
         "solo_tackles": 20,
         "assist": 15,
         "def_int": 1
+      },
+      {
+        "year": 2024,
+        "number": 20,
+        "exp": 3,
+        tackles: 146,
+        solo_tackles: 87,
+        assist: 59,
+        def_int: 3,
+        def_fumble: 1,
+        def_sacks: 1.0
       }
     ]
   },
