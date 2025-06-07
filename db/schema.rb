@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_01_181600) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_07_020531) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -76,6 +76,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_01_181600) do
     t.datetime "updated_at", null: false
     t.integer "year"
     t.integer "def_td"
+    t.integer "fumble_rec"
     t.index ["player_id"], name: "index_season_stats_on_player_id"
   end
 
