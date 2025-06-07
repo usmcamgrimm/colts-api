@@ -229,6 +229,7 @@ Player.create!([
         "year": 2024.
         "number": '7',
         "exp": 6,
+        "status": 'Active',
         fg_1to19: '0 - 0',
         fg_20to29: '9 - 9',
         fg_30to39: '12 - 12',
@@ -273,6 +274,7 @@ Player.create!([
         "year": 2024,
         "number": '8',
         "exp": 8,
+        "status": 'Active',
         punt: 68,
         punt_yards: 3382,
         punt_in20: 27,
@@ -383,6 +385,7 @@ Player.create!([
         "year": 2024,
         "numer": '11',
         "exp": 5,
+        "status": 'Active',
         rec: 69, 
         rec_yards: 808, 
         rec_td: 3
@@ -437,6 +440,7 @@ Player.create!([
         "year": 2024,
         "number": '14',
         "exp": 3,
+        "status": 'Active',
         rec: 37, 
         rec_yards: 824, 
         rec_td: 7
@@ -453,6 +457,7 @@ Player.create!([
         "year": 2024,
         "number": 15,
         "exp": 18,
+        "status": 'Active',
         pass_att: 248, 
         comp: 162,
         pass_yards: 1761, 
@@ -494,6 +499,7 @@ Player.create!([
         "year": 2024,
         "number": 16,
         "exp": 6,
+        "statuss": 'Active',
         rec: 2, 
         rec_yards: 67,
         rec_td: 1,
@@ -541,6 +547,7 @@ Player.create!([
         "year": 2024,
         "number": 20,
         "exp": 3,
+        "status": 'Active',
         tackles: 146,
         solo_tackles: 87,
         assist: 59,
@@ -589,6 +596,17 @@ Player.create!([
         "def_sacks": 1.5,
         "def_int": 3,
         "def_td": 2
+      },
+      {
+        "year": 2024,
+        "number": '23',
+        "exp": 8,
+        "status": 'Active',
+        tackles: 78,
+        solo_tackles: 51,
+        assist: 27,
+        def_sacks: 0.5,
+        def_int: 3
       }
     ]
   },
@@ -607,6 +625,15 @@ Player.create!([
         "solo_tackles": 27,
         "assist": 4,
         "def_int": 2
+      },
+      {
+        "year": 2024,
+        "number": '25',
+        "exp": 3,
+        "status": 'Active',
+        tackles: 7,
+        solo_tackles: 5,
+        assist: 2
       }
     ]
   },
@@ -627,6 +654,12 @@ Player.create!([
         "rush_att": 1,
         "rush_yds": 1,
         "rush_ypc": 1.0
+      },
+      {
+        "year": 2024,
+        "number": '26',
+        "exp": 1,
+        "status": 'PS',
       }
     ]
   },
@@ -647,6 +680,21 @@ Player.create!([
         "rush_att": 35,
         "rush_yds": 160,
         "rush_ypc": 4.6
+      },
+      {
+        "year": 2024,
+        "number": '27',
+        "exp": 4,
+        "status": 'Active',
+        rush_att: 56,
+        rush_yds: 159,
+        rush_ypc: 2.8,
+        rush_td: 2,
+        rec: 16,
+        rec_yards: 99,
+        kr_ret: 1,
+        kr_yds_ret: 23.0,
+        kr_lng: 23
       }
     ]
   },
@@ -669,6 +717,19 @@ Player.create!([
         "rush_yds": 741,
         "rush_ypc": 4.4,
         "rush_td": 7
+      },
+      {
+        "year": 2024,
+        "number": '28',
+        exp: 5,
+        "status": 'Active',
+        rush_att: 303,
+        rush_yds: 1431,
+        rush_ypc: 4.7,
+        rush_td: 11,
+        rec: 18,
+        rec_yards: 136,
+        rec_td: 1
       }
     ]
   },
@@ -688,6 +749,15 @@ Player.create!([
         "assist": 13,
         "def_fumble": 1,
         "def_int": 1
+      },
+      {
+        "year": 2024,
+        "number": '29',
+        "exp": 1,
+        "status": 'Active',
+        tackles: 7,
+        solo_tackles: 3,
+        assist: 4
       }
     ]
   },
@@ -706,6 +776,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Jaylin Simpson',
+    position: 'CB',
+    college: 'Auburn',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567225.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '30',
+        exp: 0,
+        status: 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Daniel Scott',
     "position": 'S',
     "college": 'California',
@@ -713,6 +797,12 @@ Player.create!([
     "season_stats_attributes": [
       {
         "year": 2023,
+        "number": '31',
+        "exp": 0,
+        "status": 'IR'
+      },
+      {
+        "year": 2024,
         "number": '31',
         "exp": 0,
         "status": 'IR'
@@ -736,6 +826,22 @@ Player.create!([
         "rush_att": 13,
         "rush_yds": 87,
         "rush_ypc": 6.7
+      },
+      {
+        "year": 2024,
+        "exp": 2,
+        "status": 'Active',
+        "number": '31',
+        rush_att: 32,
+        rush_yds: 153,
+        rush_ypc: 4.8,
+        rush_td: 1,
+        rec: 11,
+        rec_yards: 61,
+        rec_td: 1,
+        kr_ret: 9,
+        kr_yds_ret: 26.3,
+        kr_lng: 36
       }
     ]
   },
@@ -754,6 +860,17 @@ Player.create!([
         "solo_tackles": 52,
         "assist": 23,
         "def_int": 4
+      },
+      {
+        "year": 2024,
+        "exp": 5,
+        "number": '32',
+        tackles: 86,
+        solo_tackles: 62,
+        assist: 24,
+        def_int: 3,
+        def_sacks: 0.5,
+        "fumble_rec": 2
       }
     ]
   },
@@ -779,6 +896,24 @@ Player.create!([
     ]
   },
   {
+    name: 'Samuel Womack III',
+    position: 'CB',
+    college: 'Toledo',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4280416.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        "number": '33',
+        "exp": 3,
+        "status": 'Active',
+        tackles: 36,
+        solo_tackles: 26,
+        assist: 10,
+        def_int: 2
+      },
+    ]
+  }.
+  {
     "name": 'Zavier Scott',
     "position": 'RB',
     "college": 'Maine',
@@ -793,6 +928,20 @@ Player.create!([
     ]
   },
   {
+    name: 'David Long',
+    position: 'CB',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '34',
+        exp: 6,
+        status: 'Active',
+      }
+    ]
+  }
+  {
     "name": 'Chris Lammons',
     "position": 'CB',
     "college": 'South Carolina',
@@ -806,6 +955,32 @@ Player.create!([
         "tackles": 4,
         "solo_tackles": 2,
         "assist": 2
+      },
+      {
+        "year": 2024,
+        "exp": 5,
+        "number": '35',
+        "status": 'Active',
+        "def_sacks": 1.0,
+        "tackles": 12,
+        "solo_tackles":10,
+        "assist": 2,
+        "def_fumble": 1,
+        "fumble_rec": 2
+      }
+    ]
+  },
+  {
+    name: 'Salvon Ahmed',
+    position: 'RB',
+    college: 'Washington',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '36',
+        exp: 5,
+        status: 'PS',
       }
     ]
   },
@@ -855,6 +1030,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Tre Flowers',
+    position: 'CB',
+    college: 'Oklahoma State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '37',
+        exp: 7,
+        status: 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Henry Black',
     "position": 'S',
     "college": 'Baylor',
@@ -887,6 +1076,20 @@ Player.create!([
       }
     ]
   },
+  { 
+    name: 'Michael Tutsie',
+    position: 'S',
+    college: 'North Dakota State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '38',
+        exp: 1,
+        status: 'PS'
+      }
+    ]
+  },
   {
     "name": 'Darrell Baker Jr.',
     "position": 'CB',
@@ -905,6 +1108,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Alex Johnson',
+    position: 'CB',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '39',
+        exp: 0,
+        status: 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Jaylon Jones',
     "position": 'CB',
     "college": 'Texas A&M',
@@ -918,6 +1135,17 @@ Player.create!([
         "tackles": 33,
         "solo_tackles": 32,
         "assist": 11
+      },
+      {
+        "year": 2024,
+        "number": '40',
+        "exp": 1,
+        "status": 'Active',
+        tackles: 85,
+        solo_tackles: 59,
+        assist: 26,
+        def_int: 2,
+        def_fumble: 1
       }
     ]
   },
@@ -935,6 +1163,15 @@ Player.create!([
         "tackles": 6,
         "solo_tackles": 6,
         "assist": 1
+      },
+      {
+        "year": 2024,
+        "number": '41',
+        "exp": 4,
+        "status": 'Active',
+        tackles: 40,
+        solo_tackles: 25,
+        assist: 15
       }
     ]
   },
@@ -949,6 +1186,12 @@ Player.create!([
         "number": '42',
         "exp": 1,
         "status": 'PS'
+      },
+      {
+        "year": 2024,
+        "number": '42',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -966,6 +1209,14 @@ Player.create!([
         "tackles": 9,
         "solo_tackles": 6,
         "assist": 3
+      },
+      {
+        "year": 2024,
+        "number": '43',
+        "exp": 3,
+        "status": 'IR',
+        tackles: 1,
+        solo_tackles: 1
       }
     ] 
   },
@@ -985,6 +1236,18 @@ Player.create!([
         "assist": 72,
         "def_sacks": 1.5,
         "def_fumble": 2
+      },
+      {
+        "year": 2024,
+        "number": '44',
+        "exp": 7,
+        "status": 'Active',
+        tackles: 173,
+        solo_tackles: 93,
+        assist: 80,
+        def_int: 2,
+        def_fumble: 5,
+        def_sacks: 3.5
       }
     ]
   },
@@ -1004,6 +1267,16 @@ Player.create!([
         "assist": 24,
         "def_sacks": 1.0,
         "def_fumble": 3
+      },
+      {
+        "year": 2024,
+        "number": '45',
+        "exp": 6,
+        "status": 'Active',
+        tackles: 142,
+        solo_tackles: 93,
+        assist: 49,
+        def_int: 1
       }
     ]
   },
@@ -1021,6 +1294,14 @@ Player.create!([
         "tackles": 3,
         "solo_tackles": 1,
         "assist": 2
+      },
+      {
+        "year": 2024,
+        "number": '46',
+        "exp": 8,
+        "status": 'Active',
+        "tackles": 2,
+        "solo_tackles": 2
       }
     ]
   },
@@ -1035,6 +1316,12 @@ Player.create!([
         "number": '47',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2024,
+        "number": '47',
+        "exp": 1,
+        "status": 'PS',
       }
     ]
   },
@@ -1055,6 +1342,15 @@ Player.create!([
         "def_int": 2,
         "def_td": 1,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2024,
+        "number": '48',
+        "exp": 7,
+        "status": 'Active',
+        "def_fumble": 1,
+        "tackles": 2,
+        "solo_tackles": 2
       }
     ]
   },
@@ -1069,6 +1365,12 @@ Player.create!([
         "number": '49',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2024,
+        "number": '58',
+        "exp": 1,
+        "status": 'PS',
       }
     ]
   },
@@ -1087,6 +1389,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Sean McKeon',
+    position: 'TE',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '49',
+        exp: 5,
+        status: 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Segun Olubi',
     "position": 'LB',
     "college": 'San Diego State',
@@ -1101,6 +1417,16 @@ Player.create!([
         "solo_tackles": 15,
         "assist": 6,
         "def_int": 1
+      },
+      {
+        "year": 2024,
+        "number": '50',
+        "exp": 2,
+        "status": 'Active',
+        tackles: 12,
+        solo_tackles: 6,
+        assist: 6,
+        def_fumble: 1
       }
     ]
   },
@@ -1120,6 +1446,16 @@ Player.create!([
         "assist": 21,
         "def_sacks": 8.5,
         "def_fumble": 2
+      },
+      {
+        "year": 2024,
+        "number": '51',
+        "exp": 4,
+        "status": 'Active',tackles: 41,
+        solo_tackles: 29,
+        assist: 12,
+        def_sacks: 8.0,
+        def_fumble: 1
       }
     ]
   },
@@ -1139,6 +1475,12 @@ Player.create!([
         "assist": 18,
         "def_sacks": 9.5,
         "def_fumble": 3
+      },
+      {
+        "year": 2024,
+        "number": '52',
+        "exp": 8,
+        "status": 'IR'
       }
     ]
   },
@@ -1158,6 +1500,17 @@ Player.create!([
         "assist": 16,
         "def_sacks": 8.0,
         "def_fumble": 2
+      },
+      {
+        "year": 2024,
+        "number": '54',
+        "exp": 4,
+        "status": 'Active',
+        tackles: 31,
+        solo_tackles: 13,
+        assist: 18,
+        def_sacks: 3.0,
+        def_fumble: 2
       }
     ]
   },
@@ -1176,6 +1529,12 @@ Player.create!([
         "solo_tackles": 2,
         "assist": 4,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2024,
+        "number": '55',
+        "exp": 1,
+        "status": 'PS',
       }
     ]
   },
@@ -1190,6 +1549,12 @@ Player.create!([
         "number": '56',
         "exp": 6,
         "status": 'Active'
+      },
+      {
+        "year": 2024,
+        "number": '56',
+        "exp": 7,
+        "status": 'Active',
       }
     ]
   },
@@ -1204,6 +1569,24 @@ Player.create!([
         "number": '57',
         "exp": 1,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    name: 'Jaylon Carlies',
+    position: 'LB',
+    college: 'Missouri',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2024,
+        number: '57',
+        exp: 0,
+        status: 'Active',
+        tackles: 36,
+        solo_tackles: 24,
+        assist: 12,
+        def_sacks: 1.0
       }
     ]
   },
@@ -1234,6 +1617,12 @@ Player.create!([
         "status": 'Active',
         "tackles": 2,
         "assist": 2
+      },
+      {
+        "year": 2024,
+        "number": '59',
+        "exp": 2,
+        "status": 'PS',
       }
     ]
   },
