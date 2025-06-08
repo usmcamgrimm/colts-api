@@ -748,7 +748,8 @@ Player.create!([
         "solo_tackles": 28,
         "assist": 13,
         "def_fumble": 1,
-        "def_int": 1
+        "def_int": 1,
+        "fumble_rec": 1
       },
       {
         "year": 2024,
@@ -859,7 +860,8 @@ Player.create!([
         "tackles": 65,
         "solo_tackles": 52,
         "assist": 23,
-        "def_int": 4
+        "def_int": 4,
+        "fumble_rec": 2
       },
       {
         "year": 2024,
@@ -1416,7 +1418,8 @@ Player.create!([
         "tackles": 20,
         "solo_tackles": 15,
         "assist": 6,
-        "def_int": 1
+        "def_int": 1,
+        "fumble_rec": 1
       },
       {
         "year": 2024,
@@ -1445,7 +1448,8 @@ Player.create!([
         "solo_tackles": 20,
         "assist": 21,
         "def_sacks": 8.5,
-        "def_fumble": 2
+        "def_fumble": 2,
+        "fumble_rec": 2
       },
       {
         "year": 2024,
@@ -1499,7 +1503,8 @@ Player.create!([
         "solo_tackles": 20,
         "assist": 16,
         "def_sacks": 8.0,
-        "def_fumble": 2
+        "def_fumble": 2,
+        "fumble_rec": 2
       },
       {
         "year": 2024,
@@ -2091,7 +2096,8 @@ Player.create!([
       "solo_tackles": 35,
       "assist": 36,
       "def_sacks": 8.0,
-      "def_fumble": 2
+      "def_fumble": 2,
+        "fumble_rec": 1
     },
     {
       "year": 2024,
