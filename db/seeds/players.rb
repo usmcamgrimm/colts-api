@@ -1,5 +1,19 @@
 Player.create!([
   {
+    name: 'Cam Bynum',
+    position: 'S',
+    college: 'California',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '0',
+        exp: 5,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Josh Downs',
     "position": 'WR',
     "college": 'North Carolina',
@@ -92,6 +106,34 @@ Player.create!([
     ]
   },
   {
+    name: 'Spencer Shrader',
+    position: 'K',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '3',
+        exp: 2,
+        status: 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Coleman Owen',
+    position: 'WR',
+    college: 'Ohio',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '3',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Sam Ehlinger',
     "position": 'QB',
     "college": 'Texas',
@@ -108,6 +150,20 @@ Player.create!([
         "number": '4',
         "exp": 4,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    name: 'Blayne Taylor',
+    position: 'WR',
+    college: 'Abilene CHristian',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '4',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -152,6 +208,12 @@ Player.create!([
         "rush_td": 6,
         "rec": 1, 
         "rec_yds": -1
+      },
+      {
+        "year": 2025,
+        "number": '5',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -204,6 +266,12 @@ Player.create!([
         "kr_fc": 0,
         "kr_yds_ret": 29.4,
         "kr_lng": 40
+      },
+      {
+        "year": 2025,
+        "number": '6',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -254,6 +322,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Charvarius Ward',
+    position: 'CB',
+    college: 'Middle Tennessee State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '7',
+        exp: 8,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Rigoberto Sanchez',
     "position": 'P',
     "college": 'Hawaii',
@@ -280,6 +362,12 @@ Player.create!([
         "punt_in20": 27,
         "punt_avg": 49.7,
         "punt_lng": 65
+      },
+      {
+        "year": 2025,
+        "number": '8',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -294,6 +382,26 @@ Player.create!([
         "number": '8',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '8',
+        "exp": 1,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Landon Parker',
+    position: 'WR',
+    college: 'Troy',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4370170.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '8',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -314,6 +422,20 @@ Player.create!([
         "number": '9',
         "exp": 4,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Ajou Ajou',
+    position: 'WR',
+    college: 'South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '9',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -361,6 +483,12 @@ Player.create!([
         "rush_att": 4,
         "rush_yds": 6,
         "rush_ypc": 1.5
+      },
+      {
+        "year": 2025,
+        "number": '10',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -389,6 +517,12 @@ Player.create!([
         "rec": 69, 
         "rec_yds": 808, 
         "rec_td": 3
+      },
+      {
+        "year": 2025,
+        "number": '11',
+        "exp": 6,
+        "status": 'Active'
       }
     ]
   },
