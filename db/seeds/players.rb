@@ -1051,6 +1051,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Hunter Wohler',
+    position: 'S',
+    college: 'Wisconsin',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4432789.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '30',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Daniel Scott',
     "position": 'S',
     "college": 'California',
@@ -1067,6 +1081,12 @@ Player.create!([
         "number": '31',
         "exp": 0,
         "status": 'IR'
+      },
+      {
+        "year": 2025,
+        number: '37',
+        exp: 3,
+        status: 'Active'
       }
     ]
   },
@@ -1103,6 +1123,12 @@ Player.create!([
         "kr_ret": 9,
         "kr_yds_ret": 26.3,
         "kr_lng": 36
+      },
+      {
+        "year": 2025,
+        "number": '31',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -1173,6 +1199,12 @@ Player.create!([
         "assist": 10,
         "def_int": 2
       },
+      {
+        "year": 2025,
+        "number": '33',
+        "exp": 4,
+        "status": 'Active'
+      }
     ]
   },
   {
@@ -1200,6 +1232,12 @@ Player.create!([
         "number": '34',
         "exp": 6,
         "status": 'Active',
+      },
+      {
+        "year": 2025,
+        "number": '34',
+        "exp": 7,
+        "status": 'Active'
       }
     ]
   },
@@ -1233,6 +1271,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Johnathan Edwards',
+    position: 'CB',
+    college: 'Tulane',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4695991.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '35',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Salvon Ahmed',
     "position": 'RB',
     "college": 'Washington',
@@ -1243,6 +1295,12 @@ Player.create!([
         "number": '36',
         "exp": 5,
         "status": 'PS',
+      },
+      {
+        "year": 2025,
+        "number": '36',
+        "exp": 6,
+        "status": 'Active'
       }
     ]
   },
@@ -1306,6 +1364,19 @@ Player.create!([
     ]
   },
   {
+    name: 'Ulysses Bentley IV',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '37',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Henry Black',
     "position": 'S',
     "college": 'Baylor',
@@ -1353,6 +1424,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Corey Ballentine',
+    position: 'CB',
+    college: 'Washburn',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4411769.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '38',
+        exp: 7,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Darrell Baker Jr.',
     "position": 'CB',
     "college": 'Georgia Southern',
@@ -1380,6 +1465,12 @@ Player.create!([
         "number": '39',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '39',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1408,6 +1499,12 @@ Player.create!([
         "assist": 26,
         "def_int": 2,
         "def_fumble": 1
+      },
+      {
+        "year": 2025,
+        "number": '40',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -1434,6 +1531,19 @@ Player.create!([
         "tackles": 40,
         "solo_tackles": 25,
         "assist": 15
+      }
+    ]
+  },
+  {
+    name: 'Trey Washington',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '41',
+        "exp": 0,
+        status: 'Active'
       }
     ]
   },
@@ -1481,6 +1591,34 @@ Player.create!([
         "solo_tackles": 1
       }
     ] 
+  },
+  {
+    name: 'Tyler Kahmann',
+    position: 'WR',
+    college: 'Emporia State University',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '43',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Ladarius Tennison',
+    position: 's',
+    college: 'UCF',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4433922.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '43',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
   },
   {
     "name": 'Zaire Franklin',
