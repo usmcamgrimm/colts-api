@@ -555,6 +555,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Laquon Treadwell',
+    position: 'WR',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '13',
+        exp: 9,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Alec Pierce',
     "position": 'WR',
     "college": 'Cincinnati',
@@ -578,6 +592,12 @@ Player.create!([
         "rec": 37, 
         "rec_yds": 824, 
         "rec_td": 7
+      },
+      {
+        "year": 2025,
+        "number": '14',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -618,6 +638,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Riley Leonard',
+    position: 'QB',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4683423.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '15',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Ashton Dulin',
     "position": 'WR',
     "college": 'Malone University',
@@ -644,6 +678,12 @@ Player.create!([
         "kr_fc": 0,
         "kr_yds_ret": 37.0,
         "kr_lng": 55
+      }.,
+      {
+        "year": 2025,
+        "number": '16',
+        "exp": 7,
+        "status": 'Active'
       }
     ]
   },
@@ -658,6 +698,20 @@ Player.create!([
         "number": '17',
         "exp": 5,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    name: 'Daniel Jones',
+    position: 'QB',
+    college: 'Duke',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '17',
+        exp: 7,
+        status: 'Active'
       }
     ]
   },
@@ -688,6 +742,12 @@ Player.create!([
         "def_int": 3,
         "def_fumble": 1,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2025,
+        "number": '20',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -710,6 +770,20 @@ Player.create!([
         "rush_yds": 794,
         "rush_ypc": 4.3,
         "rush_td": 5
+      }
+    ]
+  },
+  {
+    name: 'DJ Giddens',
+    position: 'RB',
+    college: 'Kansas State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4874509.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '21',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -741,6 +815,12 @@ Player.create!([
         "assist": 27,
         "def_sacks": 0.5,
         "def_int": 3
+      },
+      {
+        "year": 2025,
+        "number": '23',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -768,6 +848,12 @@ Player.create!([
         "tackles": 7,
         "solo_tackles": 5,
         "assist": 2
+      },
+      {
+        "year": 2025,
+        "number": '25',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -794,6 +880,20 @@ Player.create!([
         "number": '26',
         "exp": 1,
         "status": 'PS',
+      }
+    ]
+  },
+  {
+    name: 'Khalil Herbert',
+    position: 'RB',
+    college: 'Virginia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035886.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '26',
+        exp: 5,
+        status: 'Active'
       }
     ]
   },
@@ -833,6 +933,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Justin Walley',
+    position: 'CB',
+    college: 'Minnesota',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '27',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Jonathan Taylor',
     "position": 'RB',
     "college": 'Wisconsin',
@@ -864,6 +978,12 @@ Player.create!([
         "rec": 18,
         "rec_yds": 136,
         "rec_td": 1
+      },
+      {
+        "year": 2025,
+        "number": '28',
+        "exp": 6,
+        "status": 'Active'
       }
     ]
   },
@@ -893,6 +1013,12 @@ Player.create!([
         "tackles": 7,
         "solo_tackles": 3,
         "assist": 4
+      },
+      {
+        "year": 2025,
+        "number": '29',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
