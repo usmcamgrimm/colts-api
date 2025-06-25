@@ -1648,6 +1648,12 @@ Player.create!([
         "def_int": 2,
         "def_fumble": 5,
         "def_sacks": 3.5
+      },
+      {
+        "year": 2025,
+        "number": '44',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -1681,6 +1687,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Maximilian Mang',
+    position: 'TE',
+    college: 'Syracuse',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608691.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '45',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Luke Rhodes',
     "position": 'LS',
     "college": 'William & Mary',
@@ -1702,6 +1722,12 @@ Player.create!([
         "status": 'Active',
         "tackles": 2,
         "solo_tackles": 2
+      },
+      {
+        "year": 2025,
+        "number": '46',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -1722,6 +1748,12 @@ Player.create!([
         "number": '47',
         "exp": 1,
         "status": 'PS',
+      },
+      {
+        "year": 2025,
+        "number": '47',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -1751,6 +1783,34 @@ Player.create!([
         "def_fumble": 1,
         "tackles": 2,
         "solo_tackles": 2
+      }
+    ]
+  },
+  {
+    name: 'Joe Bachie',
+    position: 'LB',
+    college: 'Michigan State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036507.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '48',
+        exp: 6,
+        status: 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Maddux Trujillo',
+    position: 'K',
+    college: 'Temple',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4879326.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '48',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -1799,6 +1859,12 @@ Player.create!([
         "number": '49',
         "exp": 5,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '49',
+        "exp": 6,
+        "status": 'Active'
       }
     ]
   },
@@ -1829,6 +1895,12 @@ Player.create!([
         "assist": 6,
         "def_fumble": 1,
         "fumble_rec": 1
+      },
+      {
+        "year": 2025,
+        "number": '50',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -1859,6 +1931,12 @@ Player.create!([
         "assist": 12,
         "def_sacks": 8.0,
         "def_fumble": 1
+      },
+      {
+        "year": 2025,
+        "number": '51',
+        "exp": 5,
+        "status": 'Active'
       }
     ]
   },
@@ -1884,7 +1962,27 @@ Player.create!([
         "number": '52',
         "exp": 8,
         "status": 'IR'
+      },
+      {
+        "year": 2025,
+        "number": '52',
+        "exp": 9,
+        "status": 'Active'
       }
+    ]
+  },
+  {
+    name: 'Solomon DeShields',
+    position: 'LB',
+    college: 'Texas A&M',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4431065.png&w=350&h=254',
+    season_stats_attributes: [
+      [
+        'year": 2025,
+        number: '53',
+        exp: 0,
+        status: 'Active'
+      ]
     ]
   },
   {
@@ -1916,6 +2014,20 @@ Player.create!([
         "def_sacks": 3.0,
         "def_fumble": 2,
         "fumble_rec": 1
+      }
+    ]
+  },
+  {
+    name: 'Jacob Phillips',
+    position: 'LB',
+    college: 'LSU',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '54',
+        exp: 4,
+        status: 'Active'
       }
     ]
   },
