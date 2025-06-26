@@ -1831,6 +1831,12 @@ Player.create!([
         "number": '58',
         "exp": 1,
         "status": 'PS',
+      },
+      {
+        "year": 2025,
+        "number": '58',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -1977,12 +1983,12 @@ Player.create!([
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4431065.png&w=350&h=254',
     season_stats_attributes: [
-      [
-        'year": 2025,
+      {
+        "year": 2025,
         number: '53',
         exp: 0,
         status: 'Active'
-      ]
+      }
     ]
   },
   {
@@ -2052,6 +2058,12 @@ Player.create!([
         "number": '55',
         "exp": 1,
         "status": 'PS',
+      },
+      {
+        "year": 2025,
+        "number": '55',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2072,6 +2084,12 @@ Player.create!([
         "number": '56',
         "exp": 7,
         "status": 'Active',
+      },
+      {
+        "year": 2025,
+        "number": '56',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -2104,6 +2122,12 @@ Player.create!([
         "solo_tackles": 24,
         "assist": 12,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2025,
+        "number": '57',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -2140,6 +2164,12 @@ Player.create!([
         "number": '59',
         "exp": 2,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '59',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -2153,6 +2183,12 @@ Player.create!([
         "year": 2024,
         "number": '60',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '60',
+        "exp": 1,
         "status": 'Active'
       }
     ]
@@ -2174,6 +2210,12 @@ Player.create!([
         "number": '62',
         "exp": 3,
         "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '62',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2193,6 +2235,12 @@ Player.create!([
         "year": 2024,
         "number": '63',
         "exp": 5,
+        "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '63',
+        "exp": 6,
         "status": 'Active'
       }
     ]
@@ -2226,6 +2274,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Marshall Foerner',
+    position: 'OT',
+    college: 'Minnesota State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '64',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Josh Sills',
     "position": 'G',
     "college": 'Oklahoma State',
@@ -2242,6 +2304,12 @@ Player.create!([
         "number": '66',
         "exp": 3,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '66',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2302,6 +2370,34 @@ Player.create!([
     ]
   },
   {
+    name: 'Luke Tenuta',
+    position: 'T',
+    college: 'Virginia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '67',
+        exp: 3,
+        status: 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Mose Vavao',
+    position: 'C',
+    college: 'Fresno State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4609783.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '67',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Ike Boettger',
     "position": 'G',
     "college": 'Iowa',
@@ -2325,6 +2421,12 @@ Player.create!([
         "year": 2024,
         "number": '68',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '68',
+        "exp": 1,
         "status": 'Active'
       }
     ]
