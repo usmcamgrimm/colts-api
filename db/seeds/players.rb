@@ -678,7 +678,7 @@ Player.create!([
         "kr_fc": 0,
         "kr_yds_ret": 37.0,
         "kr_lng": 55
-      }.,
+      },
       {
         "year": 2025,
         "number": '16',
@@ -2470,6 +2470,12 @@ Player.create!([
         "number": '71',
         "exp": 0,
         "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '71',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -2489,6 +2495,12 @@ Player.create!([
         "year": 2024,
         "number": '72',
         "exp": 7,
+        "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '72',
+        "exp": 8,
         "status": 'Active'
       }
     ]
@@ -2510,6 +2522,12 @@ Player.create!([
         "number": '73',
         "exp": 1,
         "status": 'Active'
+      },
+      {
+        "year": 2025,
+        "number": '73',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2524,6 +2542,12 @@ Player.create!([
         "number": '74',
         "exp": 1,
         "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '74',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2548,6 +2572,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Jalen Travis',
+    position: 'T',
+    college: 'Iowa State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4892240.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '75',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Jake Witt',
     "position": 'T',
     "college": 'Northern Michigan',
@@ -2558,6 +2596,20 @@ Player.create!([
         "number": '76',
         "exp": 0,
         "status": 'IR'
+      }
+    ]
+  },
+  {
+    name: 'Jack Wilson',
+    position: 'T',
+    college: 'Washington State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '76',
+        exp: 1,
+        status: 'Active'
       }
     ]
   },
@@ -2582,6 +2634,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Desmond Little',
+    "position": 'DE',
+    college: 'UAB',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4427813.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        "number": '78',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Bernhard Raimann',
     "position": 'T',
     "college": 'Central Michigan',
@@ -2600,6 +2666,12 @@ Player.create!([
         "status": 'Active',
         "tackles": 1,
         "solo_tackles": 1
+      },
+      {
+        "year": 2025,
+        "number": '79',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2620,6 +2692,12 @@ Player.create!([
         "number": '80',
         "exp": 3,
         "status": 'IR'
+      },
+      {
+        "year": 2025,
+        "number": '80',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2647,6 +2725,12 @@ Player.create!([
         "rec": 12, 
         "rec_yds": 147,
         "rec_td": 1
+      },
+      {
+        "year": 2025,
+        "number": '81',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -2710,6 +2794,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Tyler Warren',
+    position: 'TE',
+    college: 'Penn State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '84',
+        exp: 0,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Andrew Ogletree',
     "position": 'TE',
     "college": 'Youngstown State',
@@ -2733,6 +2831,12 @@ Player.create!([
         "rec": 9, 
         "rec_yds": 109,
         "rec_td": 1
+      },
+      {
+        "year": 2035,
+        "number": '85',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2758,6 +2862,12 @@ Player.create!([
         "status": 'Active',
         "rec": 4, 
         "rec_yds": 29
+      },
+      {
+        "year": 2025,
+        "number": '86',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2787,6 +2897,12 @@ Player.create!([
         "assist": 45,
         "def_sacks": 3.5,
         "def_fumble": 1
+      },
+      {
+        "year": 2035,
+        "number": '90',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -2815,6 +2931,20 @@ Player.create!([
         "number": '91',
         "exp": 5,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    name: 'JT Tuimoloau',
+    position: 'DE',
+    college: 'Ohio State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4566154.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '91',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -2851,6 +2981,20 @@ Player.create!([
     ]
   },
   {
+    name: 'Neville Gallimore',
+    position: 'DT',
+    college: 'Oklahoma',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3892883.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '92',
+        exp: 6,
+        status: 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Eric Johnson II',
     "position": 'DT',
     "college": 'Missouri State',
@@ -2865,6 +3009,26 @@ Player.create!([
         "solo_tackles": 5,
         "assist": 9,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2025,
+        "number": '98',
+        "exp": 4,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Tim Smith',
+    position: 'DT',
+    college: 'Alabama',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '93',
+        exp: 0,
+        status: 'Active'
       }
     ]
   },
@@ -2894,6 +3058,12 @@ Player.create!([
         "assist": 10,
         "def_sacks": 1.5,
         "def_fumble": 1
+      },
+      {
+        "year": 2025,
+        "number": '94',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -2921,6 +3091,12 @@ Player.create!([
         "tackles": 4,
         "solo_tackles": 4,
         "def_sacks": 1.0
+      },
+      {
+        "year": 2025,
+        "number": '95',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2983,6 +3159,12 @@ Player.create!([
         "assist": 16,
         "def_sacks": 4.0,
         "def_fumble": 3
+      },
+      {
+        "year": 2025,
+        "number": '97',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
