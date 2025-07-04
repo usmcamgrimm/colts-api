@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_07_020531) do
+ActiveRecord::Schema[8.0].define(version: 2025_07_04_155716) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -21,6 +21,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_07_020531) do
     t.text "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "season_id", null: false
+    t.index ["season_id"], name: "index_players_on_season_id"
   end
 
   create_table "season_stats", force: :cascade do |t|
@@ -97,5 +99,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_06_07_020531) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "players", "seasons"
   add_foreign_key "season_stats", "players"
 end
