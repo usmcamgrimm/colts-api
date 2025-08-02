@@ -1084,7 +1084,7 @@ Player.create!([
       },
       {
         "year": 2025,
-        number: '37',
+        number: '32',
         exp: 3,
         status: 'Active'
       }
@@ -1242,6 +1242,20 @@ Player.create!([
     ]
   },
   {
+    "name": 'Duke Shelley',
+    "position": 'RB',
+    "college": 'Kansas State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916126.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '34',
+        "exp": 6,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Chris Lammons',
     "position": 'CB',
     "college": 'South Carolina',
@@ -1267,6 +1281,12 @@ Player.create!([
         "assist": 2,
         "def_fumble": 1,
         "fumble_rec": 2
+      },
+      {
+        "year": 2025,
+        "number": '38',
+        "exp": 6,
+        "status": 'Active'
       }
     ]
   },
@@ -1424,20 +1444,6 @@ Player.create!([
     ]
   },
   {
-    name: 'Corey Ballentine',
-    position: 'CB',
-    college: 'Washburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4411769.png&w=350&h=254',
-    season_stats_attributes: [
-      {
-        "year": 2025,
-        number: '38',
-        exp: 7,
-        status: 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Darrell Baker Jr.',
     "position": 'CB',
     "college": 'Georgia Southern',
@@ -1564,6 +1570,19 @@ Player.create!([
         "number": '42',
         "exp": 2,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Tre Herndon',
+    college: 'Vanderbilt',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122160.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "year": 2025,
+        number: '42',
+        "exp": 7,
+        status: 'Active'
       }
     ]
   },
@@ -2456,6 +2475,20 @@ Player.create!([
         "number": '69',
         "exp": 0,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Josh Tupou',
+    "position": 'DT',
+    "college": 'Colorado',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979632.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '69',
+        "exp": 7,
+        "status": 'Active'
       }
     ]
   },
