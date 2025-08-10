@@ -3,6 +3,48 @@ seasons_by_year = Season.all.index_by(&:year)
 # Define your players and their nested season stats (your existing structure)
 players = [
   {
+    "name": 'BJ Mayes',
+    "position": 'CB',
+    "college": 'Texas A&M',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683044.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '--',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Nate Noel',
+    "position": 'RB',
+    "college": 'Missouri',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4613032.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '--',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Nay\'Quan Wright',
+    "position": 'RB',
+    "college": 'South Florida',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4567400.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '--',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Cam Bynum',
     "position": 'S',
     "college": 'California',
@@ -951,7 +993,7 @@ players = [
         "year": 2025,
         "number": '27',
         "exp": 0,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1331,7 +1373,7 @@ players = [
         "year": 2025,
         "number": '36',
         "exp": 6,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1587,20 +1629,6 @@ players = [
     ]
   },
   {
-    "name": 'Tre Herndon',
-    "college": 'Vanderbilt',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122160.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '42',
-        "exp": 7,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Trevor Denbow',
     "position": 'S',
     "college": 'SMU',
@@ -1785,12 +1813,6 @@ players = [
         "exp": 1,
         "status": 'PS',
       },
-      {
-        "year": 2025,
-        "number": '47',
-        "exp": 2,
-        "status": 'Active'
-      }
     ]
   },
   {
@@ -2528,6 +2550,20 @@ players = [
         "exp": 0,
         "status": 'Active'
       },
+      {
+        "year": 2025,
+        "number": '71',
+        "exp": 1,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Marcellus Johnson',
+    "position": 'T',
+    "college": 'Missouri',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254',
+    "season_stats_attributes": [
       {
         "year": 2025,
         "number": '71',
