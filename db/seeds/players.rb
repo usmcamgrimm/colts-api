@@ -3355,11 +3355,22 @@ players = [
 
 players.each do |player|
   player[:season_stats_attributes].each do |stat|
+    # Find or create season for this stat
     season = seasons_by_year[stat[:year]] || Season.create!(year: stat[:year])
     seasons_by_year[season.year] = season
+
+    # Assign season_id for the stat
     stat[:season_id] = season.id
+
+    # Remove temporary year key
+    stat.delete(:year)
   end
 
-  # Create the player with nested stats
+  # Set player's season_id to the first stat's season
+  player[:season_id] = player[:season_stats_attributes].first[:season_id]
+
+  # Create the player with nested season stats
   Player.create!(player)
 end
+
+puts "Seeded #{Player.count} players with their season stats!"
