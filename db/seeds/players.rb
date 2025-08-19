@@ -1064,13 +1064,12 @@ players = [
     "position": 'S',
     "college": 'Wisconsin',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4432789.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '30',
         "exp": 0,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1410,14 +1409,28 @@ players = [
   },
   {
     "name": 'Ulysses Bentley IV',
+    "position": 'RB',
     "college": 'Mississippi',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '37',
         "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Xavien Howard',
+    "position": 'CB',
+    "college": 'Baylor',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '37',
+        "exp": 9,
         "status": 'Active'
       }
     ]
@@ -1816,6 +1829,20 @@ players = [
     ]
   },
   {
+    "name": 'Jake Chaney',
+    "position": 'LB',
+    "college": 'Wisconsin',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '47',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Ronnie Harrison Jr.',
     "position": 'LB',
     "college": 'Alabama',
@@ -1930,6 +1957,20 @@ players = [
         "year": 2025,
         "number": '49',
         "exp": 6,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Joseph Vaughn',
+    "position": 'LB',
+    "college": 'UCLA',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '49',
+        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -2095,7 +2136,7 @@ players = [
         "year": 2025,
         "number": '54',
         "exp": 4,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -2620,7 +2661,7 @@ players = [
         "year": 2025,
         "number": '73',
         "exp": 2,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
