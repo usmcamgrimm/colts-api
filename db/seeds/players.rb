@@ -171,6 +171,20 @@ players = [
     ]
   },
   {
+    "name": 'Mekhi Blackmon',
+    "position": 'CB',
+    "college": 'USC',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '5',
+        "exp": 3,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Anthony Richardson',
     "position": 'QB',
     "college": 'Florida',
