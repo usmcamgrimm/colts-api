@@ -132,7 +132,7 @@ players = [
         "year": 2025,
         "number": '3',
         "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -153,20 +153,6 @@ players = [
         "number": '4',
         "exp": 4,
         "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Blayne Taylor',
-    "position": 'WR',
-    "college": 'Abilene CHristian',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '4',
-        "exp": 0,
-        "status": 'Active'
       }
     ]
   },
@@ -399,26 +385,6 @@ players = [
         "number": '8',
         "exp": 0,
         "status": 'PS'
-      },
-      {
-        "year": 2025,
-        "number": '8',
-        "exp": 1,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Landon Parker',
-    "position": 'WR',
-    "college": 'Troy',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4370170.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '8',
-        "exp": 0,
-        "status": 'Active'
       }
     ]
   },
@@ -438,20 +404,6 @@ players = [
         "year": 2024,
         "number": '9',
         "exp": 4,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Ajou Ajou',
-    "position": 'WR',
-    "college": 'South Florida',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '9',
-        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -572,21 +524,6 @@ players = [
     ]
   },
   {
-    "name": 'Laquon Treadwell',
-    "position": 'WR',
-    "college": 'Mississippi',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '13',
-        "exp": 9,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Alec Pierce',
     "position": 'WR',
     "college": 'Cincinnati',
@@ -660,7 +597,6 @@ players = [
     "position": 'QB',
     "college": 'Notre Dame',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4683423.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -725,7 +661,6 @@ players = [
     "position": 'QB',
     "college": 'Duke',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -798,7 +733,6 @@ players = [
     "position": 'RB',
     "college": 'Kansas State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4874509.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -909,13 +843,12 @@ players = [
     "position": 'RB',
     "college": 'Virginia Tech',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035886.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '26',
         "exp": 5,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -959,7 +892,6 @@ players = [
     "position": 'CB',
     "college": 'Minnesota',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -1036,12 +968,6 @@ players = [
         "tackles": 7,
         "solo_tackles": 3,
         "assist": 4
-      },
-      {
-        "year": 2025,
-        "number": '29',
-        "exp": 2,
-        "status": 'Active'
       }
     ]
   },
@@ -1221,12 +1147,6 @@ players = [
         "solo_tackles": 26,
         "assist": 10,
         "def_int": 2
-      },
-      {
-        "year": 2025,
-        "number": '33',
-        "exp": 4,
-        "status": 'Active'
       }
     ]
   },
@@ -1265,20 +1185,6 @@ players = [
     ]
   },
   {
-    "name": 'Duke Shelley',
-    "position": 'RB',
-    "college": 'Kansas State',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916126.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '34',
-        "exp": 6,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Chris Lammons',
     "position": 'CB',
     "college": 'South Carolina',
@@ -1309,7 +1215,7 @@ players = [
         "year": 2025,
         "number": '38',
         "exp": 6,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1318,7 +1224,6 @@ players = [
     "position": 'CB',
     "college": 'Tulane',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4695991.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -1359,20 +1264,6 @@ players = [
         "number": '36',
         "exp": 0,
         "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'BJ Mayes',
-    "position": 'CB',
-    "college": 'Texas A&M',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683044.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '36',
-        "exp": 0,
-        "status": 'Active'
       }
     ]
   },
@@ -1431,7 +1322,7 @@ players = [
         "year": 2025,
         "number": '37',
         "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1524,12 +1415,6 @@ players = [
         "number": '39',
         "exp": 0,
         "status": 'PS'
-      },
-      {
-        "year": 2025,
-        "number": '39',
-        "exp": 1,
-        "status": 'Active'
       }
     ]
   },
@@ -1594,30 +1479,15 @@ players = [
     ]
   },
   {
-    "name": 'Nate Noel',
-    "position": 'RB',
-    "college": 'Missouri',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4613032.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '41',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Trey Washington',
     "college": 'Mississippi',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '41',
         "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1637,20 +1507,6 @@ players = [
         "year": 2024,
         "number": '42',
         "exp": 2,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Nay\'Quan Wright',
-    "position": 'RB',
-    "college": 'South Florida',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4567400.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '42',
-        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -1685,28 +1541,12 @@ players = [
     "position": 'WR',
     "college": 'Emporia State University',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '43',
         "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Ladarius Tennison',
-    "position": 's',
-    "college": 'UCF',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4433922.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '43',
-        "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1781,13 +1621,12 @@ players = [
     "position": 'TE',
     "college": 'Syracuse',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608691.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '45',
         "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1843,20 +1682,6 @@ players = [
     ]
   },
   {
-    "name": 'Jake Chaney',
-    "position": 'LB',
-    "college": 'Wisconsin',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '47',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Ronnie Harrison Jr.',
     "position": 'LB',
     "college": 'Alabama',
@@ -1890,27 +1715,11 @@ players = [
     "position": 'LB',
     "college": 'Michigan State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036507.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '48',
         "exp": 6,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Maddux Trujillo',
-    "position": 'K',
-    "college": 'Temple',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4879326.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '48',
-        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -1937,7 +1746,7 @@ players = [
         "year": 2025,
         "number": '58',
         "exp": 2,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -1971,21 +1780,7 @@ players = [
         "year": 2025,
         "number": '49',
         "exp": 6,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Joseph Vaughn',
-    "position": 'LB',
-    "college": 'UCLA',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '49',
-        "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2093,21 +1888,6 @@ players = [
     ]
   },
   {
-    "name": 'Solomon DeShields',
-    "position": 'LB',
-    "college": 'Texas A&M',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4431065.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '53',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Dayo Odeyingbo',
     "position": 'DE',
     "college": 'Vanderbilt',
@@ -2144,7 +1924,6 @@ players = [
     "position": 'LB',
     "college": 'LSU',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -2175,11 +1954,19 @@ players = [
         "number": '55',
         "exp": 1,
         "status": 'PS',
-      },
+      }
+    ]
+  },
+  {
+    "name": 'Chad Muma',
+    "position": 'LB',
+    "college": 'Wyoming',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361707.png&w=350&h=254',
+    "season_stats_attributes": [
       {
         "year": 2025,
         "number": '55',
-        "exp": 2,
+        "exp": 4,
         "status": 'Active'
       }
     ]
@@ -2244,7 +2031,7 @@ players = [
         "year": 2025,
         "number": '57',
         "exp": 1,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -2327,12 +2114,6 @@ players = [
         "number": '62',
         "exp": 3,
         "status": 'Active'
-      },
-      {
-        "year": 2025,
-        "number": '62',
-        "exp": 4,
-        "status": 'Active'
       }
     ]
   },
@@ -2391,21 +2172,6 @@ players = [
     ]
   },
   {
-    "name": 'Marshall Foerner',
-    "position": 'OT',
-    "college": 'Minnesota State',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '64',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Josh Sills',
     "position": 'G',
     "college": 'Oklahoma State',
@@ -2427,7 +2193,7 @@ players = [
         "year": 2025,
         "number": '66',
         "exp": 4,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2492,7 +2258,6 @@ players = [
     "position": 'T',
     "college": 'Virginia Tech',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -2507,13 +2272,12 @@ players = [
     "position": 'C',
     "college": 'Fresno State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4609783.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '67',
         "exp": 0,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2589,7 +2353,7 @@ players = [
         "year": 2025,
         "number": '69',
         "exp": 7,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2605,20 +2369,6 @@ players = [
         "exp": 0,
         "status": 'Active'
       },
-      {
-        "year": 2025,
-        "number": '71',
-        "exp": 1,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Marcellus Johnson',
-    "position": 'T',
-    "college": 'Missouri',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254',
-    "season_stats_attributes": [
       {
         "year": 2025,
         "number": '71',
@@ -2695,7 +2445,7 @@ players = [
         "year": 2025,
         "number": '74',
         "exp": 2,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2724,7 +2474,6 @@ players = [
     "position": 'T',
     "college": 'Iowa State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4892240.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -2753,7 +2502,6 @@ players = [
     "position": 'T',
     "college": 'Washington State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -2779,21 +2527,6 @@ players = [
         "year": 2024,
         "number": '78',
         "exp": 9,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Desmond Little',
-    "position": 'DE',
-    "college": 'UAB',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4427813.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '78',
-        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -2843,12 +2576,6 @@ players = [
         "number": '80',
         "exp": 3,
         "status": 'IR'
-      },
-      {
-        "year": 2025,
-        "number": '80',
-        "exp": 4,
-        "status": 'Active'
       }
     ]
   },
@@ -2949,7 +2676,6 @@ players = [
     "position": 'TE',
     "college": 'Penn State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -3091,7 +2817,6 @@ players = [
     "position": 'DE',
     "college": 'Ohio State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4566154.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -3138,7 +2863,6 @@ players = [
     "position": 'DT',
     "college": 'Oklahoma',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3892883.png&w=350&h=254',
-
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -3168,21 +2892,6 @@ players = [
         "year": 2025,
         "number": '98',
         "exp": 4,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Tim Smith',
-    "position": 'DT',
-    "college": 'Alabama',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
-
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '93',
-        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -3283,20 +2992,6 @@ players = [
         "def_sacks": 1
       }
     ] 
-  },
-  {
-    "name": 'Marcus Haynes',
-    "position": 'DE',
-    "college": 'Old Dominion',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243507.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '96',
-        "exp": 1,
-        "status": 'Active'
-      }
-    ]
   },
   {
     "name": 'Al-Quadin Muhammad',
