@@ -123,20 +123,6 @@ players = [
     ]
   },
   {
-    "name": 'Coleman Owen',
-    "position": 'WR',
-    "college": 'Ohio',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '3',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
     "name": 'Sam Ehlinger',
     "position": 'QB',
     "college": 'Texas',
@@ -405,6 +391,20 @@ players = [
         "number": '9',
         "exp": 4,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Coleman Owen',
+    "position": 'WR',
+    "college": 'Ohio',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '9',
+        "exp": 0,
+        "status": 'PS'
       }
     ]
   },
@@ -2275,7 +2275,7 @@ players = [
     "season_stats_attributes": [
       {
         "year": 2025,
-        "number": '67',
+        "number": '65',
         "exp": 0,
         "status": 'PS'
       }
@@ -2353,6 +2353,20 @@ players = [
         "year": 2025,
         "number": '69',
         "exp": 7,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Marcellus Johnson',
+    "position": 'T',
+    "college": 'Missouri',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '71',
+        "exp": 1,
         "status": 'PS'
       }
     ]
