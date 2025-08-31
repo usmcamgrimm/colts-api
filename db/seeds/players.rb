@@ -524,6 +524,20 @@ players = [
     ]
   },
   {
+    "name": 'Laquon Treadwell',
+    "position": 'WR',
+    "college": 'Mississippi',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '13',
+        "exp": 9,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Alec Pierce',
     "position": 'WR',
     "college": 'Cincinnati',
@@ -1176,13 +1190,21 @@ players = [
         "exp": 6,
         "status": 'Active',
       },
+    ]
+  },
+  {
+     "name": 'Ben Nikkel',
+     "position": 'S',
+     "college": 'Iowa State',
+     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4874465.png&w=350&h=254',
+     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '34',
-        "exp": 7,
-        "status": 'Active'
+        "exp": 1,
+        "status": 'PS'
       }
-    ]
+     ]
   },
   {
     "name": 'Chris Lammons',
@@ -1535,20 +1557,6 @@ players = [
         "solo_tackles": 1
       }
     ] 
-  },
-  {
-    "name": 'Tyler Kahmann',
-    "position": 'WR',
-    "college": 'Emporia State University',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '43',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
   },
   {
     "name": 'Zaire Franklin',
@@ -2658,6 +2666,20 @@ players = [
     ]
   },
   {
+    "name": 'Tyler Scott',
+    "position": 'WR',
+    "college": 'Cincinnati',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '83',
+        "exp": 3,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Jordan Murray',
     "position": 'TE',
     "college": 'Hawaii',
@@ -2907,6 +2929,20 @@ players = [
         "number": '98',
         "exp": 4,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Tim Smith',
+    "position": 'DT',
+    "college": 'Alabama',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '93',
+        "exp": 0,
+        "status": 'PS'
       }
     ]
   },
