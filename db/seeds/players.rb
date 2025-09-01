@@ -143,15 +143,15 @@ players = [
     ]
   },
   {
-    "name": 'Mekhi Blackmon',
+    "name": 'Xavien Howard',
     "position": 'CB',
-    "college": 'USC',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+    "college": 'Baylor',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
-        "number": '5',
-        "exp": 3,
+        "number": '4',
+        "exp": 9,
         "status": 'Active'
       }
     ]
@@ -398,7 +398,7 @@ players = [
     "name": 'Coleman Owen',
     "position": 'WR',
     "college": 'Ohio',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -986,6 +986,20 @@ players = [
     ]
   },
   {
+    "name": 'Mekhi Blackmon',
+    "position": 'CB',
+    "college": 'USC',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '29',
+        "exp": 3,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Darren Hall',
     "position": 'CB',
     "college": 'San Diego State',
@@ -1345,20 +1359,6 @@ players = [
         "number": '37',
         "exp": 0,
         "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Xavien Howard',
-    "position": 'CB',
-    "college": 'Baylor',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '37',
-        "exp": 9,
-        "status": 'Active'
       }
     ]
   },
@@ -2529,7 +2529,7 @@ players = [
         "year": 2025,
         "number": '76',
         "exp": 1,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
