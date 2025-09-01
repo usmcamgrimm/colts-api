@@ -1942,6 +1942,20 @@ players = [
     ]
   },
   {
+    "name": 'Anthony Walker',
+    "position": 'LB',
+    "college": 'Northwestern',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045251.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '54',
+        "exp": 9,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Isaiah Land',
     "position": 'LB',
     "college": 'Florida A&M',
@@ -2347,20 +2361,6 @@ players = [
         "year": 2024,
         "number": '69',
         "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Josh Tupou',
-    "position": 'DT',
-    "college": 'Colorado',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979632.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '69',
-        "exp": 7,
         "status": 'PS'
       }
     ]
