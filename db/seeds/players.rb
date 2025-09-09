@@ -853,15 +853,15 @@ players = [
     ]
   },
   {
-    "name": 'Khalil Herbert',
+    "name": 'Ameer Abdullah',
     "position": 'RB',
-    "college": 'Virginia Tech',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035886.png&w=350&h=254',
+    "college": 'Nebraska',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576336.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '26',
-        "exp": 5,
+        "exp": 11,
         "status": 'PS'
       }
     ]
