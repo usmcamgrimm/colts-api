@@ -1179,6 +1179,20 @@ players = [
     ]
   },
   {
+    "name": 'Darrick Forrest',
+    "position": 'S',
+    "college": 'Cincinnati',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239088.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '33',
+        "exp": 5,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Zavier Scott',
     "position": 'RB',
     "college": 'Maine',
@@ -1434,6 +1448,20 @@ players = [
     "season_stats_attributes": [
       {
         "year": 2024,
+        "number": '39',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Keydrain Calligan',
+    "position": 'CB',
+    "college": 'Southeastern Louisiana',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4606181.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
         "number": '39',
         "exp": 0,
         "status": 'PS'
