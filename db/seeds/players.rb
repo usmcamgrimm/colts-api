@@ -1768,7 +1768,7 @@ players = [
         "year": 2025,
         "number": '58',
         "exp": 2,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -2204,6 +2204,20 @@ players = [
         "number": '64',
         "exp": 10,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Jimmy Morrissey',
+    "position": 'C',
+    "college": 'Pittsburgh',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '65',
+        "exp": 3,
+        "status": 'PS'
       }
     ]
   },
