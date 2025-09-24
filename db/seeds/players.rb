@@ -1179,6 +1179,20 @@ players = [
     ]
   },
   {
+    "name": 'Mike Hilton',
+    "position": 'CB',
+    "college": 'Mississippi',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2980383.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '33',
+        "exp": 9,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Zavier Scott',
     "position": 'RB',
     "college": 'Maine',
@@ -2690,20 +2704,6 @@ players = [
         "rec_yds": 182,
         "tackles": 2,
         "solo_tackles": 2
-      }
-    ]
-  },
-  {
-    "name": 'Tyler Scott',
-    "position": 'WR',
-    "college": 'Cincinnati',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '83',
-        "exp": 3,
-        "status": 'PS'
       }
     ]
   },
