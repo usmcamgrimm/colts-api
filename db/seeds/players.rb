@@ -152,7 +152,10 @@ players = [
         "year": 2025,
         "number": '4',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Retired',
+        "tackles": 11,
+        "solo_tackles": 7,
+        "assist": 4
       }
     ]
   },
@@ -1273,7 +1276,7 @@ players = [
     "name": 'Johnathan Edwards',
     "position": 'CB',
     "college": 'Tulane',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4695991.png&w=350&h=254',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -1530,14 +1533,15 @@ players = [
   },
   {
     "name": 'Trey Washington',
+    "position": 'S',
     "college": 'Mississippi',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '41',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -2123,6 +2127,22 @@ players = [
         "year": 2025,
         "number": '59',
         "exp": 3,
+        "status": 'Waived',
+        tackles: 2,
+        solo_tackles: 1,
+        assist: 1
+      }
+    ]
+  },
+  {
+    name: 'Buddy Johnson',
+    position: 'LB',
+    college: 'Texas A&M',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254',
+    season_stats_attributes: [
+      {
+        "number": '59',
+        "exp": 4,
         "status": 'Active'
       }
     ]
