@@ -1566,6 +1566,20 @@ players = [
     ]
   },
   {
+    "name": 'Keenan Garber',
+    "position": 'CB',
+    "college": 'Kansas State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426517.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '42',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Trevor Denbow',
     "position": 'S',
     "college": 'SMU',
