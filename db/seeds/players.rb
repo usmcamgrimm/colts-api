@@ -1003,6 +1003,20 @@ players = [
     ]
   },
   {
+    "name": 'Cameron Mitchell',
+    "position": 'CB',
+    "college": 'Northwestern',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '29',
+        "exp": 3,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Darren Hall',
     "position": 'CB',
     "college": 'San Diego State',
@@ -1066,7 +1080,7 @@ players = [
         "year": 2025,
         "number": '32',
         "exp": 3,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1268,7 +1282,7 @@ players = [
         "year": 2025,
         "number": '38',
         "exp": 6,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
