@@ -329,8 +329,8 @@ DEPENDENCIES
   brakeman
   debug
   kamal
-  pg (~> 1.6)
-  puma (>= 5.0)
+  pg (~> 1.6, >= 1.6.2)
+  puma (~> 7.0, >= 7.0.4)
   rack-cors (~> 3.0)
   rails (~> 8.0.3)
   rubocop-rails-omakase
