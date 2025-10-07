@@ -118,7 +118,7 @@ players = [
         "year": 2025,
         "number": '3',
         "exp": 2,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
