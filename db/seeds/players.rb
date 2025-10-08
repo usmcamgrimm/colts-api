@@ -513,6 +513,20 @@ players = [
     ]
   },
   {
+    "name": 'Michael Badgley',
+    "position": 'K',
+    "college": 'Miami',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123052.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '12',
+        "exp": 7,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'KJ Hamler',
     "position": 'WR',
     "college": 'Penn State',
