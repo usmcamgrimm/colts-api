@@ -1764,6 +1764,20 @@ players = [
     ]
   },
   {
+    "name": 'Troy Pride Jr.',
+    "position": 'CB',
+    "college": 'Notre Dame',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046679.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '47',
+        "exp": 3,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Ronnie Harrison Jr.',
     "position": 'LB',
     "college": 'Alabama',
@@ -1802,7 +1816,7 @@ players = [
         "year": 2025,
         "number": '48',
         "exp": 6,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1965,6 +1979,20 @@ players = [
         "year": 2025,
         "number": '52',
         "exp": 9,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Germaine Pratt',
+    "position": 'LB',
+    "college": 'N.C. State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '53',
+        "exp": 7,
         "status": 'Active'
       }
     ]
