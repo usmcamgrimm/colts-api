@@ -1335,6 +1335,20 @@ players = [
     ]
   },
   {
+    "name": 'Reuben Lowery III',
+    "position": 'S',
+    "college": 'Tennessee-Chattanooga',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692970.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '36',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Tyreque Jones',
     "position": 'S',
     "college": 'Boise State',
