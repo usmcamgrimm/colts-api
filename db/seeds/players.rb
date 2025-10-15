@@ -1500,20 +1500,6 @@ players = [
     ]
   },
   {
-    "name": 'Keydrain Calligan',
-    "position": 'CB',
-    "college": 'Southeastern Louisiana',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4606181.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '39',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
     "name": 'Jaylon Jones',
     "position": 'CB',
     "college": 'Texas A&M',
@@ -2512,20 +2498,6 @@ players = [
     ]
   },
   {
-    "name": 'Marcellus Johnson',
-    "position": 'T',
-    "college": 'Missouri',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '71',
-        "exp": 1,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
     "name": 'Matt Goncalves',
     "position": 'T',
     "college": 'Pittsburgh',
@@ -2696,6 +2668,20 @@ players = [
         "number": '78',
         "exp": 9,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    name: 'Bayron Matos',
+    position: 'T',
+    college: 'University of South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612507.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '78',
+        "exp": 1,
+        "status": 'PS'
       }
     ]
   },
