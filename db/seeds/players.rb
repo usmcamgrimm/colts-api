@@ -160,6 +160,20 @@ players = [
     ]
   },
   {
+    "name": 'Brett Rypien',
+    "position": 'QB',
+    "college": 'Boise State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3722362.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '4',
+        "exp": 7,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Anthony Richardson',
     "position": 'QB',
     "college": 'Florida',
