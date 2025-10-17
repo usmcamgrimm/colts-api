@@ -1830,7 +1830,10 @@ players = [
         "year": 2025,
         "number": '48',
         "exp": 6,
-        "status": 'IR'
+        "status": 'Waived',
+        "tackles": 26,
+        "solo_tackles": 11,
+        "assist": 15
       }
     ]
   },
