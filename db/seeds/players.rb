@@ -1031,20 +1031,6 @@ players = [
     ]
   },
   {
-    "name": 'Cameron Mitchell',
-    "position": 'CB',
-    "college": 'Northwestern',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '29',
-        "exp": 3,
-        "status": 'PS',
-      }
-    ]
-  },
-  {
     "name": 'Darren Hall',
     "position": 'CB',
     "college": 'San Diego State',
@@ -1645,6 +1631,20 @@ players = [
         "solo_tackles": 1
       }
     ] 
+  },
+  {
+    "name": 'Cameron Mitchell',
+    "position": 'CB',
+    "college": 'Northwestern',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '43',
+        "exp": 3,
+        "status": 'PS',
+      }
+    ]
   },
   {
     "name": 'Zaire Franklin',
