@@ -421,7 +421,21 @@ players = [
         "year": 2025,
         "number": '9',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Released'
+      }
+    ]
+  },
+  {
+    "name": 'Tanoh Kpassagnon',
+    "position": 'DE',
+    "college": 'Villanova',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '96',
+        "exp": 8,
+        "status": 'PS',
       }
     ]
   },
