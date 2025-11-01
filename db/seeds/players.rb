@@ -1543,7 +1543,7 @@ players = [
         "year": 2025,
         "number": '40',
         "exp": 2,
-        "status": 'IR'
+        "status": 'Active'
       }
     ]
   },
@@ -1583,7 +1583,7 @@ players = [
         "year": 2025,
         "number": '41',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
@@ -1642,7 +1642,7 @@ players = [
         "year": 2025,
         "number": '43',
         "exp": 3,
-        "status": 'PS',
+        "status": 'Active',
       }
     ]
   },
@@ -2108,7 +2108,7 @@ players = [
         "year": 2025,
         "number": '55',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
