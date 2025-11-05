@@ -17,6 +17,20 @@ players = [
     ]
   },
   {
+    "name": 'Sauce Gardner',
+    "position": 'CB',
+    "college": 'Cincinnati',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427250.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '1',
+        "exp": 4,
+        "status": 'Active',
+      }
+    ]
+  },
+  {
     "name": 'Josh Downs',
     "position": 'WR',
     "college": 'North Carolina',
@@ -59,7 +73,7 @@ players = [
       },
       {
         "year": 2025,
-        "number": '1',
+        "number": '2',
         "status": 'Active',
         "exp": 3
       }
@@ -426,20 +440,6 @@ players = [
     ]
   },
   {
-    "name": 'Tanoh Kpassagnon',
-    "position": 'DE',
-    "college": 'Villanova',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '96',
-        "exp": 8,
-        "status": 'PS',
-      }
-    ]
-  },
-  {
     "name": 'Gardner Minshew',
     "position": 'QB',
     "college": 'Washington State',
@@ -488,7 +488,11 @@ players = [
         "year": 2025,
         "number": '10',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Traded',
+        "rec": 9,
+        "rec_yards": 152,
+        "rec_ypc": 16.9,
+        "rec_td": 0
       }
     ]
   },
@@ -3179,16 +3183,16 @@ players = [
     ] 
   },
   {
-    "name": 'Seth Coleman',
+    "name": 'Tanoh Kpassagnon',
     "position": 'DE',
-    "college": 'Illinois',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429436.png&w=350&h=254',
+    "college": 'Villanova',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '96',
-        "exp": 0,
-        "status": 'PS'
+        "exp": 8,
+        "status": 'PS',
       }
     ]
   },
