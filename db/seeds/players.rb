@@ -490,7 +490,7 @@ players = [
         "exp": 1,
         "status": 'Traded',
         "rec": 9,
-        "rec_yards": 152,
+        "rec_yds": 152,
         "rec_ypc": 16.9,
         "rec_td": 0
       }
