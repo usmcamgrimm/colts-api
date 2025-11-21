@@ -1518,6 +1518,20 @@ players = [
     ]
   },
   {
+    "name": 'George Odum',
+    "position": 'S',
+    "college": 'Central Arkansas',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3050199.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '39',
+        "exp": 8,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Jaylon Jones',
     "position": 'CB',
     "college": 'Texas A&M',
@@ -1726,7 +1740,7 @@ players = [
         "year": 2025,
         "number": '45',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -1791,7 +1805,7 @@ players = [
         "year": 2025,
         "number": '47',
         "exp": 3,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -2255,6 +2269,20 @@ players = [
         "number": '60',
         "exp": 1,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Viliami Fehoko Jr.',
+    "position": 'DE',
+    "college": 'San Jose State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374148.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '61',
+        "exp": 2,
+        "status": 'PS',
       }
     ]
   },
@@ -2819,6 +2847,20 @@ players = [
     ]
   },
   {
+    "name": 'Eli Pancol',
+    "position": 'WR',
+    "college": 'Duke',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        number: '83',
+        exp: 0,
+        status: 'WR',
+      }
+    ]
+  },
+  {
     "name": 'Jordan Murray',
     "position": 'TE',
     "college": 'Hawaii',
@@ -3187,6 +3229,20 @@ players = [
     "position": 'DE',
     "college": 'Villanova',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '96',
+        "exp": 8,
+        "status": 'Released',
+      }
+    ]
+  },
+  {
+    "name": 'Chris Wormley',
+    "position": 'DT',
+    "college": 'Michigan',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2977615.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
