@@ -1660,7 +1660,7 @@ players = [
         "year": 2025,
         "number": '43',
         "exp": 3,
-        "status": 'Active',
+        "status": 'Waived',
       }
     ]
   },
