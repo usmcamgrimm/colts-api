@@ -1,14 +1,11 @@
 json.array! @players do |player|
   json.id player.id
   json.name player.name
-  json.position player.position
   json.college player.college
-  json.number player.number
   json.photo player.photo
 
-  # Nested season_stats for this player's years
-  stats = SeasonStat.where(year: player.year, number: player.number)
-  json.season_stats stats do |stat|
+  # Nested season_stats for this player's year
+  json.season_stats player.season_stats do |stat|
     json.year stat.year
     json.number stat.number
     json.exp stat.exp

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_11_27_160418) do
+ActiveRecord::Schema[8.1].define(version: 2025_11_28_162214) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -50,6 +50,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_27_160418) do
     t.integer "pass_att"
     t.integer "pass_td"
     t.integer "pass_yards"
+    t.bigint "player_id"
     t.string "position"
     t.integer "pr_fc"
     t.integer "pr_lng"
@@ -77,6 +78,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_27_160418) do
     t.integer "tackles"
     t.datetime "updated_at", null: false
     t.integer "year"
+    t.index ["player_id"], name: "index_season_stats_on_player_id"
   end
 
   create_table "seasons", force: :cascade do |t|
@@ -95,4 +97,6 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_27_160418) do
     t.integer "week"
     t.integer "year"
   end
+
+  add_foreign_key "season_stats", "players"
 end

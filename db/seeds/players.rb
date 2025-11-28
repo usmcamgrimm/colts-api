@@ -1,6 +1,5 @@
 seasons_by_year = Season.all.index_by(&:year)
 
-# Define your players and their nested season stats (your existing structure)
 players = [
   {
     "name": 'Cam Bynum',
