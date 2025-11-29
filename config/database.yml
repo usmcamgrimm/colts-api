@@ -87,6 +87,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
+    url: <%= ENV['DATABASE_URL'] %>
     database: colts_db_production
     username: colts_db
     password: <%= ENV["COLTS_DB_DATABASE_PASSWORD"] %>
