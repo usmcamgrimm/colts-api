@@ -567,7 +567,13 @@ players = [
         "number": '12',
         "position": 'K',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Waived',
+        "fg_1to19": '0 - 0',
+        "fg_20to29": '1 - 1',
+        "fg_30to39": '3 - 3',
+        "fg_40to49": '4 - 4',
+        "fg_50to59": '2 - 3',
+        "fg_60Plus": '0 - 0'
       }
     ]
   },
