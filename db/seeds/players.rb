@@ -508,6 +508,20 @@ players = [
     ]
   },
   {
+    name: 'Blake Grupe',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254',
+  "season_stats_attributes": [
+    {
+      "year": 2025,
+      "number": '10',
+      "position": 'K',
+      "exp": 3,
+      "status": 'PS'
+    }
+  ]
+  },
+  {
     "name": 'Michael Pittman Jr.',
     "college": 'USC',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254',
@@ -2431,20 +2445,6 @@ players = [
         "position": 'G',
         "exp": 10,
         "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Jimmy Morrissey',
-    "college": 'Pittsburgh',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '65',
-        "position": 'C',
-        "exp": 3,
-        "status": 'PS'
       }
     ]
   },
