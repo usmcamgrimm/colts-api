@@ -2272,7 +2272,7 @@ players = [
         "number": '57',
         "position": 'LB',
         "exp": 1,
-        "status": 'IR'
+        "status": 'Active'
       }
     ]
   },
