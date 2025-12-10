@@ -766,7 +766,7 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 7,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1369,7 +1369,7 @@ players = [
         "number": '38',
         "position": 'CB',
         "exp": 6,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1721,7 +1721,7 @@ players = [
         "number": '43',
         "position": 'CB',
         "exp": 3,
-        "status": 'PS',
+        "status": 'Active',
       }
     ]
   },
@@ -1872,7 +1872,7 @@ players = [
         "number": '47',
         "position": 'CB',
         "exp": 3,
-        "status": 'Released'
+        "status": 'PS'
       }
     ]
   },
