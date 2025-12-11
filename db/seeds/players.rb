@@ -186,7 +186,7 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 7,
-        "status": 'PS',
+        "status": 'Active',
       }
     ]
   },
@@ -358,7 +358,7 @@ players = [
         "number": '7',
         "position": 'CB',
         "exp": 8,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -517,7 +517,7 @@ players = [
       "number": '10',
       "position": 'K',
       "exp": 3,
-      "status": 'PS'
+      "status": 'Active'
     }
   ]
   },
@@ -767,6 +767,20 @@ players = [
         "position": 'QB',
         "exp": 7,
         "status": 'IR'
+      }
+    ]
+  },
+  {
+    "name": 'Philip Rivers',
+    "college": 'North Carolina State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5529.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '17',
+        "position": 'QB',
+        "exp": 18,
+        "status": 'PS',
       }
     ]
   },
@@ -2486,6 +2500,20 @@ players = [
         "number": '65',
         "position": 'G',
         "exp": 2,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Jimmy Morrissey',
+    "college": 'Pittsburgh',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '65',
+        "position": 'C',
+        "exp": 3,
         "status": 'PS'
       }
     ]
