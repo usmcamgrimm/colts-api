@@ -445,7 +445,7 @@ players = [
         "number": '9',
         "position": 'WR',
         "exp": 0,
-        "status": 'Released'
+        "status": 'PS'
       }
     ]
   },
@@ -780,7 +780,7 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 18,
-        "status": 'PS',
+        "status": 'Active',
       }
     ]
   },
@@ -2407,6 +2407,20 @@ players = [
     ]
   },
   {
+    "name": 'Bill Murray',
+    "college": 'William & Mary',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3912189.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '62',
+        "position": 'G',
+        "exp": 2,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Danny Pinter',
     "college": 'Ball State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254',
@@ -2459,6 +2473,20 @@ players = [
         "position": 'G',
         "exp": 10,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Zach Thomas',
+    "college": 'San Diego State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036834.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '64',
+        "position": 'T',
+        "exp":4,
+        "status": 'PS',
       }
     ]
   },
@@ -2652,6 +2680,20 @@ players = [
     ]
   },
   {
+    "name": 'LaDarius Henderson',
+    "college": 'Michigan',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427448.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '69',
+        "position": 'G',
+        "exp": 2,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Matt Goncalves',
     "college": 'Pittsburgh',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427298.png&w=350&h=254',
@@ -2696,7 +2738,7 @@ players = [
         "number": '72',
         "position": 'T',
         "exp": 8,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
