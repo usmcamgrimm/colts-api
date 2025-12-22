@@ -186,7 +186,7 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 7,
-        "status": 'Active',
+        "status": 'Waived',
       }
     ]
   },
