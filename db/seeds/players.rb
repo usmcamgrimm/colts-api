@@ -297,7 +297,7 @@ players = [
         "number": '6',
         "position": 'WR',
         "exp": 1,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -502,6 +502,7 @@ players = [
         "status": 'Traded',
         "rec": 9,
         "rec_yds": 152,
+        "rec_long": 75,
         "rec_ypc": 16.9,
         "rec_td": 0
       }
@@ -738,7 +739,7 @@ players = [
         "number": '16',
         "position": 'WR',
         "exp": 7,
-        "status": 'IR'
+        "status": 'Active'
       }
     ]
   },
@@ -3094,7 +3095,7 @@ players = [
         "number": '85',
         "position": 'TE',
         "exp": 4,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -3421,7 +3422,7 @@ players = [
         "number": '96',
         "position": 'DT',
         "exp": 8,
-        "status": 'PS',
+        "status": 'Active',
       }
     ]
   },
@@ -3505,10 +3506,10 @@ players = [
     "season_stats_attributes": [
       {
         "year": 2023,
-        "number": "99",
-        "position": "DT",
+        "number": '99',
+        "position": 'DT',
         "exp": 8,
-        "status": "Active",
+        "status": 'Active',
         "tackles": 45,
         "solo_tackles": 35,
         "assist": 36,
@@ -3518,10 +3519,10 @@ players = [
       },
       {
         "year": 2024,
-        "number": "99",
-        "position": "DT",
+        "number": '99',
+        "position": 'DT',
         "exp": 9,
-        "status": "Active",
+        "status": 'Active',
         "tackles": 61,
         "solo_tackles": 24,
         "assist": 37,
@@ -3529,10 +3530,10 @@ players = [
       },
       {
         "year": 2025,
-        "number": "99",
-        "position": "DT",
+        "number": '99',
+        "position": 'DT',
         "exp": 10,
-        "status": "Active"
+        "status": 'IR'
       }
     ]
   }
