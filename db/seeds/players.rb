@@ -191,6 +191,20 @@ players = [
     ]
   },
   {
+    "name": 'Seth Henigan',
+    "college": 'Memphis',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4606194.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '4',
+        "position": 'QB',
+        "exp": 0,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Anthony Richardson',
     "college": 'Florida',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254',

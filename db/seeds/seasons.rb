@@ -717,8 +717,8 @@ Season.create!([
   {
     year: 2025,
     week: '18',
-    gamedate: 'TBD',
-    gametime: 'TBD',
+    gamedate: 'Sun 01/04',
+    gametime: '1:00PM',
     location: 'away',
     result: '',
     score: '',
