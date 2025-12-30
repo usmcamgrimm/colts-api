@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_11_28_162214) do
+ActiveRecord::Schema[8.1].define(version: 2025_12_30_135629) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -41,6 +41,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_28_162214) do
     t.string "fg_60Plus"
     t.integer "fumble_rec"
     t.integer "int"
+    t.integer "int_long"
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.integer "kr_ret"
@@ -65,10 +66,12 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_28_162214) do
     t.float "qb_rtng"
     t.integer "qb_sack"
     t.integer "rec"
+    t.integer "rec_long"
     t.integer "rec_td"
     t.integer "rec_yds"
     t.float "rec_ypc"
     t.integer "rush_att"
+    t.integer "rush_long"
     t.integer "rush_td"
     t.integer "rush_yds"
     t.float "rush_ypc"
