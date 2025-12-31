@@ -25,7 +25,7 @@ players = [
         "number": '1',
         "position": 'CB',
         "exp": 4,
-        "status": 'Active',
+        "status": 'Active'
       }
     ]
   },
@@ -149,7 +149,7 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 3,
-        "status": 'PS',
+        "status": 'PS'
       },
       {
         "year": 2024,
@@ -186,7 +186,7 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 7,
-        "status": 'Waived',
+        "status": 'Waived'
       }
     ]
   },
@@ -200,7 +200,7 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 0,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -233,18 +233,18 @@ players = [
         "position": 'QB',
         "exp": 1,
         "status": 'Active',
-        "pass_att": 264, 
+        "pass_att": 264,
         "comp": 126,
         "comp_pct": 47.7,
-        "pass_yards": 1814, 
+        "pass_yards": 1814,
         "pass_td": 8,
         "int": 12,
         "qb_rtng": 61.6,
-        "rush_att": 866, 
-        "rush_yds": 499, 
+        "rush_att": 866,
+        "rush_yds": 499,
         "rush_ypc": 5.8,
         "rush_td": 6,
-        "rec": 1, 
+        "rec": 1,
         "rec_yds": -1
       },
       {
@@ -295,7 +295,7 @@ players = [
         "position": 'WR',
         "exp": 0,
         "status": 'Active',
-        "rec": 1, 
+        "rec": 1,
         "rec_yds": 23,
         "pr_ret": 10,
         "pr_fc": 8,
@@ -499,7 +499,7 @@ players = [
         "position": 'WR',
         "exp": 0,
         "status": 'Active',
-        "pass_att": 1, 
+        "pass_att": 1,
         "comp": 1,
         "pass_yards": 24,
         "rec": 21,
@@ -559,8 +559,8 @@ players = [
         "position": 'WR',
         "exp": 5,
         "status": 'Active',
-        "rec": 69, 
-        "rec_yds": 808, 
+        "rec": 69,
+        "rec_yds": 808,
         "rec_td": 3
       },
       {
@@ -645,7 +645,7 @@ players = [
         "position": 'WR',
         "exp": 2,
         "status": 'Active',
-        "rec": 32, 
+        "rec": 32,
         "rec_yds": 514,
         "rec_ypc": 16.1,
         "rec_td": 2
@@ -656,8 +656,8 @@ players = [
         "position": 'WR',
         "exp": 3,
         "status": 'Active',
-        "rec": 37, 
-        "rec_yds": 824, 
+        "rec": 37,
+        "rec_yds": 824,
         "rec_td": 7
       },
       {
@@ -680,13 +680,13 @@ players = [
         "position": 'QB',
         "exp": 18,
         "status": 'Active',
-        "pass_att": 248, 
+        "pass_att": 248,
         "comp": 162,
-        "pass_yards": 1761, 
+        "pass_yards": 1761,
         "pass_td": 12,
         "qb_rtng": 90.5,
-        "rush_att": 9, 
-        "rush_yds": 26, 
+        "rush_att": 9,
+        "rush_yds": 26,
         "rush_ypc": 2.9
       }
     ]
@@ -737,7 +737,7 @@ players = [
         "position": 'WR',
         "exp": 6,
         "status": 'Active',
-        "rec": 2, 
+        "rec": 2,
         "rec_yds": 67,
         "rec_td": 1,
         "rush_att": 5,
@@ -795,7 +795,7 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 18,
-        "status": 'Active',
+        "status": 'Active'
       }
     ]
   },
@@ -970,7 +970,7 @@ players = [
         "number": '26',
         "position": 'RB',
         "exp": 1,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -1131,11 +1131,11 @@ players = [
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254',
     "season_stats_attributes": [
       {
-        "year": 2023,    
+        "year": 2023,
         "number": '30',
         "position": 'CB',
         "exp": 3,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -1149,7 +1149,7 @@ players = [
         "number": '30',
         "position": 'CB',
         "exp": 0,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -1206,7 +1206,7 @@ players = [
         "position": 'RB',
         "exp": 1,
         "status": 'Active',
-        "rec":6,
+        "rec": 6,
         "rec_yds": 34,
         "rec_ypc": 5.7,
         "rush_att": 13,
@@ -1347,8 +1347,8 @@ players = [
         "number": '34',
         "position": 'CB',
         "exp": 6,
-        "status": 'Active',
-      },
+        "status": 'Active'
+      }
     ]
   },
   {
@@ -1388,7 +1388,7 @@ players = [
         "status": 'Active',
         "def_sacks": 1.0,
         "tackles": 12,
-        "solo_tackles":10,
+        "solo_tackles": 10,
         "assist": 2,
         "def_fumble": 1,
         "fumble_rec": 2
@@ -1426,7 +1426,7 @@ players = [
         "number": '36',
         "position": 'RB',
         "exp": 5,
-        "status": 'PS',
+        "status": 'PS'
       },
       {
         "year": 2025,
@@ -1471,7 +1471,7 @@ players = [
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374301.png&w=350&h=254',
     "season_stats_attributes": [
       {
-        "year":2023,
+        "year": 2023,
         "number": '37',
         "position": 'CB',
         "exp": 2,
@@ -1557,7 +1557,7 @@ players = [
       }
     ]
   },
-  { 
+  {
     "name": 'Michael Tutsie',
     "college": 'North Dakota State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254',
@@ -1612,7 +1612,7 @@ players = [
         "number": '39',
         "position": 'S',
         "exp": 8,
-        "status": 'Active',
+        "status": 'Active'
       }
     ]
   },
@@ -1715,6 +1715,20 @@ players = [
     ]
   },
   {
+    "name": 'Wyett Ekeler',
+    "college": 'Wyoming',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608604.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '42',
+        "position": 'CB',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Trevor Denbow',
     "college": 'SMU',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360538.png&w=350&h=254',
@@ -1738,7 +1752,7 @@ players = [
         "tackles": 1,
         "solo_tackles": 1
       }
-    ] 
+    ]
   },
   {
     "name": 'Cameron Mitchell',
@@ -1750,7 +1764,7 @@ players = [
         "number": '43',
         "position": 'CB',
         "exp": 3,
-        "status": 'Active',
+        "status": 'Active'
       }
     ]
   },
@@ -1887,8 +1901,8 @@ players = [
         "number": '47',
         "position": 'LB',
         "exp": 1,
-        "status": 'PS',
-      },
+        "status": 'PS'
+      }
     ]
   },
   {
@@ -1969,7 +1983,7 @@ players = [
         "number": '58',
         "position": 'LB',
         "exp": 1,
-        "status": 'PS',
+        "status": 'PS'
       },
       {
         "year": 2025,
@@ -2076,7 +2090,7 @@ players = [
         "number": '51',
         "position": 'DE',
         "exp": 4,
-        "status": 'Active',"tackles": 41,
+        "status": 'Active', "tackles": 41,
         "solo_tackles": 29,
         "assist": 12,
         "def_sacks": 8.0,
@@ -2220,7 +2234,7 @@ players = [
         "number": '55',
         "position": 'LB',
         "exp": 1,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -2255,7 +2269,7 @@ players = [
         "number": '56',
         "position": 'G',
         "exp": 7,
-        "status": 'Active',
+        "status": 'Active'
       },
       {
         "year": 2025,
@@ -2396,7 +2410,7 @@ players = [
         "number": '61',
         "position": 'DE',
         "exp": 2,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -2431,7 +2445,7 @@ players = [
         "number": '62',
         "position": 'G',
         "exp": 2,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -2500,8 +2514,8 @@ players = [
         "year": 2025,
         "number": '64',
         "position": 'T',
-        "exp":4,
-        "status": 'PS',
+        "exp": 4,
+        "status": 'Released'
       }
     ]
   },
@@ -2704,7 +2718,7 @@ players = [
         "number": '69',
         "position": 'G',
         "exp": 2,
-        "status": 'PS',
+        "status": 'PS'
       }
     ]
   },
@@ -2977,7 +2991,7 @@ players = [
         "position": 'TE',
         "exp": 7,
         "status": 'Active',
-        "rec": 12, 
+        "rec": 12,
         "rec_yds": 147,
         "rec_td": 1
       },
@@ -3015,7 +3029,7 @@ players = [
         "position": 'TE',
         "exp": 4,
         "status": 'Active',
-        "rec": 14, 
+        "rec": 14,
         "rec_yds": 182,
         "tackles": 2,
         "solo_tackles": 2
@@ -3032,7 +3046,7 @@ players = [
         number: '83',
         "position": 'WR',
         exp: 0,
-        status: 'WR',
+        status: 'WR'
       }
     ]
   },
@@ -3092,7 +3106,7 @@ players = [
         "rec": 9,
         "rec_yds": 147,
         "rec_ypc": 16.3,
-        "rec_td": 2 
+        "rec_td": 2
       },
       {
         "year": 2024,
@@ -3100,7 +3114,7 @@ players = [
         "position": 'TE',
         "exp": 3,
         "status": 'Active',
-        "rec": 9, 
+        "rec": 9,
         "rec_yds": 109,
         "rec_td": 1
       },
@@ -3134,7 +3148,7 @@ players = [
         "position": 'TE',
         "exp": 1,
         "status": 'Active',
-        "rec": 4, 
+        "rec": 4,
         "rec_yds": 29
       },
       {
@@ -3410,7 +3424,7 @@ players = [
         "assist": 9,
         "def_sacks": 1
       }
-    ] 
+    ]
   },
   {
     "name": 'Tanoh Kpassagnon',
@@ -3422,7 +3436,7 @@ players = [
         "number": '96',
         "position": 'DE',
         "exp": 8,
-        "status": 'Released',
+        "status": 'Released'
       }
     ]
   },
@@ -3436,7 +3450,7 @@ players = [
         "number": '96',
         "position": 'DT',
         "exp": 8,
-        "status": 'Active',
+        "status": 'Active'
       }
     ]
   },
@@ -3511,7 +3525,7 @@ players = [
         "assist": 8
       }
     ]
-    
+
   },
   {
     "name": "DeForest Buckner",
