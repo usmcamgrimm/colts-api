@@ -2,6 +2,48 @@ seasons_by_year = Season.all.index_by(&:year)
 
 players = [
   {
+    "name": 'John Bullock',
+    "college": 'Nebraska',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569563.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '',
+        "position": 'LB',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Joseph Vaughn',
+    "college": 'UCLA',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4430632.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '',
+        "position": 'LB',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Rob Carter Jr.',
+    "college": 'Robert Morris',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '',
+        "position": 'CB',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Cam Bynum',
     "college": 'California',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
