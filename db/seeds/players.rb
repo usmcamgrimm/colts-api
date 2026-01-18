@@ -44,6 +44,20 @@ players = [
     ]
   },
   {
+    "name": 'Devin Veresuk',
+    "college": 'Windsor',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '',
+        "position": 'LB',
+        "exp": 0,
+        "status": 'PS',
+      }
+    ]
+  },
+  {
     "name": 'Cam Bynum',
     "college": 'California',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
