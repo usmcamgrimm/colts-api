@@ -2,62 +2,6 @@ seasons_by_year = Season.all.index_by(&:year)
 
 players = [
   {
-    "name": 'John Bullock',
-    "college": 'Nebraska',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569563.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '',
-        "position": 'LB',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Joseph Vaughn',
-    "college": 'UCLA',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4430632.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '',
-        "position": 'LB',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Rob Carter Jr.',
-    "college": 'Robert Morris',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '',
-        "position": 'CB',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
-    "name": 'Devin Veresuk',
-    "college": 'Windsor',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
-    "season_stats_attributes": [
-      {
-        "year": 2025,
-        "number": '',
-        "position": 'LB',
-        "exp": 0,
-        "status": 'PS',
-      }
-    ]
-  },
-  {
     "name": 'Cam Bynum',
     "college": 'California',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
@@ -67,6 +11,13 @@ players = [
         "number": '0',
         "position": 'S',
         "exp": 5,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '0',
+        "position": 'S',
+        "exp": 6,
         "status": 'Active'
       }
     ]
@@ -81,6 +32,13 @@ players = [
         "number": '1',
         "position": 'CB',
         "exp": 4,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '1',
+        "position": 'CB',
+        "exp": 5,
         "status": 'Active'
       }
     ]
@@ -133,6 +91,13 @@ players = [
         "position": 'WR',
         "status": 'Active',
         "exp": 3
+      },
+      {
+        "year": 2026,
+        "number": '2',
+        "position": 'WR',
+        "status": 'Active',
+        "exp": 4
       }
     ]
   },
@@ -192,6 +157,12 @@ players = [
         "position": 'K',
         "exp": 2,
         "status": 'IR'
+      }, {
+        "year": 2026,
+        "number": '3',
+        "position": 'K',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -257,6 +228,13 @@ players = [
         "position": 'QB',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '4',
+        "position": 'QB',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -308,6 +286,13 @@ players = [
         "number": '5',
         "position": 'QB',
         "exp": 2,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '5',
+        "position": 'QB',
+        "exp": 3,
         "status": 'Active'
       }
     ]
@@ -368,6 +353,13 @@ players = [
         "position": 'WR',
         "exp": 1,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '6',
+        "position": 'WR',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -405,20 +397,6 @@ players = [
     ]
   },
   {
-    "name": 'Laquon Treadwell',
-    "college": 'Mississippi',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2024,
-        "number": '7',
-        "position": 'WR',
-        "exp": 6,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
     "name": 'Charvarius Ward',
     "college": 'Middle Tennessee State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
@@ -429,6 +407,13 @@ players = [
         "position": 'CB',
         "exp": 8,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '7',
+        "position": 'CB',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -466,6 +451,13 @@ players = [
         "number": '8',
         "position": 'P',
         "exp": 8,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '8',
+        "position": 'P',
+        "exp": 9,
         "status": 'Active'
       }
     ]
@@ -516,6 +508,13 @@ players = [
         "position": 'WR',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '9',
+        "position": 'WR',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -582,15 +581,22 @@ players = [
     name: 'Blake Grupe',
     college: 'Notre Dame',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254',
-  "season_stats_attributes": [
-    {
-      "year": 2025,
-      "number": '10',
-      "position": 'K',
-      "exp": 3,
-      "status": 'Active'
-    }
-  ]
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '10',
+        "position": 'K',
+        "exp": 3,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '10',
+        "position": 'K',
+        "exp": 4,
+        "status": 'Active'
+      }
+    ]
   },
   {
     "name": 'Michael Pittman Jr.',
@@ -663,6 +669,20 @@ players = [
     ]
   },
   {
+    "name": 'Nick Westbrook-Ikhine',
+    "college": 'Indiana',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3929785.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '12',
+        "position": 'WR',
+        "exp": 7,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'KJ Hamler',
     "college": 'Penn State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240380.png&w=350&h=254',
@@ -682,10 +702,24 @@ players = [
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254',
     "season_stats_attributes": [
       {
+        "year": 2024,
+        "number": '7',
+        "position": 'WR',
+        "exp": 8,
+        "status": 'PS'
+      },
+      {
         "year": 2025,
         "number": '13',
         "position": 'WR',
         "exp": 9,
+        "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '13',
+        "position": 'WR',
+        "exp": 10,
         "status": 'Active'
       }
     ]
@@ -721,6 +755,13 @@ players = [
         "number": '14',
         "position": 'WR',
         "exp": 4,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '14',
+        "position": 'WR',
+        "exp": 5,
         "status": 'Active'
       }
     ]
@@ -772,6 +813,13 @@ players = [
         "position": 'QB',
         "exp": 0,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '15',
+        "position": 'QB',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -810,6 +858,13 @@ players = [
         "position": 'WR',
         "exp": 7,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '16',
+        "position": 'WR',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -838,6 +893,13 @@ players = [
         "position": 'QB',
         "exp": 7,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '17',
+        "position": 'QB',
+        "exp": 8,
+        "status": 'Active'
       }
     ]
   },
@@ -925,6 +987,13 @@ players = [
         "number": '21',
         "position": 'RB',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '21',
+        "position": 'RB',
+        "exp": 1,
         "status": 'Active'
       }
     ]
@@ -1045,6 +1114,20 @@ players = [
     ]
   },
   {
+    "name": 'Cam Taylor-Britt',
+    "college": 'Nebraska',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361196.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '26',
+        "position": 'CB',
+        "exp": 5,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Trey Sermon',
     "college": 'Ohio State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241401.png&w=350&h=254',
@@ -1091,6 +1174,13 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '27',
+        "position": 'CB',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -1133,6 +1223,13 @@ players = [
         "number": '28',
         "position": 'RB',
         "exp": 6,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '28',
+        "position": 'RB',
+        "exp": 7,
         "status": 'Active'
       }
     ]
@@ -1178,6 +1275,13 @@ players = [
         "position": 'CB',
         "exp": 3,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '29',
+        "position": 'CB',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -1220,6 +1324,13 @@ players = [
         "position": 'S',
         "exp": 0,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '30',
+        "position": 'S',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1248,6 +1359,13 @@ players = [
         "position": 'S',
         "exp": 3,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '32',
+        "position": 'S',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -1380,6 +1498,20 @@ players = [
     ]
   },
   {
+    "name": 'Juanyeh Thomas',
+    "college": 'Georgia Tech',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360590.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '33',
+        "position": 'S',
+        "exp": 4,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Zavier Scott',
     "college": 'Maine',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254',
@@ -1418,6 +1550,13 @@ players = [
         "position": 'S',
         "exp": 1,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '34',
+        "position": 'S',
+        "exp": 2,
+        "status": 'Active'
       }
      ]
   },
@@ -1469,6 +1608,13 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '35',
+        "position": 'CB',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1503,6 +1649,13 @@ players = [
         "number": '36',
         "position": 'S',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '36',
+        "position": 'S',
+        "exp": 2,
         "status": 'Active'
       }
     ]
@@ -1577,6 +1730,13 @@ players = [
         "position": 'RB',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '37',
+        "position": 'RB',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1628,6 +1788,20 @@ players = [
     ]
   },
   {
+    "name": 'Jonathan Owens',
+    "college": 'Missouri Western State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4331768.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '38',
+        "position": 'S',
+        "exp": 8,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Darrell Baker Jr.',
     "college": 'Georgia Southern',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254',
@@ -1673,6 +1847,27 @@ players = [
     ]
   },
   {
+    "name": 'Rob Carter Jr.',
+    "college": 'Robert Morris',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2025,
+        "number": '',
+        "position": 'CB',
+        "exp": 0,
+        "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '39',
+        "position": 'CB',
+        "exp": 1,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Jaylon Jones',
     "college": 'Texas A&M',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
@@ -1704,6 +1899,13 @@ players = [
         "number": '40',
         "position": 'CB',
         "exp": 2,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '40',
+        "position": 'CB',
+        "exp": 4,
         "status": 'Active'
       }
     ]
@@ -1746,6 +1948,13 @@ players = [
         "position": 'S',
         "exp": 0,
         "status": 'Waived'
+      },
+      {
+        "year": 2026,
+        "number": '41',
+        "position": 'S',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1781,6 +1990,13 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '42',
+        "position": 'CB',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -1820,6 +2036,13 @@ players = [
         "number": '43',
         "position": 'CB',
         "exp": 3,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '43',
+        "position": 'CB',
+        "exp": 4,
         "status": 'Active'
       }
     ]
@@ -1908,6 +2131,20 @@ players = [
     ]
   },
   {
+    "name": 'Carson Towt',
+    "college": 'Notre Dame',
+    "photo": 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '45',
+        "position": 'TE',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Luke Rhodes',
     "college": 'William & Mary',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254',
@@ -1936,6 +2173,13 @@ players = [
         "number": '46',
         "position": 'LS',
         "exp": 9,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '46',
+        "position": 'LS',
+        "exp": 10,
         "status": 'Active'
       }
     ]
@@ -2023,29 +2267,22 @@ players = [
     ]
   },
   {
-    "name": 'Austin Ajiake',
-    "college": 'UNLV',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254',
+    "name": 'Devin Veresuk',
+    "college": 'Windsor',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
     "season_stats_attributes": [
       {
-        "year": 2023,
-        "number": '49',
+        "year": 2025,
+        "number": '',
         "position": 'LB',
         "exp": 0,
         "status": 'PS'
       },
       {
-        "year": 2024,
-        "number": '58',
+        "year": 2026,
+        "number": '48',
         "position": 'LB',
         "exp": 1,
-        "status": 'PS'
-      },
-      {
-        "year": 2025,
-        "number": '58',
-        "position": 'LB',
-        "exp": 2,
         "status": 'Active'
       }
     ]
@@ -2082,6 +2319,13 @@ players = [
         "position": 'TE',
         "exp": 6,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '49',
+        "position": 'TE',
+        "exp": 5,
+        "status": 'Active'
       }
     ]
   },
@@ -2157,6 +2401,20 @@ players = [
         "number": '51',
         "position": 'DE',
         "exp": 5,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Akeem Davis-Gaither',
+    "college": 'Appalachian State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917142.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '51',
+        "position": 'LB',
+        "exp": 7,
         "status": 'Active'
       }
     ]
@@ -2333,6 +2591,13 @@ players = [
         "position": 'G',
         "exp": 8,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '56',
+        "position": 'G',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -2372,6 +2637,13 @@ players = [
         "position": 'LB',
         "exp": 1,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '57',
+        "position": 'LB',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -2386,6 +2658,41 @@ players = [
         "position": 'DE',
         "exp": 7,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Austin Ajiake',
+    "college": 'UNLV',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '49',
+        "position": 'LB',
+        "exp": 0,
+        "status": 'PS'
+      },
+      {
+        "year": 2024,
+        "number": '58',
+        "position": 'LB',
+        "exp": 1,
+        "status": 'PS'
+      },
+      {
+        "year": 2025,
+        "number": '58',
+        "position": 'LB',
+        "exp": 2,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '58',
+        "position": 'LB',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2452,6 +2759,13 @@ players = [
         "number": '60',
         "position": 'G',
         "exp": 1,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '60',
+        "position": 'G',
+        "exp": 3,
         "status": 'Active'
       }
     ]
@@ -2600,6 +2914,13 @@ players = [
         "position": 'G',
         "exp": 4,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '66',
+        "position": 'G',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -2684,6 +3005,13 @@ players = [
         "position": 'T',
         "exp": 3,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '67',
+        "position": 'T',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2733,6 +3061,13 @@ players = [
         "position": 'G',
         "exp": 1,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '68',
+        "position": 'G',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -2775,6 +3110,13 @@ players = [
         "position": 'G',
         "exp": 2,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '69',
+        "position": 'G',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -2795,6 +3137,13 @@ players = [
         "number": '71',
         "position": 'T',
         "exp": 1,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '71',
+        "position": 'T',
+        "exp": 3,
         "status": 'Active'
       }
     ]
@@ -2828,6 +3177,20 @@ players = [
     ]
   },
   {
+    "name": 'Micheal Clemons',
+    "college": 'Texas A&M',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240896.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '72',
+        "position": 'DE',
+        "exp": 5,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Blake Freeland',
     "college": 'BYU',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254',
@@ -2852,6 +3215,13 @@ players = [
         "position": 'T',
         "exp": 2,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '73',
+        "position": 'T',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -2873,6 +3243,13 @@ players = [
         "position": 'DE',
         "exp": 2,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '74',
+        "position": 'DE',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -2907,6 +3284,13 @@ players = [
         "number": '75',
         "position": 'T',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '75',
+        "position": 'T',
+        "exp": 2,
         "status": 'Active'
       }
     ]
@@ -2971,6 +3355,13 @@ players = [
         "position": 'T',
         "exp": 1,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '78',
+        "position": 'T',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -3000,6 +3391,13 @@ players = [
         "number": '79',
         "position": 'T',
         "exp": 4,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '79',
+        "position": 'T',
+        "exp": 5,
         "status": 'Active'
       }
     ]
@@ -3057,6 +3455,13 @@ players = [
         "position": 'TE',
         "exp": 8,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '81',
+        "position": 'TE',
+        "exp": 9,
+        "status": 'Active'
       }
     ]
   },
@@ -3102,7 +3507,14 @@ players = [
         number: '83',
         "position": 'WR',
         exp: 0,
-        status: 'WR'
+        status: 'PS'
+      },
+      {
+        "year": 2026,
+        number: '83',
+        "position": 'WR',
+        exp: 1,
+        status: 'Active'
       }
     ]
   },
@@ -3145,6 +3557,13 @@ players = [
         "position": 'TE',
         "exp": 0,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '84',
+        "position": 'TE',
+        "exp": 2,
+        "status": 'Active'
       }
     ]
   },
@@ -3175,11 +3594,18 @@ players = [
         "rec_td": 1
       },
       {
-        "year": 2035,
+        "year": 2025,
         "number": '85',
         "position": 'TE',
         "exp": 4,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '85',
+        "position": 'TE',
+        "exp": 5,
+        "status": 'Active'
       }
     ]
   },
@@ -3213,6 +3639,13 @@ players = [
         "position": 'TE',
         "exp": 2,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '86',
+        "position": 'TE',
+        "exp": 4,
+        "status": 'Active'
       }
     ]
   },
@@ -3245,10 +3678,17 @@ players = [
         "def_fumble": 1
       },
       {
-        "year": 2035,
+        "year": 2025,
         "number": '90',
         "position": 'DT',
         "exp": 9,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '90',
+        "position": 'DT',
+        "exp": 10,
         "status": 'Active'
       }
     ]
@@ -3282,7 +3722,7 @@ players = [
     ]
   },
   {
-    "name": 'JT Tuimoloau',
+    "name": 'Jaylahn Tuimoloau',
     "college": 'Ohio State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4566154.png&w=350&h=254',
     "season_stats_attributes": [
@@ -3291,6 +3731,13 @@ players = [
         "number": '91',
         "position": 'DE',
         "exp": 0,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '91',
+        "position": 'DE',
+        "exp": 2,
         "status": 'Active'
       }
     ]
@@ -3342,6 +3789,20 @@ players = [
     ]
   },
   {
+    "name": 'Derrick Nnadi',
+    "college": 'Florida State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122930.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '92',
+        "position": 'DT',
+        "exp": 9,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Eric Johnson II',
     "college": 'Missouri State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254',
@@ -3377,6 +3838,13 @@ players = [
         "position": 'DT',
         "exp": 0,
         "status": 'PS'
+      },
+      {
+        "year": 2026,
+        "number": '93',
+        "position": 'DT',
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -3418,6 +3886,20 @@ players = [
     ]
   },
   {
+    "name": 'Jerry Tillery',
+    "college": 'Notre Dame',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3863182.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '94',
+        "position": 'DT',
+        "exp": 8,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Adetomiwa Adebawore',
     "college": 'Northwestern',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254',
@@ -3448,6 +3930,13 @@ players = [
         "number": '95',
         "position": 'DT',
         "exp": 2,
+        "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '95',
+        "position": 'DT',
+        "exp": 4,
         "status": 'Active'
       }
     ]
@@ -3511,6 +4000,20 @@ players = [
     ]
   },
   {
+    "name": 'Colby Wooden',
+    "college": 'Auburn',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567224.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '96',
+        "position": 'DT',
+        "exp": 4,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Al-Quadin Muhammad',
     "college": 'Miami',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254',
@@ -3547,6 +4050,13 @@ players = [
         "position": 'DE',
         "exp": 1,
         "status": 'Active'
+      },
+      {
+        "year": 2026,
+        "number": '97',
+        "position": 'DE',
+        "exp": 3,
+        "status": 'Active'
       }
     ]
   },
@@ -3581,7 +4091,20 @@ players = [
         "assist": 8
       }
     ]
-
+  },
+  {
+    "name": 'Arden Key',
+    "college": 'LSU',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3843843.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '98',
+        "position": 'DE',
+        "exp": 9,
+        "status": 'Active'
+      }
+    ]
   },
   {
     "name": "DeForest Buckner",
@@ -3618,6 +4141,13 @@ players = [
         "position": 'DT',
         "exp": 10,
         "status": 'IR'
+      },
+      {
+        "year": 2026,
+        "number": '99',
+        "position": 'DT',
+        "exp": 11,
+        "status": 'Active'
       }
     ]
   }
