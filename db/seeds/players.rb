@@ -249,7 +249,14 @@ players = [
         "number": '0',
         "position": 'S',
         "exp": 5,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 81,
+        "solo_tackles": 50,
+        "assist": 31,
+        "def_sacks": 1,
+        "def_fumble": 1,
+        "def_int": 4,
+        "int_long": 14
       },
       {
         "year": 2026,
@@ -270,7 +277,10 @@ players = [
         "number": '1',
         "position": 'CB',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 16,
+        "solo_tackles": 13,
+        "assist": 3
       },
       {
         "year": 2026,
@@ -328,7 +338,20 @@ players = [
         "number": '2',
         "position": 'WR',
         "status": 'Active',
-        "exp": 3
+        "exp": 3,
+        "rec": 58,
+        "rec_yards": 566,
+        "rec_long": 34,
+        "rec_ypc": 9.8,
+        "rec_td": 4,
+        "rush_att": 2,
+        "rush_yds": -2,
+        "rush_long": 3,
+        "rush_ypc": -1,
+        "pr_ret": 8,
+        "pr_fc": 4,
+        "pr_lng": 24,
+        "pr_yds": 8.5
       },
       {
         "year": 2026,
@@ -394,8 +417,15 @@ players = [
         "number": '3',
         "position": 'K',
         "exp": 2,
-        "status": 'IR'
-      }, {
+        "status": 'IR',
+        "fg_1to19": '0 - 0',
+        "fg_20to29": '5 - 5',
+        "fg_30to39": '5 - 5',
+        "fg_40to49": '2 - 2',
+        "fg_50to59": '1 - 2',
+        "fg_60Plus": '0 - 0'
+      },
+      {
         "year": 2026,
         "number": '3',
         "position": 'K',
@@ -524,7 +554,21 @@ players = [
         "number": '5',
         "position": 'QB',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "pass_att": 2,
+        "comp": 1,
+        "pass_yards": 9,
+        "pass_long": 29,
+        "comp_percent": 50,
+        "qb_rtng": 62.5,
+        "rush_att": 4,
+        "rush_yds": -1,
+        "rush_long": 2,
+        "rush_ypc": -0.2,
+        "rec": 1,
+        "rec_yards": 9,
+        "rec_long": 9,
+        "rec_ypc": 9.0
       },
       {
         "year": 2026,
@@ -590,7 +634,20 @@ players = [
         "number": '6',
         "position": 'WR',
         "exp": 1,
-        "status": 'IR'
+        "status": 'IR',
+        "rec": 2,
+        "rec_yards": 6,
+        "rec_long": 3,
+        "rec_ypc": 3.0,
+        "pr_ret": 13,
+        "pr_fc": 7,
+        "pr_lng": 21,
+        "pr_yds": 10.1,
+        "kr_ret": 25,
+        "kr_fc": 0,
+        "kr_yds": 647,
+        "kr_yds_ret": 25.9,
+        "kr_lng": 39
       },
       {
         "year": 2026,
@@ -644,7 +701,10 @@ players = [
         "number": '7',
         "position": 'CB',
         "exp": 8,
-        "status": 'IR'
+        "status": 'IR',
+        "tackles": 25,
+        "solo_tackles": 17,
+        "assist": 8
       },
       {
         "year": 2026,
@@ -689,7 +749,18 @@ players = [
         "number": '8',
         "position": 'P',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "punt": 44,
+        "punt_yards": 2146,
+        "punt_in20": 22,
+        "punt_avg": 48.8,
+        "punt_lng": 59,
+        "pass_att": 1,
+        "comp": 1,
+        "pass_yards": 16,
+        "pass_long": 16,
+        "comp_percent": 100,
+        "qb_rtng": 118.8
       },
       {
         "year": 2026,
@@ -816,16 +887,22 @@ players = [
     ]
   },
   {
-    name: 'Blake Grupe',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254',
+    "name": 'Blake Grupe',
+    "college": 'Notre Dame',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
         "number": '10',
         "position": 'K',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "fg_1to19": '0 - 0',
+        "fg_20to29": '2 - 2',
+        "fg_30to39": '4 - 4',
+        "fg_40to49": '1 - 1',
+        "fg_50to59": '3 - 3',
+        "fg_60Plus": '1 - 1'
       },
       {
         "year": 2026,
@@ -868,7 +945,12 @@ players = [
         "number": '11',
         "position": 'WR',
         "exp": 6,
-        "status": 'Active'
+        "status": 'Active',
+        "rec": 80,
+        "rec_yards": 784,
+        "rec_ypc": 9.8,
+        "rec_long": 27,
+        "rec_td": 7
       }
     ]
   },
@@ -993,7 +1075,12 @@ players = [
         "number": '14',
         "position": 'WR',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "rec": 47,
+        "rec_yards": 1003,
+        "rec_long": 66,
+        "rec_ypc": 21.3,
+        "rec_td": 6
       },
       {
         "year": 2026,
@@ -1050,7 +1137,21 @@ players = [
         "number": '15',
         "position": 'QB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "pass_att": 67,
+        "comp": 39,
+        "pass_yards": 415,
+        "pass_td": 2,
+        "pass_long": 66,
+        "comp_percent": 58.2,
+        "int": 3,
+        "sacked": 1,
+        "qb_rtng": 67.7,
+        "rush_att": 6,
+        "rush_yds": 27,
+        "rush_long": 11,
+        "rush_ypc": 4.5,
+        "rush_td": 2
       },
       {
         "year": 2026,
@@ -1095,7 +1196,22 @@ players = [
         "number": '16',
         "position": 'WR',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Active',
+        "rec": 5,
+        "rec_yards": 106,
+        "rec_ypc": 21.2,
+        "rush_att": 3,
+        "rush_yds": 44,
+        "rush_long": 22,
+        "rush_ypc": 14.7,
+        "tackles": 3,
+        "solo_tackles": 2,
+        "assist": 1,
+        "kr_ret": 16,
+        "kr_fc": 0,
+        "kr_yds": 516,
+        "kr_yds_ret": 32.2,
+        "kr_lng": 55
       },
       {
         "year": 2026,
@@ -1130,7 +1246,21 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 7,
-        "status": 'IR'
+        "status": 'IR',
+        "pass_att": 384,
+        "comp": 61,
+        "pass_yards": 3101,
+        "pass_td": 19,
+        "pass_long": 75,
+        "comp_percent": 68.0,
+        "sacked": 22,
+        "int": 8,
+        "qb_rtng": 100.2,
+        "rush_att": 45,
+        "rush_yds": 164,
+        "rush_long": 19,
+        "rush_ypc": 3.6,
+        "rush_td": 5
       },
       {
         "year": 2026,
@@ -1151,7 +1281,20 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 18,
-        "status": 'Active'
+        "status": 'Active',
+        "pass_att": 92,
+        "comp": 58,
+        "pass_yards": 544,
+        "pass_td": 4,
+        "pass_long": 33,
+        "comp_percent": 63.0,
+        "sacked": 5,
+        "int": 3,
+        "qb_rtng": 80.2,
+        "rush_att": 2,
+        "rush_yds": -1,
+        "rush_long": 0,
+        "rush_ypc": -0.5
       }
     ]
   },
@@ -1189,7 +1332,14 @@ players = [
         "number": '20',
         "position": 'S',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 120,
+        "solo_tackles": 72,
+        "assist": 48,
+        "def_sacks": 2.5,
+        "def_fumble": 1,
+        "def_int": 1,
+        "int_long": 0
       }
     ]
   },
@@ -1225,7 +1375,12 @@ players = [
         "number": '21',
         "position": 'RB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "rush_att": 26,
+        "rush_yds": 96,
+        "rush_ypc": 3.6,
+        "rush_long": 12,
+        "rush_td": 0
       },
       {
         "year": 2026,
@@ -1271,7 +1426,15 @@ players = [
         "number": '23',
         "position": 'CB',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 55,
+        "solo_tackles": 34,
+        "assist": 21,
+        "def_sacks": 1.5,
+        "def_fumble": 2,
+        "def_int": 1,
+        "def_td": 1,
+        "int_long": 32
       }
     ]
   },
@@ -1306,7 +1469,14 @@ players = [
         "number": '25',
         "position": 'S',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "rush_att": 1,
+        "rush_yds": 3,
+        "rush_long": 3,
+        "rush_ypc": 3.0,
+        "tackles": 21,
+        "solo_tackles": 14,
+        "assist": 7
       }
     ]
   },
@@ -1347,7 +1517,21 @@ players = [
         "number": '26',
         "position": 'RB',
         "exp": 11,
-        "status": 'PS'
+        "status": 'PS',
+        "rec": 16,
+        "rec_yards": 99,
+        "rec_long": 15,
+        "rec_ypc": 6.2,
+        "rush_att": 14,
+        "rush_yds": 60,
+        "rush_ypc": 4.3,
+        "rush_long": 14,
+        "rush_td": 1,
+        "kr_ret": 19,
+        "kr_fc": 0,
+        "kr_yds": 563,
+        "kr_yds_ret": 25.9,
+        "kr_lng": 81
       }
     ]
   },
@@ -1461,7 +1645,17 @@ players = [
         "number": '28',
         "position": 'RB',
         "exp": 6,
-        "status": 'Active'
+        "status": 'Active',
+        "rush_att": 323,
+        "rush_yds": 1585,
+        "rush_ypc": 4.9,
+        "rush_long": 83,
+        "rush_td": 18,
+        "rec": 46,
+        "rec_yards": 378,
+        "rec_long": 43,
+        "rec_ypc": 8.2,
+        "rec_td": 2
       },
       {
         "year": 2026,
@@ -1512,7 +1706,13 @@ players = [
         "number": '29',
         "position": 'CB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 64,
+        "solo_tackles": 50,
+        "assist": 14,
+        "def_sacks": 1,
+        "def_int": 2,
+        "int_long": 32
       },
       {
         "year": 2026,
@@ -1647,7 +1847,20 @@ players = [
         "number": '31',
         "position": 'RB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "rush_att": 9,
+        "rush_yds": 24,
+        "rush_long": 6,
+        "rush_ypc": 2.7,
+        "rec": 2,
+        "rec_yards": 8,
+        "rec_long": 8,
+        "rec_ypc": 4.0,
+        "kr_ret": 2,
+        "kr_fc": 0,
+        "kr_yds": 60,
+        "kr_yds_ret": 30,
+        "kr_lng": 31
       }
     ]
   },
@@ -1731,7 +1944,10 @@ players = [
         "number": '33',
         "position": 'CB',
         "exp": 9,
-        "status": 'PS'
+        "status": 'PS',
+        "tackles": 5,
+        "solo_tackles": 4,
+        "assist": 1
       }
     ]
   },
@@ -1831,7 +2047,12 @@ players = [
         "number": '38',
         "position": 'CB',
         "exp": 6,
-        "status": 'IR'
+        "status": 'IR',
+        "tackles": 17,
+        "solo_tackles": 14,
+        "assist": 3,
+        "def_int": 1,
+        "int_long": 0
       }
     ]
   },
@@ -1845,7 +2066,10 @@ players = [
         "number": '35',
         "position": 'CB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 26,
+        "solo_tackles": 19,
+        "assist": 7
       },
       {
         "year": 2026,
@@ -1967,7 +2191,11 @@ players = [
         "number": '37',
         "position": 'RB',
         "exp": 0,
-        "status": 'PS'
+        "status": 'PS',
+        "rush_att": 1,
+        "rush_yds": 0,
+        "rush_long": 0,
+        "rush_ypc": 0.0
       },
       {
         "year": 2026,
@@ -2080,7 +2308,9 @@ players = [
         "number": '39',
         "position": 'S',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 1,
+        "assist": 1
       }
     ]
   },
@@ -2137,7 +2367,10 @@ players = [
         "number": '40',
         "position": 'CB',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 18,
+        "solo_tackles": 13,
+        "assist": 5
       },
       {
         "year": 2026,
@@ -2288,7 +2521,11 @@ players = [
         "number": '43',
         "position": 'CB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 13,
+        "solo_tackles": 9,
+        "assist": 4,
+        "def_fumble": 1
       },
       {
         "year": 2026,
@@ -2334,7 +2571,12 @@ players = [
         "number": '44',
         "position": 'LB',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 125,
+        "solo_tackles": 62,
+        "assist": 63,
+        "def_sacks": 2,
+        "def_fumble": 1
       }
     ]
   },
@@ -2615,7 +2857,10 @@ players = [
         "number": '50',
         "position": 'LB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 6,
+        "solo_tackles": 5,
+        "assist": 1
       }
     ]
   },
@@ -2653,7 +2898,11 @@ players = [
         "number": '51',
         "position": 'DE',
         "exp": 5,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 39,
+        "solo_tackles": 15,
+        "assist": 24,
+        "def_sacks": 4.0
       }
     ]
   },
@@ -2700,7 +2949,11 @@ players = [
         "number": '52',
         "position": 'DE',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 33,
+        "solo_tackles": 22,
+        "assist": 11,
+        "def_sacks": 2
       }
     ]
   },
@@ -2714,7 +2967,12 @@ players = [
         "number": '53',
         "position": 'LB',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 101,
+        "solo_tackles": 57,
+        "assist": 44,
+        "def_fumble": 1,
+        "def_int": 1
       }
     ]
   },
@@ -2888,7 +3146,9 @@ players = [
         "number": '57',
         "position": 'LB',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 1,
+        "assist": 1
       },
       {
         "year": 2026,
@@ -2937,7 +3197,11 @@ players = [
         "number": '58',
         "position": 'LB',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 32,
+        "solo_tackles": 13,
+        "assist": 19,
+        "def_sacks": 0.5
       },
       {
         "year": 2026,
@@ -2975,22 +3239,25 @@ players = [
         "position": 'LB',
         "exp": 3,
         "status": 'Waived',
-        tackles: 2,
-        solo_tackles: 1,
-        assist: 1
+        "tackles": 2,
+        "solo_tackles": 1,
+        "assist": 1
       }
     ]
   },
   {
-    name: 'Buddy Johnson',
-    college: 'Texas A&M',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254',
-    season_stats_attributes: [
+    "name": 'Buddy Johnson',
+    "college": 'Texas A&M',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254',
+    "season_stats_attributes": [
       {
         "number": '59',
         "position": 'LB',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 12,
+        "solo_tackles": 8,
+        "assist": 4
       }
     ]
   },
@@ -3597,9 +3864,9 @@ players = [
     ]
   },
   {
-    name: 'Bayron Matos',
-    college: 'University of South Florida',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612507.png&w=350&h=254',
+    "name": 'Bayron Matos',
+    "college": 'University of South Florida',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612507.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2025,
@@ -3706,7 +3973,12 @@ players = [
         "number": '81',
         "position": 'TE',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "rec": 13,
+        "rec_yards": 117,
+        "rec_long": 20,
+        "rec_ypc": 9,
+        "rec_td": 1
       },
       {
         "year": 2026,
@@ -3756,17 +4028,17 @@ players = [
     "season_stats_attributes": [
       {
         "year": 2025,
-        number: '83',
+        "number": '83',
         "position": 'WR',
-        exp: 0,
-        status: 'PS'
+        "exp": 0,
+        "status": 'PS'
       },
       {
         "year": 2026,
-        number: '83',
+        "number": '83',
         "position": 'WR',
-        exp: 1,
-        status: 'Active'
+        "exp": 1,
+        "status": 'Active'
       }
     ]
   },
@@ -3808,7 +4080,22 @@ players = [
         "number": '84',
         "position": 'TE',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "pass_att": 1,
+        "comp": 0,
+        "pass_yards": 0,
+        "comp_percent": 0,
+        "qb_rtng": 39.6,
+        "rush_att": 6,
+        "rush_yds": 8,
+        "rush_long": 3,
+        "rush_ypc": 1.3,
+        "rush_td": 1,
+        "rec": 76,
+        "rec_yards": 817,
+        "rec_long": 41,
+        "rec_ypc": 10.8,
+        "rec_td": 4
       },
       {
         "year": 2026,
@@ -3850,7 +4137,15 @@ players = [
         "number": '85',
         "position": 'TE',
         "exp": 4,
-        "status": 'IR'
+        "status": 'IR',
+        "tackles": 2,
+        "solo_tackles": 1,
+        "assist": 1,
+        "rec": 4,
+        "rec_yards": 27,
+        "rec_long": 11,
+        "rec_ypc": 6.8,
+        "rec_td": 1
       },
       {
         "year": 2026,
@@ -3890,7 +4185,11 @@ players = [
         "number": '86',
         "position": 'TE',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "rec": 1,
+        "rec_yards": 16,
+        "rec_long": 16,
+        "rec_ypc": 16.0
       },
       {
         "year": 2026,
@@ -3934,7 +4233,14 @@ players = [
         "number": '90',
         "position": 'DT',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 55,
+        "solo_tackles": 23,
+        "assist": 32,
+        "def_int": 1,
+        "def_sacks": 0.5,
+        "def_fumble": 1,
+        "int_long": 3
       },
       {
         "year": 2026,
@@ -3983,7 +4289,10 @@ players = [
         "number": '91',
         "position": 'DE',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 16,
+        "solo_tackles": 6,
+        "assist": 10
       },
       {
         "year": 2026,
@@ -4036,7 +4345,11 @@ players = [
         "number": '92',
         "position": 'DT',
         "exp": 6,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 38,
+        "solo_tackles": 18,
+        "assist": 20,
+        "def_sacks": 3.5
       }
     ]
   },
@@ -4075,7 +4388,10 @@ players = [
         "number": '98',
         "position": 'DT',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 5,
+        "solo_tackles": 3,
+        "assist": 2
       }
     ]
   },
@@ -4133,7 +4449,11 @@ players = [
         "number": '94',
         "position": 'DE',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 6,
+        "solo_tackles": 5,
+        "assist": 1,
+        "def_sacks": 3
       }
     ]
   },
@@ -4182,7 +4502,11 @@ players = [
         "number": '95',
         "position": 'DT',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 36,
+        "solo_tackles": 14,
+        "assist": 22,
+        "def_sacks": 4.0
       },
       {
         "year": 2026,
@@ -4247,7 +4571,10 @@ players = [
         "number": '96',
         "position": 'DT',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 2,
+        "solo_tackles": 2,
+        "def_sacks": 1.0
       }
     ]
   },
@@ -4301,7 +4628,14 @@ players = [
         "number": '97',
         "position": 'DE',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 45,
+        "solo_tackles": 27,
+        "assist": 18,
+        "def_sacks": 8.5,
+        "def_fumble": 1,
+        "def_int": 3,
+        "int_long": 6
       },
       {
         "year": 2026,
@@ -4392,7 +4726,11 @@ players = [
         "number": '99',
         "position": 'DT',
         "exp": 10,
-        "status": 'IR'
+        "status": 'IR',
+        "tackles": 47,
+        "solo_tackles": 30,
+        "assist": 17,
+        "def_sacks": 4
       },
       {
         "year": 2026,
