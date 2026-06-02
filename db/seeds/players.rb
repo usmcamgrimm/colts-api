@@ -502,6 +502,20 @@ players = [
         "number": '4',
         "position": 'QB',
         "exp": 1,
+        "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Easton Stick',
+    "college": 'North Dakota State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3120590.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '4',
+        "position": 'QB',
+        "exp": 0,
         "status": 'Active'
       }
     ]
@@ -2451,6 +2465,20 @@ players = [
     ]
   },
   {
+    "name": 'Jai'Onte' McMillan',
+    "college": 'Minnesota',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4690803.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '42',
+        "position": 'CB',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Anderson Castle',
     "college": 'Duke',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4612558.png&w=350&h=254',
@@ -2481,7 +2509,7 @@ players = [
         "number": '42',
         "position": 'CB',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
@@ -3304,6 +3332,20 @@ players = [
     ]
   },
   {
+    "name": 'Josh Kreutz',
+    "college": 'Illinois',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4709386.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '61',
+        "position": 'C',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Wesley French',
     "college": 'Western Michigan',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254',
@@ -3635,7 +3677,7 @@ players = [
         "number": '69',
         "position": 'G',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
