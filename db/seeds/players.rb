@@ -30,6 +30,20 @@ players = [
     ]
   },
   {
+    "name": 'Bryce Boettcher',
+    "college": 'Oregon',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5088571.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '--',
+        "position": 'LB',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Austin Brown',
     "college": 'Wisonsin',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4827042.png&w=350&h=254',
@@ -80,6 +94,20 @@ players = [
         "year": 2026,
         "number": '--',
         "position": 'EDGE',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Jalen Farmer',
+    "college": 'Kentucky',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4838270.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '--',
+        "position": 'G',
         "exp": 0,
         "status": 'Active'
       }
