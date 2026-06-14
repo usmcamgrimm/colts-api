@@ -2160,7 +2160,7 @@ players = [
         "number": '36',
         "position": 'S',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Retired'
       }
     ]
   },
