@@ -851,7 +851,7 @@ Season.create!([
     oppcity: 'Dallas',
     oppname: 'Cowboys',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/dal.png&h=200&w=200',
-    tadium: 'Lucas Oil Stadium',
+    stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
