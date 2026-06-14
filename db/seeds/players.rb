@@ -2493,7 +2493,7 @@ players = [
     ]
   },
   {
-    "name": 'Jai'Onte' McMillan',
+    "name": 'Jai\'Onte\' McMillan',
     "college": 'Minnesota',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4690803.png&w=350&h=254',
     "season_stats_attributes": [
