@@ -379,7 +379,7 @@ players = [
         "pr_ret": 8,
         "pr_fc": 4,
         "pr_lng": 24,
-        "pr_yds": 8.5
+        "pr_yds_ret": 8.5
       },
       {
         "year": 2026,
@@ -684,7 +684,7 @@ players = [
         "pr_ret": 13,
         "pr_fc": 7,
         "pr_lng": 21,
-        "pr_yds": 10.1,
+        "pr_yds_ret": 10.1,
         "kr_ret": 25,
         "kr_fc": 0,
         "kr_yds": 647,
