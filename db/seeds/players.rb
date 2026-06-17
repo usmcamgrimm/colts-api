@@ -4813,13 +4813,20 @@ players = [
   }
 ]
 
-players.each do |player_attrs|
-  season_stats = player_attrs.delete(:season_stats_attributes)
-  player = Player.create!(player_attrs)
+ActiveRecord::Base.transaction do
+  players.each do |player_attrs|
+    season_stats = player_attrs.delete(:season_stats_attributes)
 
-  season_stats.each do |stat_attrs|
-    SeasonStat.create!(stat_attrs.merge(year: stat_attrs[:year]))
+    player = Player.find_or_initialize_by(name: player_attrs[:name])
+    player.assign_attributes(player_attrs)
+    player.save!
+
+    season_stats.each do |stat_attrs|
+      stat = player.season_stats.find_or_initialize_by(year: stat_attrs[:year])
+      stat.assign_attributes(stat_attrs)
+      stat.save!
+    end
   end
 end
 
-puts "Seeded #{Player.count} players with their season stats!"
+# puts "Seeded #{Player.count} players with #{SeasonStat.count} total season stats!"
