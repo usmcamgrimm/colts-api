@@ -6,6 +6,5 @@ class Api::V1::PlayersController < ApplicationController
 
   def show
     @player = Player.find(params[:id])
-    render :index, formats: [ :json ]
   end
 end
