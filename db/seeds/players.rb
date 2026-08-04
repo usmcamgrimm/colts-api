@@ -197,6 +197,20 @@ players = [
     ]
   },
   {
+    "name": 'Liam Clifford',
+    "college": 'Penn State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4594337.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '3',
+        "position": 'WR',
+        "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Sam Ehlinger',
     "college": 'Texas',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254',
@@ -905,7 +919,7 @@ players = [
         "number": '14',
         "position": 'WR',
         "exp": 5,
-        "status": 'Active'
+        "status": 'PUP'
       }
     ]
   },
@@ -1983,9 +1997,23 @@ players = [
     ]
   },
   {
-    "name": 'Lincoln Pare',
-    "college": 'Texas State-San Marcos',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608607.png&w=350&h=254',
+    "name": 'Tyreque Jones',
+    "college": 'Boise State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260443.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '36',
+        "position": 'S',
+        "exp": 0,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Roydell Williams',
+    "college": 'Florida State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4685723.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2026,
@@ -1997,16 +2025,16 @@ players = [
     ]
   },
   {
-    "name": 'Tyreque Jones',
-    "college": 'Boise State',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260443.png&w=350&h=254',
+    "name": 'Mekhi Rodgers',
+    "college": 'James Madison',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5227277.png&w=350&h=254',
     "season_stats_attributes": [
       {
-        "year": 2023,
+        "year": 2026,
         "number": '36',
-        "position": 'S',
+        "position": 'CB',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -2420,7 +2448,7 @@ players = [
         "number": '43',
         "position": 'CB',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
