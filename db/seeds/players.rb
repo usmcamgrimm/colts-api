@@ -2763,6 +2763,20 @@ players = [
         "number": '49',
         "position": 'TE',
         "exp": 5,
+        "status": 'IR'
+      }
+    ]
+  },
+  {
+    "name": 'Pharaoh Brown',
+    "college": 'Oregon',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971281.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '49',
+        "position": 'TE',
+        "exp": 9,
         "status": 'Active'
       }
     ]
