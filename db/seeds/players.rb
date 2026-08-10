@@ -152,6 +152,13 @@ players = [
         "position": 'WR',
         "status": 'Active',
         "exp": 4
+      },
+      {
+        "year": 2026,
+        "number": '2',
+        "position": 'WR',
+        "status": 'Active',
+        "exp": 5
       }
     ]
   },
@@ -192,20 +199,6 @@ players = [
         "number": '3',
         "position": 'K',
         "exp": 3,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
-    "name": 'Liam Clifford',
-    "college": 'Penn State',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4594337.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2026,
-        "number": '3',
-        "position": 'WR',
-        "exp": 0,
         "status": 'Active'
       }
     ]
