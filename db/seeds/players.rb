@@ -711,15 +711,15 @@ players = [
     ]
   },
   {
-    "name": 'E.J. Horton',
-    "college": 'Purdue',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608533.png&w=350&h=254',
+    "name": 'Keenan Allen',
+    "college": 'California',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2026,
         "number": '10',
-        "position": 'LB',
-        "exp": 0,
+        "position": 'WR',
+        "exp": 14,
         "status": 'Active'
       }
     ]
@@ -2004,20 +2004,6 @@ players = [
     ]
   },
   {
-    "name": 'Roydell Williams',
-    "college": 'Florida State',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4685723.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2026,
-        "number": '36',
-        "position": 'RB',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Mekhi Rodgers',
     "college": 'James Madison',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5227277.png&w=350&h=254',
@@ -2551,6 +2537,20 @@ players = [
     "name": 'Carson Towt',
     "college": 'Notre Dame',
     "photo": 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '45',
+        "position": 'TE',
+        "exp": 0,
+        "status": 'IR'
+      }
+    ]
+  },
+  {
+    "name": 'Tyler Moore',
+    "college": 'Iowa State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683119.png&w=350&h=254',
     "season_stats_attributes": [
       {
         "year": 2026,
@@ -3717,6 +3717,20 @@ players = [
     ]
   },
   {
+    "name": 'Trey Wedig',
+    "college": 'Indiana',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430812.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '69',
+        "position": 'T',
+        "exp": 1,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Matt Goncalves',
     "college": 'Pittsburgh',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427298.png&w=350&h=254',
@@ -3971,7 +3985,21 @@ players = [
         "number": '78',
         "position": 'T',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Roy Mbaeteka',
+    "college": '',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5024661.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '78',
+        "position": 'T',
+        "exp": 1,
+        "status": 'Exempt/International'
       }
     ]
   },
