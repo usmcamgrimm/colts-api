@@ -2332,20 +2332,6 @@ players = [
     ]
   },
   {
-    "name": 'Jai\'Onte\' McMillan',
-    "college": 'Minnesota',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4690803.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2026,
-        "number": '42',
-        "position": 'CB',
-        "exp": 0,
-        "status": 'Active'
-      }
-    ]
-  },
-  {
     "name": 'Anderson Castle',
     "college": 'Duke',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4612558.png&w=350&h=254',
@@ -2646,6 +2632,20 @@ players = [
         "number": '47',
         "position": 'LB',
         "exp": 0,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'JJ Galbreath',
+    "college": 'South Dakota',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695800.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '47',
+        "position": 'TE',
+        "exp": 1,
         "status": 'Active'
       }
     ]
