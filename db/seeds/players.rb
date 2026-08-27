@@ -1572,7 +1572,35 @@ players = [
         "number": '29',
         "position": 'CB',
         "exp": 4,
+        "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Kenneth Harris',
+    "college": 'Oklahoma State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '29',
+        "position": 'CB',
+        "exp": 0,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Darren Hall',
+    "college": 'San Diego State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '30',
+        "position": 'CB',
+        "exp": 3,
+        "status": 'PS'
       }
     ]
   },
