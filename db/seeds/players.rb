@@ -2314,7 +2314,7 @@ players = [
         "number": '40',
         "position": 'CB',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
@@ -2771,6 +2771,20 @@ players = [
         "position": 'LB',
         "exp": 1,
         "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Kenny Fletcher Jr.',
+    "college": 'Rutgers',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4746099.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '48',
+        "position": 'TE',
+        "exp": 0,
+        "status": 'PS'
       }
     ]
   },
@@ -3691,7 +3705,7 @@ players = [
         "number": '67',
         "position": 'T',
         "exp": 4,
-        "status": 'PS'
+        "status": 'Activw'
       }
     ]
   },
