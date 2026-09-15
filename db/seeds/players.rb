@@ -2200,7 +2200,7 @@ players = [
         "number": '38',
         "position": 'S',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Waived'
       }
     ]
   },
