@@ -437,7 +437,7 @@ players = [
         "number": '6',
         "position": 'WR',
         "exp": 3,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -780,6 +780,19 @@ players = [
     ]
   },
   {
+    name: 'Darius Slayton',
+    college: 'Auburn',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916945.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "number": '11',
+        "position": 'WR',
+        "exp": 8,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Kellen Mond',
     "college": 'Texas A&M',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240904.png&w=350&h=254',
@@ -823,7 +836,7 @@ players = [
         "number": '12',
         "position": 'WR',
         "exp": 7,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -912,7 +925,7 @@ players = [
         "number": '14',
         "position": 'WR',
         "exp": 5,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1985,7 +1998,7 @@ players = [
         "number": '35',
         "position": 'CB',
         "exp": 1,
-        "status": 'Active'
+        "status": 'PS'
       }
     ]
   },
@@ -2268,7 +2281,7 @@ players = [
         "number": '39',
         "position": 'CB',
         "exp": 1,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -2397,7 +2410,7 @@ players = [
         "number": '42',
         "position": 'RB',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -3894,7 +3907,7 @@ players = [
         "number": '72',
         "position": 'DE',
         "exp": 5,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -4249,6 +4262,19 @@ players = [
         "rec_yds": 182,
         "tackles": 2,
         "solo_tackles": 2
+      }
+    ]
+  },
+  {
+    name: 'Eli Pancol',
+    college: 'Duke',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "number": '83',
+        "position": 'WR',
+        "exp": 1,
+        "status": 'PS'
       }
     ]
   },
