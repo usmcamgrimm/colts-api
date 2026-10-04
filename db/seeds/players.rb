@@ -620,7 +620,7 @@ players = [
         "number": '9',
         "position": 'WR',
         "exp": 1,
-        "status": 'IR'
+        "status": 'Waived'
       }
     ]
   },
@@ -3569,20 +3569,6 @@ players = [
     ]
   },
   {
-    "name": 'Cameron Ball',
-    "college": 'Arkansas',
-    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4691878.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "year": 2026,
-        "number": '64',
-        "position": 'DT',
-        "exp": 0,
-        "status": 'PS'
-      }
-    ]
-  },
-  {
     "name": 'Josh Sills',
     "college": 'Oklahoma State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254',
@@ -4621,6 +4607,20 @@ players = [
         "position": 'DT',
         "exp": 9,
         "status": 'Released'
+      }
+    ]
+  },
+  {
+    "name": 'Cameron Ball',
+    "college": 'Arkansas',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4691878.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '92',
+        "position": 'DT',
+        "exp": 0,
+        "status": 'PS'
       }
     ]
   },
