@@ -625,6 +625,20 @@ players = [
     ]
   },
   {
+    "name": 'Quez Watkins',
+    "college": 'Southern Mississippi',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050373.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '9',
+        "position": 'WR',
+        "exp": 6,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Gardner Minshew',
     "college": 'Washington State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038524.png&w=350&h=254',
@@ -2797,7 +2811,7 @@ players = [
         "number": '48',
         "position": 'TE',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Waived'
       }
     ]
   },
@@ -2853,7 +2867,7 @@ players = [
         "number": '49',
         "position": 'TE',
         "exp": 9,
-        "status": 'Released'
+        "status": 'Active'
       }
     ]
   },
@@ -3035,6 +3049,13 @@ players = [
         "assist": 44,
         "def_fumble": 1,
         "def_int": 1
+      },
+      {
+        "year": 2025,
+        "number": '59',
+        "position": 'LB',
+        "exp": 8,
+        "status": 'PS'
       }
     ]
   },
@@ -4850,6 +4871,18 @@ players = [
     ]
   },
   {
+    "name": 'Carl Lawson',
+    "college": 'Auburn',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051911.png&w=350&h=254',
+    "season_stats_attributes": [
+      "year": 2026,
+      "number": '96',
+      "position": 'DE',
+      "exp": 9,
+      "status": 'PS'
+    ]
+  },
+  {
     "name": 'Al-Quadin Muhammad',
     "college": 'Miami',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254',
@@ -4945,7 +4978,7 @@ players = [
         "number": '98',
         "position": 'DE',
         "exp": 9,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
