@@ -802,7 +802,7 @@ players = [
         "number": '11',
         "position": 'WR',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Released'
       }
     ]
   },
