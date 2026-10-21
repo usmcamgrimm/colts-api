@@ -290,6 +290,20 @@ players = [
     ]
   },
   {
+    name: 'Thomas Morestead',
+    college: 'SMU',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/12701.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '4',
+        "position": 'P',
+        "exp": 18,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Anthony Richardson',
     "college": 'Florida',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254',
@@ -803,6 +817,20 @@ players = [
         "position": 'WR',
         "exp": 8,
         "status": 'Released'
+      }
+    ]
+  },
+  {
+    name: 'Mecole Hardman',
+    college: 'Georgia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035004.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '11',
+        "position": 'WR',
+        "exp": 7,
+        "status": 'PS'
       }
     ]
   },
