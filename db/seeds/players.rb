@@ -4309,7 +4309,7 @@ players = [
         "number": '83',
         "position": 'WR',
         "exp": 1,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
