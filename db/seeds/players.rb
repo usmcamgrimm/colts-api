@@ -1833,9 +1833,10 @@ players = [
       },
       {
         "year": 2024,
-        "exp": 5,
         "number": '32',
         "position": 'S',
+        "exp": 5,
+        "status": 'Active',
         "tackles": 86,
         "solo_tackles": 62,
         "assist": 24,
