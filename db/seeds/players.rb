@@ -3753,7 +3753,7 @@ players = [
         "number": '67',
         "position": 'T',
         "exp": 4,
-        "status": 'Activw'
+        "status": 'Active'
       }
     ]
   },
