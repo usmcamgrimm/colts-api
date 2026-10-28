@@ -1453,7 +1453,7 @@ players = [
         "number": '26',
         "position": 'CB',
         "exp": 5,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -1641,7 +1641,7 @@ players = [
         "number": '29',
         "position": 'CB',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -2329,6 +2329,20 @@ players = [
     ]
   },
   {
+    "name": 'Shemar Bartholomew',
+    "college": 'Georgia Southern',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4371336.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '39',
+        "position": 'CB',
+        "exp": 2,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Jaylon Jones',
     "college": 'Texas A&M',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
@@ -2371,6 +2385,20 @@ players = [
         "position": 'CB',
         "exp": 4,
         "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Natrone Brooks',
+    "college": 'Southern Mississippi',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4689989.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '40',
+        "position": 'CB',
+        "exp": 3,
+        "status": 'PS'
       }
     ]
   },
@@ -3261,7 +3289,7 @@ players = [
         "number": '56',
         "position": 'G',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Traded'
       }
     ]
   },
@@ -5056,7 +5084,11 @@ players = [
         "number": '99',
         "position": 'DT',
         "exp": 11,
-        "status": 'Active'
+        "status": 'Traded',
+        "tackles": 31,
+        "solo_tackles": 11,
+        "assist": 20,
+        "def_sacks": 4
       }
     ]
   }
