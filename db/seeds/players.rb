@@ -3112,7 +3112,7 @@ players = [
         "number": '59',
         "position": 'LB',
         "exp": 8,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -3671,13 +3671,6 @@ players = [
         "position": 'G',
         "exp": 4,
         "status": 'PS'
-      },
-      {
-        "year": 2026,
-        "number": '66',
-        "position": 'G',
-        "exp": 3,
-        "status": 'PS'
       }
     ]
   },
@@ -3734,6 +3727,20 @@ players = [
         "position": 'C',
         "exp": 0,
         "status": 'IR'
+      }
+    ]
+  },
+  {
+    "name": 'Joshua Gray',
+    "college": 'Oregon State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4570485.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '66',
+        "position": 'G',
+        "exp": 1,
+        "status": 'PS'
       }
     ]
   },
@@ -4007,6 +4014,20 @@ players = [
         "position": 'T',
         "exp": 4,
         "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Charlie Heck',
+    "college": 'North Carolina',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3895840.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '73',
+        "position": 'OT',
+        "exp": 7,
+        "status": 'Active'
       }
     ]
   },
