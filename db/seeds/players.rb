@@ -4060,6 +4060,20 @@ players = [
     ]
   },
   {
+    "name": 'Kevin Givens',
+    "college": 'Penn State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3929641.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '74',
+        "position": 'DT',
+        "exp": 7,
+        "status": 'Active'
+      }
+    ]
+  },
+  {
     "name": 'Will Fries',
     "college": 'Penn Statee',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254',
