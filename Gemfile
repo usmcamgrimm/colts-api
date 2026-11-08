@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", ">= 8.1.3.1"
+gem "rails", ">= 8.1.4.1"
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.6"
+gem "pg", ">= 1.7"
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", ">= 5.0"
+gem "puma", ">= 8.0.2"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+gem "jbuilder", ">= 2.15.1"
 
 gem "rack-attack", "~> 6.8"
 
@@ -18,9 +18,9 @@ gem "rack-attack", "~> 6.8"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
-gem "solid_cache"
-gem "solid_queue"
-gem "solid_cable"
+gem "solid_cache", ">= 1.0.10"
+gem "solid_queue", ">= 1.7.2"
+gem "solid_cable", ">= 4.1"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
