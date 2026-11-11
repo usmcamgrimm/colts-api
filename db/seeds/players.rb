@@ -119,8 +119,23 @@ players = [
         "year": 2026,
         "number": '2',
         "position": 'WR',
-        "status": 'Active',
-        "exp": 4
+        "status": 'Traded',
+        "exp": 4,
+        "rec": 33,
+        "rec_yds": 354,
+        "rec_ypc": 10.7,
+        "rec_long": 42,
+        "rec_td": 1,
+        "rush_att": 1,
+        "rush_yds": 7,
+        "rush_long": 7,
+        "rush_ypc": 7.0,
+        "tackles": 1,
+        "solo_tackles": 1,
+        "pr_ret": 2,
+        "pr_fc": 3,
+        "pr_lng": 20,
+        "pr_yds_ret": 10.0
       }
     ]
   },
@@ -748,7 +763,14 @@ players = [
         "number": '10',
         "position": 'WR',
         "exp": 14,
-        "status": 'Active'
+        "status": 'Traded',
+        "rec": 40,
+        "rec_yds": 351,
+        "rec_ypc": 8.8,
+        "rec_long": 26,
+        "rec_td": 1,
+        "tackles": 2,
+        "solo_tackles": 2
       }
     ]
   },
@@ -2869,6 +2891,20 @@ players = [
         "position": 'TE',
         "exp": 0,
         "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Jacob Bobenmoyer',
+    "college": 'Northern Colorado',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3925443.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '48',
+        "position": 'LS',
+        "exp": 7,
+        "status": 'PS'
       }
     ]
   },
