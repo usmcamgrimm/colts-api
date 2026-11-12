@@ -25,7 +25,11 @@ players = [
         "number": '0',
         "position": 'S',
         "exp": 6,
-        "status": 'Active'
+        "status": 'Active',
+        "tackles": 30,
+        "solo_tackles": 19,
+        "assist": 11,
+        "def_int": 1
       }
     ]
   },
