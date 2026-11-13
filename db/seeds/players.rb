@@ -318,7 +318,7 @@ players = [
         "number": '4',
         "position": 'P',
         "exp": 18,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
