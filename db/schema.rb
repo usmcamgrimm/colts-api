@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_13_162852) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_14_132546) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -30,6 +30,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_13_162852) do
     t.integer "tackles_loss"
     t.integer "xp_att"
     t.integer "xp_made"
+    t.integer "sacked"
   end
 
   create_table "season_stats", force: :cascade do |t|
