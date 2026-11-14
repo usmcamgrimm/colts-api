@@ -337,13 +337,17 @@ players = [
         "comp": 50,
         "comp_pct": 59.5,
         "pass_yards": 577,
+        "pass_ypg": 144.3,
         "pass_td": 3,
         "int": 1,
+        "sacked": 7,
         "qb_rtng": 87.3,
         "rush_att": 25,
         "rush_yds": 136,
         "rush_ypc": 5.4,
-        "rush_td": 4
+        "rush_td": 4,
+        "rush_ypg": 34.0,
+        "off_fumble": 2
       },
       {
         "year": 2024,
@@ -406,12 +410,14 @@ players = [
         "position": 'WR',
         "exp": 7,
         "status": 'Active',
+        "games": 13,
         "rec": 11,
         "rec_yds": 82,
         "rec_ypc": 7.5,
         "rush_att": 3,
         "rush_yds": 14,
         "rush_ypc": 4.7,
+        "rush_ypg": 1.1,
         "pr_ret": 23,
         "pr_fc": 16,
         "pr_yds_ret": 8.9,
@@ -682,17 +688,22 @@ players = [
         "position": 'QB',
         "exp": 5,
         "status": 'Active',
+        "games": 17,
         "pass_att": 490,
         "comp": 305,
         "comp_pct": 62.2,
         "pass_yards": 3305,
+        "pass_ypg": 194.4,
         "pass_td": 15,
         "int": 9,
+        "sacked": 34,
         "qb_rtng": 84.6,
         "rush_att": 34,
         "rush_yds": 100,
         "rush_ypc": 2.9,
-        "rush_td": 3
+        "rush_td": 3,
+        "rush_ypg": 5.9,
+        "off_fumble": 2
       }
     ]
   },
@@ -1274,6 +1285,7 @@ players = [
         "position": 'RB',
         "exp": 4,
         "status": 'Active',
+        "games": 14,
         "rec": 27,
         "rec_yds": 192,
         "rec_ypc": 7.1,
@@ -1281,7 +1293,8 @@ players = [
         "rush_att": 183,
         "rush_yds": 794,
         "rush_ypc": 4.3,
-        "rush_td": 5
+        "rush_td": 5,
+        "rush_ypg": 56.7
       }
     ]
   },
@@ -1425,12 +1438,14 @@ players = [
         "position": 'RB',
         "exp": 0,
         "status": 'IR',
+        "games": 1,
         "rec": 1,
         "rec_yds": 6,
         "rec_ypc": 6.0,
         "rush_att": 1,
         "rush_yds": 1,
-        "rush_ypc": 1.0
+        "rush_ypc": 1.0,
+        "rush_ypg": 1.0
       },
       {
         "year": 2024,
@@ -1494,12 +1509,14 @@ players = [
         "position": 'RB',
         "exp": 3,
         "status": 'Active',
+        "games": 14,
         "rec": 3,
         "rec_yds": 13,
         "rec_ypc": 4.3,
         "rush_att": 35,
         "rush_yds": 160,
-        "rush_ypc": 4.6
+        "rush_ypc": 4.6,
+        "rush_ypg": 11.4
       },
       {
         "year": 2024,
@@ -1551,6 +1568,7 @@ players = [
         "position": 'RB',
         "exp": 4,
         "status": 'Active',
+        "games": 10,
         "rec": 19,
         "rec_yds": 153,
         "rec_ypc": 8.1,
@@ -1558,7 +1576,9 @@ players = [
         "rush_att": 169,
         "rush_yds": 741,
         "rush_ypc": 4.4,
-        "rush_td": 7
+        "rush_td": 7,
+        "rush_ypg": 74.1,
+        "off_fumble": 1
       },
       {
         "year": 2024,
@@ -1780,12 +1800,14 @@ players = [
         "position": 'RB',
         "exp": 1,
         "status": 'Active',
+        "games": 6,
         "rec": 6,
         "rec_yds": 34,
         "rec_ypc": 5.7,
         "rush_att": 13,
         "rush_yds": 87,
-        "rush_ypc": 6.7
+        "rush_ypc": 6.7,
+        "rush_ypg": 14.5
       },
       {
         "year": 2024,
@@ -1943,6 +1965,25 @@ players = [
     ]
   },
   {
+    "name": 'Jake Funk',
+    "college": 'Maryland',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '34',
+        "position": 'RB',
+        "exp": 2,
+        "status": 'Active',
+        "games": 4,
+        "rush_att": 2,
+        "rush_yds": 10,
+        "rush_ypc": 5.0,
+        "rush_ypg": 2.5
+      }
+    ]
+  },
+  {
     "name": 'Zavier Scott',
     "college": 'Maine',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254',
@@ -2068,6 +2109,25 @@ players = [
         "position": 'CB',
         "exp": 1,
         "status": 'PS'
+      }
+    ]
+  },
+  {
+    "name": 'Deon Jackson',
+    "college": 'Duke',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '35',
+        "position": 'RB',
+        "exp": 2,
+        "status": 'Active',
+        "games": 2,
+        "rush_att": 13,
+        "rush_yds": 14,
+        "rush_ypc": 1.1,
+        "rush_ypg": 7.0
       }
     ]
   },
@@ -4383,13 +4443,15 @@ players = [
         "position": 'TE',
         "exp": 3,
         "status": 'Active',
+        "games": 15,
         "rec": 30,
         "rec_yds": 368,
         "rec_ypc": 12.3,
         "rec_td": 1,
         "rush_att": 1,
         "rush_yds": 2,
-        "rush_ypc": 2.0
+        "rush_ypc": 2.0,
+        "rush_ypg": 0.1
       },
       {
         "year": 2024,
