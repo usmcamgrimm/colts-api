@@ -790,6 +790,20 @@ players = [
     ]
   },
   {
+    "name": 'Samori Toure',
+    "college": 'Nebraska',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4027873.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '10',
+        "position": 'WR',
+        "exp": 3,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Michael Pittman Jr.',
     "college": 'USC',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254',
@@ -1184,7 +1198,23 @@ players = [
         "number": '17',
         "position": 'QB',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Waived',
+        "comp": 182,
+        "pass_att": 302,
+        "comp_pct": 60.3,
+        "pass_yards": 1722,
+        "pass_td": 6,
+        "int": 10,
+        "pass_long": 55,
+        "sacked": 24,
+        "qb_rtng": 68.9,
+        "rush_att": 28,
+        "rush_yds": 86,
+        "rush_long": 17,
+        "rush_ypc": 3.1,
+        "rush_td": 1,
+        "tackles": 1,
+        "solo_tackles": 1
       }
     ]
   },
@@ -2858,7 +2888,7 @@ players = [
         "number": '47',
         "position": 'LB',
         "exp": 0,
-        "status": 'PS'
+        "status": 'Active'
       }
     ]
   },
@@ -2968,7 +2998,7 @@ players = [
         "number": '48',
         "position": 'LS',
         "exp": 7,
-        "status": 'PS'
+        "status": 'Released'
       }
     ]
   },
@@ -3135,7 +3165,7 @@ players = [
         "number": '51',
         "position": 'LB',
         "exp": 7,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -3437,7 +3467,7 @@ players = [
         "number": '57',
         "position": 'LB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -4428,7 +4458,7 @@ players = [
         "number": '81',
         "position": 'TE',
         "exp": 9,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -4467,19 +4497,6 @@ players = [
     ]
   },
   {
-    name: 'Eli Pancol',
-    college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254',
-    "season_stats_attributes": [
-      {
-        "number": '83',
-        "position": 'WR',
-        "exp": 1,
-        "status": 'Released'
-      }
-    ]
-  },
-  {
     "name": 'Eli Pancol',
     "college": 'Duke',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254',
@@ -4497,6 +4514,20 @@ players = [
         "position": 'WR',
         "exp": 1,
         "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Harrison Bryant',
+    "college": 'Florida Atlantic',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040774.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '83',
+        "position": 'TE',
+        "exp": 7,
+        "status": 'PS'
       }
     ]
   },
