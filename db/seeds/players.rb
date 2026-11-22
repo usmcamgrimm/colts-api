@@ -68,9 +68,13 @@ players = [
         "position": 'WR',
         "status": 'Active',
         "exp": 0,
+        "games": 17,
         "rec": 68,
+        "rec_targets": 98,
         "rec_yds": 771,
+        "rec_yac": 371,
         "rec_ypc": 11.3,
+        "rec_ypg": 45.4,
         "rec_td": 2,
         "pr_ret": 6,
         "pr_fc": 6,
@@ -79,7 +83,9 @@ players = [
         "kr_ret": 2,
         "kr_fc": 1,
         "kr_yds_ret": 12.0,
-        "kr_lng": 17
+        "kr_lng": 17,
+        "tackles": 2,
+        "solo_tackles": 2
       },
       {
         "year": 2024,
@@ -153,9 +159,13 @@ players = [
         "number": '2',
         "position": 'WR',
         "status": 'Active',
-        "rec": 7,
+        "games": 7,
+        "rec": 3,
+        "rec_targets": 8,
         "rec_yds": 56,
-        "rec_ypc": 8.0,
+        "rec_ypc": 18.7,
+        "rec_yac": 28,
+        "rec_ypg": 8.0,
         "rec_td": 1
       },
       {
@@ -412,8 +422,11 @@ players = [
         "status": 'Active',
         "games": 13,
         "rec": 11,
+        "rec_targets": 14,
         "rec_yds": 82,
         "rec_ypc": 7.5,
+        "rec_yac": 72,
+        "rec_ypg": 6.3,
         "rush_att": 3,
         "rush_yds": 14,
         "rush_ypc": 4.7,
@@ -491,6 +504,11 @@ players = [
         "position": 'K',
         "exp": 5,
         "status": 'Active',
+        "games": 17,
+        "tackles": 1,
+        "solo_tackles": 1,
+        "xp_made": 35,
+        "xp_att": 36,
         "fg_1to19": '0',
         "fg_20to29": '9-9',
         "fg_30to39": '9-10',
@@ -814,11 +832,18 @@ players = [
         "position": 'WR',
         "exp": 4,
         "status": 'Active',
+        "games": 16,
+        "rec_targets": 156,
         "rec": 109,
         "rec_yds": 1152,
+        "rec_yac": 513,
         "rec_ypc": 10.6,
+        "rec_ypg": 72.0,
         "rec_td": 4,
-        "kr_lng": 5
+        "off_fumble": 1,
+        "kr_lng": 5,
+        "tackles": 1,
+        "solo_tackles": 1
       },
       {
         "year": 2024,
@@ -986,10 +1011,16 @@ players = [
         "position": 'WR',
         "exp": 2,
         "status": 'Active',
+        "games": 17,
         "rec": 32,
+        "rec_targets": 65,
         "rec_yds": 514,
+        "rec_yac": 97,
         "rec_ypc": 16.1,
-        "rec_td": 2
+        "rec_ypg": 30.2,
+        "rec_td": 2,
+        "tackles": 2,
+        "solo_tackles": 2
       },
       {
         "year": 2024,
@@ -1256,9 +1287,12 @@ players = [
         "position": 'S',
         "exp": 2,
         "status": 'Active',
+        "games": 17,
         "tackles": 24,
         "solo_tackles": 20,
         "assist": 15,
+        "tackles_loss": 1,
+        "pass_def": 2,
         "def_int": 1
       },
       {
@@ -1317,8 +1351,11 @@ players = [
         "status": 'Active',
         "games": 14,
         "rec": 27,
+        "rec_targets": 37,
         "rec_yds": 192,
         "rec_ypc": 7.1,
+        "rec_yac": 189,
+        "rec_ypg": 13.7,
         "rec_td": 2,
         "rush_att": 183,
         "rush_yds": 794,
@@ -1365,10 +1402,13 @@ players = [
         "position": 'CB',
         "exp": 7,
         "status": 'Active',
+        "games": 16,
         "tackles": 68,
         "solo_tackles": 60,
         "assist": 25,
+        "tackles_loss": 8,
         "def_sacks": 1.5,
+        "pass_def": 6,
         "def_int": 3,
         "def_td": 2
       },
@@ -1412,9 +1452,11 @@ players = [
         "position": 'S',
         "exp": 2,
         "status": 'Active',
+        "games": 17,
         "tackles": 30,
         "solo_tackles": 27,
         "assist": 4,
+        "pass_def": 4,
         "def_int": 2
       },
       {
@@ -1470,8 +1512,11 @@ players = [
         "status": 'IR',
         "games": 1,
         "rec": 1,
+        "rec_targets": 1,
         "rec_yds": 6,
         "rec_ypc": 6.0,
+        "rec_yac": 3,
+        "rec_ypg": 6.0,
         "rush_att": 1,
         "rush_yds": 1,
         "rush_ypc": 1.0,
@@ -1541,8 +1586,11 @@ players = [
         "status": 'Active',
         "games": 14,
         "rec": 3,
+        "rec_targets": 6,
         "rec_yds": 13,
         "rec_ypc": 4.3,
+        "rec_yac": 6,
+        "rec_ypg": 0.9,
         "rush_att": 35,
         "rush_yds": 160,
         "rush_ypc": 4.6,
@@ -1600,8 +1648,11 @@ players = [
         "status": 'Active',
         "games": 10,
         "rec": 19,
+        "rec_targets": 23,
         "rec_yds": 153,
         "rec_ypc": 8.1,
+        "rec_yac": 174,
+        "rec_ypg": 15.3,
         "rec_td": 1,
         "rush_att": 169,
         "rush_yds": 741,
@@ -1661,9 +1712,11 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'Active',
+        "games": 9,
         "tackles": 30,
         "solo_tackles": 28,
         "assist": 13,
+        "pass_def": 6,
         "def_fumble": 1,
         "def_int": 1,
         "fumble_rec": 1
@@ -1832,8 +1885,11 @@ players = [
         "status": 'Active',
         "games": 6,
         "rec": 6,
+        "rec_targets": 9,
         "rec_yds": 34,
         "rec_ypc": 5.7,
+        "rec_yac": 51,
+        "rec_ypg": 5.7,
         "rush_att": 13,
         "rush_yds": 87,
         "rush_ypc": 6.7,
@@ -1903,9 +1959,12 @@ players = [
         "position": 'S',
         "exp": 4,
         "status": 'IR',
+        "games": 15,
         "tackles": 65,
         "solo_tackles": 52,
         "assist": 23,
+        "tackles_loss": 5,
+        "pass_def": 8,
         "def_int": 4,
         "fumble_rec": 2
       },
@@ -1935,9 +1994,12 @@ players = [
         "position": 'CB',
         "exp": 2,
         "status": 'IR',
+        "games": 4,
         "tackles": 11,
         "solo_tackles": 11,
         "assist": 4,
+        "tackles_loss": 1,
+        "pass_def": 3,
         "kr_ret": 1,
         "kr_fc": 2,
         "kr_yds_ret": 19.0,
@@ -2006,6 +2068,12 @@ players = [
         "exp": 2,
         "status": 'Active',
         "games": 4,
+        "rec": 1,
+        "rec_targets": 1,
+        "rec_yds": 12,
+        "rec_ypc": 12.0,
+        "rec_yac": 12,
+        "rec_ypg": 3.0,
         "rush_att": 2,
         "rush_yds": 10,
         "rush_ypc": 5.0,
@@ -2087,9 +2155,11 @@ players = [
         "position": 'CB',
         "exp": 4,
         "status": 'Active',
+        "games": 4,
         "tackles": 4,
         "solo_tackles": 2,
-        "assist": 2
+        "assist": 2,
+        "pass_def": 1
       },
       {
         "year": 2024,
@@ -2154,6 +2224,13 @@ players = [
         "exp": 2,
         "status": 'Active',
         "games": 2,
+        "rec": 5,
+        "rec_targets": 6,
+        "rec_yds": 14,
+        "rec_ypc": 2.8,
+        "rec_yac": 20,
+        "rec_ypg": 7.0,
+        "off_fumble": 1,
         "rush_att": 13,
         "rush_yds": 14,
         "rush_ypc": 1.1,
@@ -2270,9 +2347,11 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'Active',
-        "tackles": 8,
-        "solo_tackles": 8,
-        "assist": 1
+        "games": 8,
+        "tackles": 6,
+        "solo_tackles": 5,
+        "assist": 1,
+        "tackles_loss": 1
       }
     ]
   },
@@ -2340,9 +2419,11 @@ players = [
         "position": 'CB',
         "exp": 5,
         "status": 'Active',
+        "games": 12,
         "tackles": 8,
         "solo_tackles": 8,
         "assist": 2,
+        "pass_def": 1,
         "def_int": 1,
         "def_fumble": 1
       }
@@ -2387,9 +2468,11 @@ players = [
         "position": 'CB',
         "exp": 1,
         "status": 'Active',
+        "games": 14,
         "tackles": 28,
         "solo_tackles": 25,
-        "assist": 7
+        "assist": 7,
+        "pass_def": 7
       }
     ]
   },
@@ -2469,9 +2552,12 @@ players = [
         "position": 'CB',
         "exp": 0,
         "status": 'Active',
+        "games": 17,
         "tackles": 33,
         "solo_tackles": 32,
-        "assist": 11
+        "assist": 11,
+        "tackles_loss": 1,
+        "pass_def": 5
       },
       {
         "year": 2024,
@@ -2529,6 +2615,7 @@ players = [
         "position": 'LB',
         "exp": 3,
         "status": 'Active',
+        "games": 17,
         "tackles": 6,
         "solo_tackles": 6,
         "assist": 1
@@ -2633,6 +2720,7 @@ players = [
         "position": 'S',
         "exp": 2,
         "status": 'Active',
+        "games": 17,
         "tackles": 9,
         "solo_tackles": 6,
         "assist": 3
@@ -2684,10 +2772,13 @@ players = [
         "position": 'LB',
         "exp": 6,
         "status": 'Active',
+        "games": 16,
         "tackles": 107,
         "solo_tackles": 87,
         "assist": 72,
+        "tackles_loss": 3,
         "def_sacks": 1.5,
+        "pass_def": 6,
         "def_fumble": 2
       },
       {
@@ -2742,10 +2833,13 @@ players = [
         "position": 'LB',
         "exp": 5,
         "status": 'Active',
+        "games": 16,
         "tackles": 78,
         "solo_tackles": 64,
         "assist": 24,
+        "tackles_loss": 12,
         "def_sacks": 1.0,
+        "pass_def": 4,
         "def_fumble": 3
       },
       {
@@ -2814,6 +2908,7 @@ players = [
         "position": 'LS',
         "exp": 7,
         "status": 'Active',
+        "games": 17,
         "tackles": 3,
         "solo_tackles": 1,
         "assist": 2
@@ -2917,9 +3012,12 @@ players = [
         "position": 'LB',
         "exp": 6,
         "status": 'Active',
+        "games": 7,
         "tackles": 11,
         "solo_tackles": 10,
         "assist": 9,
+        "tackles_loss": 1,
+        "pass_def": 2,
         "def_int": 2,
         "def_td": 1,
         "def_sacks": 1.0
@@ -3069,9 +3167,11 @@ players = [
         "position": 'LB',
         "exp": 1,
         "status": 'Active',
+        "games": 15,
         "tackles": 20,
         "solo_tackles": 15,
         "assist": 6,
+        "pass_def": 1,
         "def_int": 1,
         "fumble_rec": 1
       },
@@ -3124,9 +3224,11 @@ players = [
         "position": 'DE',
         "exp": 3,
         "status": 'Active',
+        "games": 16,
         "tackles": 31,
         "solo_tackles": 20,
         "assist": 21,
+        "tackles_loss": 8,
         "def_sacks": 8.5,
         "def_fumble": 2,
         "fumble_rec": 2
@@ -3180,10 +3282,13 @@ players = [
         "position": 'DE',
         "exp": 7,
         "status": 'Active',
+        "games": 17,
         "tackles": 39,
         "solo_tackles": 31,
         "assist": 18,
+        "tackles_loss": 10,
         "def_sacks": 9.5,
+        "pass_def": 1,
         "def_fumble": 3
       },
       {
@@ -3217,6 +3322,24 @@ players = [
         "position": 'EDGE',
         "exp": 0,
         "status": 'Active'
+      }
+    ]
+  },
+  {
+    "name": 'Shaquille Leonard',
+    "college": 'South Carolina State',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3056362.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2023,
+        "number": '53',
+        "position": 'LB',
+        "exp": 5,
+        "status": 'Waived',
+        "tackles": 65,
+        "solo_tackles": 34,
+        "assist": 31,
+        "tackles_loss": 2
       }
     ]
   },
@@ -3271,9 +3394,11 @@ players = [
         "position": 'DE',
         "exp": 3,
         "status": 'Active',
+        "games": 17,
         "tackles": 22,
         "solo_tackles": 20,
         "assist": 16,
+        "tackles_loss": 5,
         "def_sacks": 8.0,
         "def_fumble": 2,
         "fumble_rec": 2
@@ -3346,6 +3471,7 @@ players = [
         "position": 'LB',
         "exp": 0,
         "status": 'Active',
+        "games": 7,
         "tackles": 2,
         "solo_tackles": 2,
         "assist": 4,
@@ -3398,7 +3524,10 @@ players = [
         "number": '56',
         "position": 'G',
         "exp": 6,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 17,
+        "tackles": 1,
+        "solo_tackles": 1
       },
       {
         "year": 2024,
@@ -3535,7 +3664,9 @@ players = [
         "position": 'LB',
         "exp": 1,
         "status": 'Active',
-        "tackles": 2,
+        "games": 12,
+        "tackles": 4,
+        "solo_tackles": 2,
         "assist": 2
       },
       {
@@ -3563,6 +3694,7 @@ players = [
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254',
     "season_stats_attributes": [
       {
+        "year": 2025,
         "number": '59',
         "position": 'LB',
         "exp": 4,
@@ -4297,7 +4429,10 @@ players = [
         "number": '78',
         "position": 'C',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 14,
+        "tackles": 1,
+        "solo_tackles": 1
       },
       {
         "year": 2024,
@@ -4426,10 +4561,16 @@ players = [
         "position": 'TE',
         "exp": 6,
         "status": 'Active',
+        "games": 17,
         "rec": 13,
+        "rec_targets": 22,
         "rec_yds": 161,
         "rec_ypc": 12.4,
-        "rec_td": 3
+        "rec_yac": 80,
+        "rec_ypg": 9.5,
+        "rec_td": 3,
+        "tackles": 2,
+        "assist": 2
       },
       {
         "year": 2024,
@@ -4476,12 +4617,17 @@ players = [
         "games": 15,
         "rec": 30,
         "rec_yds": 368,
+        "rec_yac": 128,
         "rec_ypc": 12.3,
+        "rec_ypg": 24.5,
         "rec_td": 1,
         "rush_att": 1,
         "rush_yds": 2,
         "rush_ypc": 2.0,
-        "rush_ypg": 0.1
+        "rush_ypg": 0.1,
+        "tackles": 6,
+        "solo_tackles": 5,
+        "assist": 1
       },
       {
         "year": 2024,
@@ -4596,7 +4742,7 @@ players = [
     ]
   },
   {
-    "name": 'Andrew Ogletree',
+    "name": 'Drew Ogletree',
     "college": 'Youngstown State',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254',
     "season_stats_attributes": [
@@ -4606,10 +4752,17 @@ players = [
         "position": 'TE',
         "exp": 2,
         "status": 'Active',
+        "games": 12,
         "rec": 9,
+        "rec_targets": 21,
         "rec_yds": 147,
         "rec_ypc": 16.3,
-        "rec_td": 2
+        "rec_yac": 20,
+        "rec_ypg": 12.3,
+        "rec_td": 2,
+        "tackles": 6,
+        "solo_tackles": 3,
+        "assist": 3
       },
       {
         "year": 2024,
@@ -4656,9 +4809,14 @@ players = [
         "position": 'TE',
         "exp": 0,
         "status": 'Active',
+        "games": 12,
         "rec": 18,
+        "rec_targets": 18,
         "rec_yds": 207,
-        "rec_ypc": 11.5
+        "rec_ypc": 11.5,
+        "rec_yac": 89,
+        "rec_ypg": 17.3,
+        "off_fumble": 1
       },
       {
         "year": 2024,
@@ -4700,10 +4858,12 @@ players = [
         "position": 'DT',
         "exp": 7,
         "status": 'Active',
+        "games": 11,
         "tackles": 23,
         "solo_tackles": 16,
         "assist": 18,
-        "def_sacks": 0.5
+        "def_sacks": 0.5,
+        "tackles_loss": 5
       },
       {
         "year": 2024,
@@ -4817,9 +4977,11 @@ players = [
         "position": 'DE',
         "exp": 6,
         "status": 'Active',
+        "games": 17,
         "tackles": 5,
         "solo_tackles": 2,
         "assist": 2,
+        "tackles_loss": 1,
         "def_sacks": 2.0
       }
     ]
@@ -4881,9 +5043,11 @@ players = [
         "position": 'DT',
         "exp": 2,
         "status": 'Active',
+        "games": 14,
         "tackles": 6,
         "solo_tackles": 5,
         "assist": 9,
+        "tackles_loss": 1,
         "def_sacks": 1.0
       },
       {
@@ -4930,10 +5094,13 @@ players = [
         "position": 'DE',
         "exp": 6,
         "status": 'Active',
+        "games": 17,
         "tackles": 18,
         "solo_tackles": 12,
         "assist": 7,
-        "def_sacks": 4.0
+        "tackles_loss": 9,
+        "def_sacks": 4.0,
+        "pass_def": 3
       },
       {
         "year": 2024,
@@ -4985,9 +5152,11 @@ players = [
         "position": 'DT',
         "exp": 0,
         "status": 'Active',
-        "tackles": 4,
+        "games": 10,
+        "tackles": 5,
         "solo_tackles": 4,
         "assist": 1,
+        "tackles_loss": 1,
         "def_sacks": 1.5
       },
       {
@@ -5031,9 +5200,11 @@ players = [
         "position": 'DT',
         "exp": 6,
         "status": 'Active',
+        "games": 17,
         "tackles": 12,
         "solo_tackles": 9,
         "assist": 10,
+        "tackles_loss": 4,
         "def_sacks": 2.0,
         "def_fumble": 1
       },
@@ -5172,6 +5343,8 @@ players = [
         "position": 'DT',
         "exp": 3,
         "status": 'PS',
+        "games": 1,
+        "tackles": 2,
         "assist": 2
       }
     ]
@@ -5218,10 +5391,13 @@ players = [
         "position": 'DT',
         "exp": 8,
         "status": 'Active',
+        "games": 17,
         "tackles": 45,
         "solo_tackles": 35,
         "assist": 36,
+        "tackles_loss": 11,
         "def_sacks": 8.0,
+        "pass_def": 7,
         "def_fumble": 2,
         "fumble_rec": 1
       },
