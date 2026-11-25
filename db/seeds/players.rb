@@ -340,6 +340,20 @@ players = [
     ]
   },
   {
+    "name": 'Shane Buechele',
+    "college": 'SMU',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039034.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '4',
+        "position": 'QB',
+        "exp": 4,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Anthony Richardson',
     "college": 'Florida',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254',
@@ -3244,7 +3258,7 @@ players = [
         "number": '49',
         "position": 'TE',
         "exp": 5,
-        "status": 'IR'
+        "status": 'PS'
       }
     ]
   },
@@ -3616,7 +3630,7 @@ players = [
         "number": '55',
         "position": 'EDGE',
         "exp": 0,
-        "status": 'Active'
+        "status": 'IR'
       }
     ]
   },
@@ -4395,7 +4409,21 @@ players = [
         "number": '73',
         "position": 'OT',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Waived'
+      }
+    ]
+  },
+  {
+    "name": 'Cameron Sample',
+    "college": 'Tulane',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243923.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '73',
+        "position": 'DE',
+        "exp": 6,
+        "status": 'PS'
       }
     ]
   },
@@ -5405,7 +5433,7 @@ players = [
       "number": '96',
       "position": 'DE',
       "exp": 9,
-      "status": 'PS'
+      "status": 'Active'
     ]
   },
   {
@@ -5506,7 +5534,7 @@ players = [
         "number": '98',
         "position": 'DE',
         "exp": 9,
-        "status": 'IR'
+        "status": 'Active'
       }
     ]
   },
