@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_22_175013) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_25_130833) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -97,6 +97,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_22_175013) do
     t.integer "pass_def"
     t.integer "fg_att"
     t.integer "fg_made"
+    t.integer "pr_yds"
     t.index ["player_id"], name: "index_season_stats_on_player_id"
   end
 
