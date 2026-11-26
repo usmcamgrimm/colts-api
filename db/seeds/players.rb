@@ -4411,6 +4411,20 @@ players = [
     ]
   },
   {
+    "name": 'Wanya Morris',
+    "college": 'Oklahoma',
+    "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4570577.png&w=350&h=254',
+    "season_stats_attributes": [
+      {
+        "year": 2026,
+        "number": '69',
+        "position": 'T',
+        "exp": 4,
+        "status": 'PS'
+      }
+    ]
+  },
+  {
     "name": 'Matt Goncalves',
     "college": 'Pittsburgh',
     "photo": 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427298.png&w=350&h=254',
