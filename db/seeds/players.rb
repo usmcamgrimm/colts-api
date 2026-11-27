@@ -26,13 +26,11 @@ players = [
         "position": 'S',
         "exp": 6,
         "status": 'Active',
-        "games": 17,
-        "tackles_loss": 3,
-        "pass_def": 8,
-        "fumble_rec": 1,
-        "tackles": 30,
-        "solo_tackles": 19,
-        "assist": 11,
+        "games": 11,
+        "pass_def": 5,
+        "tackles": 40,
+        "solo_tackles": 25,
+        "assist": 15,
         "def_int": 1
       }
     ]
@@ -59,7 +57,12 @@ players = [
         "number": '1',
         "position": 'CB',
         "exp": 5,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "tackles": 31,
+        "solo_tackles": 24,
+        "assist": 7,
+        "pass_def": 7
       }
     ]
   },
@@ -84,10 +87,11 @@ players = [
         "rec_td": 2,
         "pr_ret": 6,
         "pr_fc": 6,
+        "pr_yds": 63,
         "pr_yds_ret": 10.5,
         "pr_lng": 14,
         "kr_ret": 2,
-        "kr_fc": 1,
+        "kr_yds": 24,
         "kr_yds_ret": 12.0,
         "kr_lng": 17,
         "tackles": 2,
@@ -142,6 +146,7 @@ players = [
         "rush_ypc": -1,
         "rush_ypg": -0.1,
         "pr_ret": 8,
+        "pr_yds": 68,
         "pr_fc": 4,
         "pr_lng": 24,
         "pr_yds_ret": 8.5,
@@ -154,19 +159,25 @@ players = [
         "position": 'WR',
         "status": 'Traded',
         "exp": 4,
+        "games": 9,
         "rec": 33,
+        "rec_targets": 56,
         "rec_yds": 354,
         "rec_ypc": 10.7,
         "rec_long": 42,
         "rec_td": 1,
+        "rec_ypg": 39.3,
+        "rec_yac": 120,
         "rush_att": 1,
         "rush_yds": 7,
         "rush_long": 7,
         "rush_ypc": 7.0,
+        "rush_ypg": 0.8,
         "tackles": 1,
         "solo_tackles": 1,
         "pr_ret": 2,
-        "pr_fc": 3,
+        "pr_yds": 20,
+        "pr_fc": 6,
         "pr_lng": 20,
         "pr_yds_ret": 10.0
       }
@@ -266,7 +277,21 @@ players = [
         "number": '3',
         "position": 'K',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 3,
+        "solo_tackles": 2,
+        "assist": 1,
+        "fg_att": 28,
+        "fg_made": 24,
+        "xp_att": 20,
+        "xp_made": 19,
+        "fg_1to19": '0 - 0',
+        "fg_20to29": '3 - 3',
+        "fg_30to39": '4 - 4',
+        "fg_40to49": '8 - 9',
+        "fg_50to59": '9 - 11',
+        "fg_60Plus": '0 - 1'
       }
     ]
   },
@@ -480,7 +505,20 @@ players = [
         "number": '5',
         "position": 'QB',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 2,
+        "pass_att": 4,
+        "comp": 2,
+        "pass_yards": 8,
+        "pass_ypg": 4.0,
+        "pass_long": 5,
+        "comp_pct": 50,
+        "qb_rtng": 56.3,
+        "rush_att": 3,
+        "rush_yds": 6,
+        "rush_ypg": 3.0,
+        "rush_ypc": 2.0,
+        "rush_long": 5
       }
     ]
   },
@@ -507,11 +545,12 @@ players = [
         "rush_ypc": 4.7,
         "rush_ypg": 1.1,
         "pr_ret": 23,
+        "pr_yds": 204,
         "pr_fc": 16,
         "pr_yds_ret": 8.9,
         "pr_lng": 32,
         "kr_ret": 6,
-        "kr_fc": 5,
+        "kr_yds": 152,
         "kr_yds_ret": 25.3,
         "kr_lng": 42
       }
@@ -543,7 +582,6 @@ players = [
         "pr_lng": 36,
         "kr_ret": 7,
         "kr_yds": 206,
-        "kr_fc": 0,
         "kr_yds_ret": 29.4,
         "kr_lng": 40
       },
@@ -566,7 +604,6 @@ players = [
         "pr_yds": 131,
         "pr_yds_ret": 10.1,
         "kr_ret": 25,
-        "kr_fc": 0,
         "kr_yds": 647,
         "kr_yds_ret": 25.9,
         "kr_lng": 39
@@ -576,7 +613,24 @@ players = [
         "number": '6',
         "position": 'WR',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 8,
+        "rec": 5,
+        "rec_targets": 8,
+        "rec_yds": 92,
+        "rec_long": 31,
+        "rec_yac": 54,
+        "rec_ypc": 18.4,
+        "rec_ypg": 33.1,
+        "pr_ret": 6,
+        "pr_fc": 13,
+        "pr_lng": 20,
+        "pr_yds": 39,
+        "pr_yds_ret": 6.5,
+        "kr_ret": 9,
+        "kr_yds": 264,
+        "kr_yds_ret": 29.3,
+        "kr_lng": 54
       }
     ]
   },
@@ -650,7 +704,12 @@ players = [
         "number": '7',
         "position": 'CB',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 10,
+        "tackles": 30,
+        "solo_tackles": 18,
+        "assist": 12,
+        "pass_def": 8
       }
     ]
   },
@@ -670,7 +729,8 @@ players = [
         "punt_yards": 3281,
         "punt_in20": 21,
         "punt_avg": 48.2,
-        "punt_lng": 69
+        "punt_lng": 69,
+        "blocked": 1
       },
       {
         "year": 2024,
@@ -683,7 +743,8 @@ players = [
         "punt_yards": 3382,
         "punt_in20": 27,
         "punt_avg": 49.7,
-        "punt_lng": 65
+        "punt_lng": 65,
+        "blocked": 0
       },
       {
         "year": 2025,
@@ -696,6 +757,7 @@ players = [
         "punt_in20": 22,
         "punt_avg": 48.8,
         "punt_lng": 59,
+        "blocked": 0,
         "pass_att": 1,
         "comp": 1,
         "pass_yards": 16,
@@ -709,7 +771,14 @@ players = [
         "number": '8',
         "position": 'P',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "punt": 39,
+        "punt_yards": 1932,
+        "punt_in20": 15,
+        "punt_avg": 49.5,
+        "punt_lng": 61,
+        "blocked": 1
       }
     ]
   },
@@ -803,7 +872,15 @@ players = [
         "number": '9',
         "position": 'WR',
         "exp": 6,
-        "status": 'PS'
+        "status": 'PS',
+        "games": 1,
+        "rec": 1,
+        "rec_targets": 3,
+        "rec_yds": 26,
+        "rec_long": 26,
+        "rec_yac": 6,
+        "rec_ypc": 26.0,
+        "rec_ypg": 26.0
       }
     ]
   },
@@ -934,7 +1011,11 @@ players = [
         "position": 'WR',
         "exp": 14,
         "status": 'Traded',
+        "games": 8,
         "rec": 40,
+        "rec_targets": 58,
+        "rec_ypg": 43.9,
+        "rec_yac": 106,
         "rec_yds": 351,
         "rec_ypc": 8.8,
         "rec_long": 26,
@@ -1111,7 +1192,10 @@ players = [
         "number": '12',
         "position": 'WR',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 5,
+        "tackles": 1,
+        "assist": 1
       }
     ]
   },
@@ -1157,7 +1241,18 @@ players = [
         "number": '13',
         "position": 'WR',
         "exp": 10,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "rec": 19,
+        "rec_targets": 35,
+        "rec_yds": 239,
+        "rec_long": 48,
+        "rec_yac": 68,
+        "rec_ypc": 12.6,
+        "rec_ypg": 33.1,
+        "rec_td": 1,
+        "tackles": 1,
+        "assist": 1
       }
     ]
   },
@@ -1224,7 +1319,15 @@ players = [
         "number": '14',
         "position": 'WR',
         "exp": 5,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 2,
+        "rec": 5,
+        "rec_targets": 7,
+        "rec_yds": 72,
+        "rec_long": 23,
+        "rec_yac": 10,
+        "rec_ypc": 14.4,
+        "rec_ypg": 36.0
       }
     ]
   },
@@ -1344,7 +1447,6 @@ players = [
         "rush_long": 12,
         "kr_ret": 4,
         "kr_yds": 148,
-        "kr_fc": 0,
         "kr_yds_ret": 37.0,
         "kr_lng": 55,
         "tackles": 10,
@@ -1373,7 +1475,6 @@ players = [
         "solo_tackles": 2,
         "assist": 1,
         "kr_ret": 16,
-        "kr_fc": 0,
         "kr_yds": 516,
         "kr_yds_ret": 32.2,
         "kr_lng": 55
@@ -1383,7 +1484,28 @@ players = [
         "number": '16',
         "position": 'WR',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 7,
+        "rush_att": 2,
+        "rush_yds": 6,
+        "rush_ypg": 0.9,
+        "rush_ypc": 3.0,
+        "rush_long": 3,
+        "rec": 5,
+        "rec_targets": 8,
+        "rec_yds": 92,
+        "rec_long": 55,
+        "rec_yac": 103,
+        "rec_ypc": 20.6,
+        "rec_ypg": 20.6,
+        "rec_td": 2,
+        "tackles": 12,
+        "solo_tackles": 8,
+        "assist": 4,
+        "kr_ret": 6,
+        "kr_yds": 142,
+        "kr_yds_ret": 23.7,
+        "kr_lng": 33
       }
     ]
   },
@@ -1448,13 +1570,15 @@ players = [
         "pass_long": 55,
         "sacked": 24,
         "qb_rtng": 68.9,
-        "rush_att": 28,
-        "rush_yds": 86,
+        "rush_att": 34,
+        "rush_yds": 98,
         "rush_long": 17,
-        "rush_ypc": 3.1,
+        "rush_ypc": 2.9,
         "rush_td": 1,
         "tackles": 1,
-        "solo_tackles": 1
+        "solo_tackles": 1,
+        "off_fumble": 1,
+        "fumble_rec": 1
       }
     ]
   },
@@ -1553,7 +1677,28 @@ players = [
         "number": '20',
         "position": 'RB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "rush_att": 58,
+        "rush_yds": 292,
+        "rush_ypg": 26.5,
+        "rush_ypc": 5.0,
+        "rush_long": 36,
+        "rush_td": 2,
+        "rec": 6,
+        "rec_targets": 7,
+        "rec_yds": 10,
+        "rec_long": 7,
+        "rec_yac": 9,
+        "rec_ypc": 1.7,
+        "rec_ypg": 0.9,
+        "tackles": 3,
+        "solo_tackles": 2,
+        "assist": 1,
+        "kr_ret": 29,
+        "kr_yds": 847,
+        "kr_yds_ret": 29.2,
+        "kr_lng": 66
       }
     ]
   },
@@ -1608,7 +1753,20 @@ players = [
         "number": '21',
         "position": 'RB',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 3,
+        "rush_att": 7,
+        "rush_yds": 48,
+        "rush_ypg": 16,
+        "rush_ypc": 6.9,
+        "rush_long": 12,
+        "rec": 1,
+        "rec_targets": 1,
+        "rec_yds": 11,
+        "rec_long": 11,
+        "rec_yac": 7,
+        "rec_ypc": 11.0,
+        "rec_ypg": 3.7
       }
     ]
   },
@@ -1727,7 +1885,13 @@ players = [
         "number": '25',
         "position": 'S',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 10,
+        "tackles": 53,
+        "solo_tackles": 30,
+        "assist": 23,
+        "pass_def": 3,
+        "def_int": 1
       }
     ]
   },
@@ -1789,7 +1953,6 @@ players = [
         "rush_long": 14,
         "rush_td": 1,
         "kr_ret": 19,
-        "kr_fc": 0,
         "kr_yds": 563,
         "kr_yds_ret": 25.9,
         "kr_lng": 81,
@@ -1808,7 +1971,14 @@ players = [
         "number": '26',
         "position": 'CB',
         "exp": 5,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 6,
+        "tackles": 13,
+        "solo_tackles": 7,
+        "assist": 6,
+        "def_sacks": 1,
+        "tackles_loss": 1,
+        "pass_def": 2
       }
     ]
   },
@@ -1881,7 +2051,15 @@ players = [
         "number": '27',
         "position": 'CB',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "tackles": 45,
+        "solo_tackles": 28,
+        "assist": 17,
+        "tackles_loss": 4,
+        "pass_def": 5,
+        "def_fumble": 3,
+        "def_sacks": 2
       }
     ]
   },
@@ -1966,7 +2144,23 @@ players = [
         "number": '28',
         "position": 'RB',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "rush_att": 188,
+        "rush_yds": 760,
+        "rush_ypg": 69.1,
+        "rush_ypc": 4.0,
+        "rush_long": 38,
+        "rush_td": 8,
+        "off_fumble": 4,
+        "rec": 32,
+        "rec_targets": 45,
+        "rec_yds": 246,
+        "rec_long": 38,
+        "rec_yac": 309,
+        "rec_ypc": 7.7,
+        "rec_ypg": 22.4,
+        "rec_td": 2
       }
     ]
   },
@@ -2043,7 +2237,13 @@ players = [
         "number": '29',
         "position": 'CB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 6,
+        "tackles": 9,
+        "solo_tackles": 4,
+        "assist": 5,
+        "pass_def": 2,
+        "fumble_rec": 1
       }
     ]
   },
@@ -2106,7 +2306,11 @@ players = [
         "number": '30',
         "position": 'S',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 37,
+        "solo_tackles": 16,
+        "assist": 21
       }
     ]
   },
@@ -2220,7 +2424,6 @@ players = [
         "rec_long": 8,
         "rec_ypc": 4.0,
         "kr_ret": 2,
-        "kr_fc": 0,
         "kr_yds": 60,
         "kr_yds_ret": 30,
         "kr_lng": 31
@@ -2311,7 +2514,7 @@ players = [
         "tackles_loss": 1,
         "pass_def": 3,
         "kr_ret": 1,
-        "kr_fc": 2,
+        "kr_yds": 19,
         "kr_yds_ret": 19.0,
         "kr_lng": 19
       },
@@ -2326,7 +2529,7 @@ players = [
         "solo_tackles": 9,
         "tackles_loss": 1,
         "kr_ret": 1,
-        "kr_fc": 0,
+        "kr_yds": 30,
         "kr_yds_ret": 30.0,
         "kr_lng": 30
       }
@@ -2469,7 +2672,14 @@ players = [
         "number": '34',
         "position": 'CB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 13,
+        "solo_tackles": 10,
+        "assist": 3,
+        "def_sacks": 1,
+        "tackles_loss": 2,
+        "pass_def": 1
       }
     ]
   },
@@ -2544,7 +2754,11 @@ players = [
         "number": '35',
         "position": 'CB',
         "exp": 1,
-        "status": 'PS'
+        "status": 'PS',
+        "games": 3,
+        "tackles": 3,
+        "solo_tackles": 1,
+        "assist": 2
       }
     ]
   },
@@ -2793,7 +3007,11 @@ players = [
         "number": '38',
         "position": 'S',
         "exp": 8,
-        "status": 'Waived'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 7,
+        "solo_tackles": 6,
+        "assist": 1
       }
     ]
   },
@@ -3181,7 +3399,10 @@ players = [
         "number": '44',
         "position": 'LB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 2,
+        "solo_tackles": 2
       }
     ]
   },
@@ -3305,7 +3526,11 @@ players = [
         "number": '46',
         "position": 'LS',
         "exp": 10,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 10,
+        "tackles": 2,
+        "solo_tackles": 1,
+        "assist": 1
       }
     ]
   },
@@ -3526,7 +3751,15 @@ players = [
         "number": '49',
         "position": 'TE',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 4,
+        "rec": 1,
+        "rec_targets": 1,
+        "rec_yds": 7,
+        "rec_long": 7,
+        "rec_yac": 7,
+        "rec_ypc": 7.0,
+        "rec_ypg": 1.8
       }
     ]
   },
@@ -3586,7 +3819,12 @@ players = [
         "number": '50',
         "position": 'LB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "tackles": 50,
+        "solo_tackles": 16,
+        "assist": 34,
+        "tackles_loss": 1
       }
     ]
   },
@@ -3651,7 +3889,13 @@ players = [
         "number": '51',
         "position": 'LB',
         "exp": 7,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 8,
+        "tackles": 65,
+        "solo_tackles": 33,
+        "assist": 32,
+        "tackles_loss": 3,
+        "pass_def": 1
       }
     ]
   },
@@ -3708,7 +3952,11 @@ players = [
         "number": '52',
         "position": 'EDGE',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 7,
+        "tackles": 5,
+        "solo_tackles": 1,
+        "assist": 4
       }
     ]
   },
@@ -3752,11 +4000,14 @@ players = [
         "def_int": 1
       },
       {
-        "year": 2025,
+        "year": 2026,
         "number": '59',
         "position": 'LB',
         "exp": 8,
-        "status": 'Released'
+        "status": 'Released',
+        "games": 1,
+        "tackles": 3,
+        "assist": 3
       }
     ]
   },
@@ -3770,7 +4021,14 @@ players = [
         "number": '53',
         "position": 'LB',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 8,
+        "tackles": 50,
+        "solo_tackles": 19,
+        "assist": 31,
+        "pass_def": 2,
+        "tackles_loss": 5,
+        "def_sacks": 2
       }
     ]
   },
@@ -3911,7 +4169,14 @@ players = [
         "number": '55',
         "position": 'EDGE',
         "exp": 0,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 11,
+        "tackles": 26,
+        "solo_tackles": 14,
+        "assist": 12,
+        "tackles_loss": 1,
+        "def_sacks": 1,
+        "fumble_rec": 2
       }
     ]
   },
@@ -4001,7 +4266,13 @@ players = [
         "number": '57',
         "position": 'LB',
         "exp": 3,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 7,
+        "tackles": 19,
+        "solo_tackles": 7,
+        "assist": 12,
+        "pass_def": 1,
+        "def_int": 1
       }
     ]
   },
@@ -4055,7 +4326,14 @@ players = [
         "number": '58',
         "position": 'LB',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "tackles": 32,
+        "solo_tackles": 13,
+        "assist": 19,
+        "tackles_loss": 1,
+        "pass_def": 1,
+        "def_fumble": 1
       }
     ]
   },
@@ -4782,7 +5060,11 @@ players = [
         "number": '74',
         "position": 'DT',
         "exp": 7,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 3,
+        "tackles": 2,
+        "solo_tackles": 1,
+        "assist": 1
       }
     ]
   },
@@ -4998,7 +5280,27 @@ players = [
         "number": '80',
         "position": 'WR',
         "exp": 0,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "rush_att": 3,
+        "rush_yds": 21,
+        "rush_ypg": 1.9,
+        "rush_ypc": 7.0,
+        "rush_long": 10,
+        "rec": 6,
+        "rec_targets": 14,
+        "rec_yds": 60,
+        "rec_long": 29,
+        "rec_yac": 17,
+        "rec_ypc": 10.0,
+        "rec_ypg": 5.5,
+        "tackles": 5,
+        "solo_tackles": 4,
+        "assist": 1,
+        "kr_ret": 6,
+        "kr_yds": 120,
+        "kr_yds_ret": 20.0,
+        "kr_lng": 29
       }
     ]
   },
@@ -5065,7 +5367,19 @@ players = [
         "number": '81',
         "position": 'TE',
         "exp": 9,
-        "status": 'IR'
+        "status": 'IR',
+        "games": 9,
+        "rec": 4,
+        "rec_targets": 7,
+        "rec_yds": 31,
+        "rec_long": 16,
+        "rec_yac": 28,
+        "rec_ypc": 7.8,
+        "rec_ypg": 3.4,
+        "rec_td": 1,
+        "tackles": 1,
+        "solo_tackles": 1,
+        "def_fumble": 2
       }
     ]
   },
@@ -5206,6 +5520,7 @@ players = [
         "rec_long": 41,
         "rec_yac": 474,
         "rec_ypc": 10.8,
+        "rec_ypg": 48.1,
         "rec_td": 4,
         "off_fumble": 1,
         "tackles": 1,
@@ -5216,7 +5531,22 @@ players = [
         "number": '84',
         "position": 'TE',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "rush_att": 4,
+        "rush_yds": 9,
+        "rush_ypg": 1.0,
+        "rush_ypc": 2.3,
+        "rush_long": 3,
+        "rush_td": 1,
+        "rec": 41,
+        "rec_targets": 61,
+        "rec_yds": 298,
+        "rec_long": 29,
+        "rec_yac": 165,
+        "rec_ypc": 7.3,
+        "rec_ypg": 33.1,
+        "rec_td": 3
       }
     ]
   },
@@ -5286,7 +5616,18 @@ players = [
         "number": '85',
         "position": 'TE',
         "exp": 5,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "rec": 4,
+        "rec_targets": 7,
+        "rec_yds": 21,
+        "rec_long": 9,
+        "rec_yac": 16,
+        "rec_ypc": 5.3,
+        "rec_ypg": 1.9,
+        "tackles": 7,
+        "solo_tackles": 4,
+        "assist": 3
       }
     ]
   },
@@ -5344,7 +5685,17 @@ players = [
         "number": '86',
         "position": 'TE',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 3,
+        "rec": 2,
+        "rec_targets": 10,
+        "rec_yds": 20,
+        "rec_long": 15,
+        "rec_yac": 3,
+        "rec_ypc": 10.0,
+        "rec_ypg": 6.7,
+        "tackles": 1,
+        "solo_tackles": 1
       }
     ]
   },
@@ -5404,7 +5755,14 @@ players = [
         "number": '90',
         "position": 'DT',
         "exp": 10,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 39,
+        "solo_tackles": 14,
+        "assist": 25,
+        "pass_def": 4,
+        "def_sacks": 0.5,
+        "tackles_loss": 2.5
       }
     ]
   },
@@ -5458,7 +5816,15 @@ players = [
         "number": '91',
         "position": 'DE',
         "exp": 2,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 23,
+        "solo_tackles": 10,
+        "assist": 13,
+        "def_sacks": 2,
+        "tackles_loss": 3,
+        "pass_def": 7,
+        "def_fumble": 1
       }
     ]
   },
@@ -5612,7 +5978,11 @@ players = [
         "number": '93',
         "position": 'DT',
         "exp": 1,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 10,
+        "solo_tackles": 5,
+        "assist": 5
       }
     ]
   },
@@ -5675,7 +6045,13 @@ players = [
         "number": '94',
         "position": 'DT',
         "exp": 8,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 9,
+        "tackles": 18,
+        "solo_tackles": 8,
+        "assist": 10,
+        "tackles_loss": 3,
+        "def_sacks": 1
       }
     ]
   },
@@ -5729,7 +6105,15 @@ players = [
         "number": '95',
         "position": 'DT',
         "exp": 4,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 31,
+        "solo_tackles": 15,
+        "assist": 16,
+        "tackles_loss": 6,
+        "pass_def": 3,
+        "fumble_rec": 1,
+        "def_sacks": 5
       }
     ]
   },
@@ -5825,7 +6209,10 @@ players = [
       "number": '96',
       "position": 'DE',
       "exp": 9,
-      "status": 'Active'
+      "status": 'Active',
+        "games": 1,
+        "tackles": 1,
+        "assist": 1
     ]
   },
   {
@@ -5885,7 +6272,15 @@ players = [
         "number": '97',
         "position": 'DE',
         "exp": 3,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 11,
+        "tackles": 22,
+        "solo_tackles": 13,
+        "assist": 9,
+        "tackles_loss": 3,
+        "pass_def": 2,
+        "def_sacks": 3,
+        "def_fumble": 1
       }
     ]
   },
@@ -5936,7 +6331,14 @@ players = [
         "number": '98',
         "position": 'DE',
         "exp": 9,
-        "status": 'Active'
+        "status": 'Active',
+        "games": 6,
+        "tackles": 13,
+        "solo_tackles": 7,
+        "assist": 6,
+        "def_sacks": 0.5,
+        "tackles_loss": 1.5,
+        "def_fumble": 1
       }
     ]
   },
@@ -5994,10 +6396,14 @@ players = [
         "position": 'DT',
         "exp": 11,
         "status": 'Traded',
+        "games": 7,
         "tackles": 31,
         "solo_tackles": 11,
         "assist": 20,
-        "def_sacks": 4
+        "def_sacks": 4,
+        "tackles_loss": 5,
+        "pass_def": 3,
+        "fumble_rec": 1
       }
     ]
   }
