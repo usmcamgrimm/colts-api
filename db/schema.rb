@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_11_26_184655) do
+ActiveRecord::Schema[8.1].define(version: 2026_11_27_151115) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -68,7 +68,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_11_26_184655) do
     t.integer "kr_td"
     t.float "punt_avg"
     t.integer "punt_lng"
-    t.integer "kr_fc"
     t.integer "pr_fc"
     t.integer "pr_lng"
     t.integer "kr_lng"
