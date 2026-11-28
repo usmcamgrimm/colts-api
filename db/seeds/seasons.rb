@@ -775,7 +775,7 @@ Season.create!([
     week: '4',
     gamedate: 'Sun 10/04',
     gametime: '9:30AM',
-    location: 'away',
+    location: 'home',
     result: 'W',
     score: '30 - 13',
     oppcity: 'Washington',
