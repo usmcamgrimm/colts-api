@@ -142,7 +142,7 @@ Season.create!([
   {
     year: 2023,
     week: '11',
-    oppname: 'Bye'
+    oppname: 'Bye - No Game'
   },
   {
     year: 2023,
@@ -427,7 +427,7 @@ Season.create!([
   {
     year: 2024,
     week: '14',
-    oppname: 'Bye'
+    oppname: 'Bye - No Game'
   },
   {
     year: 2024,
@@ -628,7 +628,7 @@ Season.create!([
   {
     year: 2025,
     week: '11',
-    oppname: 'Bye'
+    oppname: 'Bye - No Game'
   },
   {
     year: 2025,
@@ -899,7 +899,7 @@ Season.create!([
   {
     year: 2026,
     week: '13',
-    oppname: 'Bye'
+    oppname: 'Bye - No Game'
   },
   {
     year: 2026,
